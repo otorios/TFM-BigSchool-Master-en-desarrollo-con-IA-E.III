@@ -64,7 +64,7 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 - **Fecha:** 07/10/2026.
 - **Decisión:** ATLAS transportará una cápsula que conserva semillas de numerosas especies, en lugar de una única planta experimental.
 - **Motivo:** aumenta el valor científico de la misión y permite crear futuras aventuras relacionadas con diferentes plantas, ecosistemas, biología y sostenibilidad.
-- **Pendiente:** elegir el nombre de la cápsula. Las opciones iniciales relacionadas con el euskera son HAZI, LUR y AMALUR.
+- **Nombre elegido:** **Cápsula LUR**. `Lur` significa “tierra” en euskera y se ha escogido por ser breve, fácil de pronunciar y estar conectado con el propósito de la misión.
 
 ## Decisiones pendientes
 
