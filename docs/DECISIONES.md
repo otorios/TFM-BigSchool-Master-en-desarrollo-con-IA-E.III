@@ -48,14 +48,20 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 
 - **Estado:** aceptada para el MVP.
 - **Fecha:** 07/10/2026.
-- **Decisión:** la IA acompañante tendrá una personalidad fija, cercana, inteligente y con algo de humor.
-- **Motivo:** permite construir una relación narrativa consistente y simplifica la primera versión. Su nombre definitivo queda pendiente.
+- **Decisión:** la IA acompañante se llamará **COSMO** y tendrá una personalidad fija, cercana, inteligente y con algo de humor.
+- **Motivo:** permite construir una relación narrativa consistente y simplifica la primera versión. El nombre resulta espacial, cercano y apropiado para el público joven.
+
+## D-008 — Nave y misión
+
+- **Estado:** aceptada.
+- **Fecha:** 07/10/2026.
+- **Decisión:** la nave se llamará **ATLAS** y la expedición científica será la **misión ORIOS**.
+- **Motivo:** los tres nombres crean una identidad narrativa clara: COSMO como compañero, ATLAS como escenario principal y ORIOS como misión que debe completarse.
 
 ## Decisiones pendientes
 
 - Público objetivo y edad.
 - Nombre definitivo.
-- Nombre de la IA de la nave.
 - Stack tecnológico.
 - Proveedor o modelo de IA.
 - Temas disponibles en la primera versión.

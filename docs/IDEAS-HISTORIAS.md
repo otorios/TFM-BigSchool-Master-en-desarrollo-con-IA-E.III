@@ -63,7 +63,7 @@ Al final descubre que la señal fue enviada por otra expedición humana perdida 
 
 La historia elegida actualmente combina las tres propuestas anteriores:
 
-> Un joven cadete despierta tras una tormenta espacial. La nave está averiada, la tripulación permanece en hibernación y el laboratorio que protege una semilla experimental está perdiendo energía. Mientras intenta reparar los sistemas con ayuda de la inteligencia artificial de abordo, recibe una señal de origen desconocido que parece conocer la nave y su misión.
+> Un joven cadete despierta tras una tormenta espacial. La nave ATLAS está averiada, la tripulación permanece en hibernación y el laboratorio que protege una semilla experimental está perdiendo energía. Mientras intenta reparar los sistemas con ayuda de COSMO, la inteligencia artificial de abordo, recibe una señal de origen desconocido que parece conocer la misión ORIOS.
 
 ### Capítulos provisionales
 
