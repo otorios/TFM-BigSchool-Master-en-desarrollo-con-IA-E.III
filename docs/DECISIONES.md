@@ -58,6 +58,14 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 - **Decisión:** la nave se llamará **ATLAS** y la expedición científica será la **misión ORIOS**.
 - **Motivo:** los tres nombres crean una identidad narrativa clara: COSMO como compañero, ATLAS como escenario principal y ORIOS como misión que debe completarse.
 
+## D-009 — Carga de la misión ORIOS
+
+- **Estado:** aceptada.
+- **Fecha:** 07/10/2026.
+- **Decisión:** ATLAS transportará una cápsula que conserva semillas de numerosas especies, en lugar de una única planta experimental.
+- **Motivo:** aumenta el valor científico de la misión y permite crear futuras aventuras relacionadas con diferentes plantas, ecosistemas, biología y sostenibilidad.
+- **Pendiente:** elegir el nombre de la cápsula. Las opciones iniciales relacionadas con el euskera son HAZI, LUR y AMALUR.
+
 ## Decisiones pendientes
 
 - Público objetivo y edad.

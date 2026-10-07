@@ -23,14 +23,14 @@ Cada tablero completado proporciona piezas y energía. Al final, la nave recuper
 - Recompensas con una utilidad narrativa clara.
 - Relación directa entre niveles y partes de la nave.
 
-## Historia 2 — La semilla de las estrellas
+## Historia 2 — Las semillas de las estrellas
 
-La nave transporta una planta experimental capaz de ayudar a recuperar ecosistemas terrestres. Después de una avería, los sistemas que mantienen con vida la semilla empiezan a fallar.
+La nave transporta una cápsula con semillas de numerosas especies, destinada a ayudar a recuperar ecosistemas terrestres. Después de una avería, los sistemas que protegen su contenido empiezan a fallar.
 
 El jugador deberá recuperar:
 
 1. Energía para el laboratorio.
-2. Agua y condiciones ambientales adecuadas.
+2. Las condiciones ambientales adecuadas para conservar las semillas.
 3. El sistema de navegación para regresar a la Tierra.
 
 ### Elementos aprovechables
@@ -63,17 +63,17 @@ Al final descubre que la señal fue enviada por otra expedición humana perdida 
 
 La historia elegida actualmente combina las tres propuestas anteriores:
 
-> Un joven cadete despierta tras una tormenta espacial. La nave ATLAS está averiada, la tripulación permanece en hibernación y el laboratorio que protege una semilla experimental está perdiendo energía. Mientras intenta reparar los sistemas con ayuda de COSMO, la inteligencia artificial de abordo, recibe una señal de origen desconocido que parece conocer la misión ORIOS.
+> Un joven cadete despierta tras una tormenta espacial. La nave ATLAS está averiada, la tripulación permanece en hibernación y el laboratorio que protege una cápsula con semillas de numerosas especies está perdiendo energía. Mientras intenta reparar los sistemas con ayuda de COSMO, la inteligencia artificial de abordo, recibe una señal de origen desconocido que parece conocer la misión ORIOS.
 
 ### Capítulos provisionales
 
 1. **Una voz entre las estrellas:** reparar las comunicaciones y descifrar la señal.
-2. **La última semilla:** restablecer la energía y salvar el laboratorio.
+2. **Las semillas de la Tierra:** restablecer la energía y salvar la cápsula del laboratorio.
 3. **El camino a casa:** reconstruir el mapa estelar y activar la propulsión.
 
 ### Desenlace provisional
 
-La señal pertenecía a una antigua expedición científica. Sus datos permiten completar la reparación y la nave regresa a la Tierra con la semilla a salvo.
+La señal pertenecía a una antigua expedición científica. Sus datos permiten completar la reparación y la nave regresa a la Tierra con la cápsula de semillas a salvo.
 
 ## Nuevas ideas pendientes
 
@@ -86,6 +86,7 @@ Añadir aquí nuevas posibilidades sin incorporarlas directamente al alcance del
 - [ ] Objetos y recompensas narrativas.
 - [ ] Finales alternativos.
 - [ ] Historias asociadas a otros temas educativos.
+- [ ] Aventura o colección de partidas inspirada en la mitología vasca.
 
 ## Plantilla para registrar una idea
 
