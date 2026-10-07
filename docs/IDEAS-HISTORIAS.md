@@ -65,6 +65,8 @@ La historia elegida actualmente combina las tres propuestas anteriores:
 
 > Un joven cadete despierta tras una tormenta espacial. La nave ATLAS está averiada, la tripulación permanece en hibernación y el laboratorio que protege la Cápsula LUR está perdiendo energía. Mientras intenta reparar los sistemas con ayuda de COSMO, la inteligencia artificial de abordo, recibe una señal de origen desconocido que parece conocer la misión ORIOS.
 
+Antes de la tormenta, ATLAS viajaba en modo automático bajo el control de COSMO. El cadete estaba despierto realizando una práctica de observación supervisada; no se encontraba de guardia ni tenía la responsabilidad de pilotar la nave. La emergencia bloquea las cápsulas de hibernación e impide despertar a la capitana. La edad exacta del cadete no se menciona.
+
 ### Capítulos provisionales
 
 1. **Una voz entre las estrellas:** reparar las comunicaciones y descifrar la señal.

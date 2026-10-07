@@ -66,6 +66,14 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 - **Motivo:** aumenta el valor científico de la misión y permite crear futuras aventuras relacionadas con diferentes plantas, ecosistemas, biología y sostenibilidad.
 - **Nombre elegido:** **Cápsula LUR**. `Lur` significa “tierra” en euskera y se ha escogido por ser breve, fácil de pronunciar y estar conectado con el propósito de la misión.
 
+## D-010 — Edad y situación inicial del cadete
+
+- **Estado:** aceptada.
+- **Fecha:** 07/10/2026.
+- **Decisión:** la edad exacta del protagonista no se mencionará en la historia. La franja de 10 a 13 años se mantendrá como referencia para diseñar el lenguaje, la dificultad y la experiencia del público objetivo, no como edad explícita del cadete.
+- **Situación inicial:** ATLAS viajaba en modo automático bajo el control de COSMO. El cadete realizaba una práctica de observación supervisada y no era responsable de vigilar o pilotar la nave en solitario.
+- **Motivo:** evita que resulte poco creíble que un menor tenga la responsabilidad de la nave y permite que jugadores de distintas edades se identifiquen con el personaje.
+
 ## Decisiones pendientes
 
 - Público objetivo y edad.
