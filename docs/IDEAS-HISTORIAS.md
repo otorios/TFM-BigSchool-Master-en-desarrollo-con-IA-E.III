@@ -81,6 +81,7 @@ Añadir aquí nuevas posibilidades sin incorporarlas directamente al alcance del
 
 - [ ] Nuevos escenarios o ambientaciones.
 - [ ] Personajes secundarios.
+- [ ] Permitir que el jugador elija la personalidad y características de la IA de la nave.
 - [ ] Conflictos o misterios alternativos.
 - [ ] Objetos y recompensas narrativas.
 - [ ] Finales alternativos.
@@ -103,4 +104,3 @@ Añadir aquí nuevas posibilidades sin incorporarlas directamente al alcance del
 
 **Posible uso:** aventura principal, ampliación o idea descartada.
 ```
-

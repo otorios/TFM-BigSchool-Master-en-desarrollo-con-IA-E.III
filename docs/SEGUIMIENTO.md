@@ -198,6 +198,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 - Perfiles de usuario y progreso persistente.
 - Aventuras compartibles mediante un enlace.
 - Narración y efectos de voz.
+- Elección de características de la IA acompañante, como personalidad, tono o forma de comunicarse.
 - Logros y rankings.
 - Modo infantil y modo adulto.
 - Panel para gestionar imágenes, conceptos y relaciones.
@@ -246,4 +247,3 @@ Antes de programar debe definirse:
 4. Qué stack se utilizará.
 5. Cuántas parejas tendrá cada nivel.
 6. Qué contenidos serán deterministas y cuáles generará la IA.
-
