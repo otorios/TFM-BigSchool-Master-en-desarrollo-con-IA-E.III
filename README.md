@@ -42,6 +42,7 @@ La IA aportará creatividad, pero las reglas del juego y los contenidos importan
 ## Documentación del proyecto
 
 - [Seguimiento del proyecto](docs/SEGUIMIENTO.md)
+- [Continuidad y punto de reanudación](docs/CONTINUIDAD.md)
 - [Banco de ideas para historias](docs/IDEAS-HISTORIAS.md)
 - [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md)
 - [Decisiones del proyecto](docs/DECISIONES.md)

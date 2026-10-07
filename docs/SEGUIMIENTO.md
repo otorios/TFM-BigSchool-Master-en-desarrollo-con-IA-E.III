@@ -235,15 +235,20 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 07/10/2026 | Completado | Seleccionada la idea de un juego de parejas semánticas con narrativa por capítulos. |
 | 07/10/2026 | Completado | Elegida una nave averiada como primera aventura de referencia. |
 | 07/10/2026 | Completado | Acordado utilizar una biblioteca de imágenes en lugar de generarlas todas durante la partida. |
-| 07/10/2026 | Pendiente | Definir público objetivo, stack, alcance final y planificación. |
+| 07/10/2026 | Completado | Definido el público objetivo de referencia: preadolescentes de 10 a 13 años. |
+| 07/10/2026 | Completado | Definidos COSMO, ATLAS, la misión ORIOS y la Cápsula LUR. |
+| 07/10/2026 | Completado | Establecido el origen de la emergencia y la premisa narrativa fusionada. |
+| 07/10/2026 | En curso | Diseño detallado de los tres capítulos; pendiente revisar el capítulo 1. |
+| 07/10/2026 | Pendiente | Definir reglas, stack, arquitectura, planificación e implementación. |
 
 ## 10. Próxima decisión
 
-Antes de programar debe definirse:
+Revisar y concretar el capítulo 1, **Una voz entre las estrellas**:
 
-1. Para quién está pensado el juego.
-2. Si el tema será completamente libre o se escogerá de un catálogo inicial.
-3. Qué tipo de cartas tendrá la primera versión.
-4. Qué stack se utilizará.
-5. Cuántas parejas tendrá cada nivel.
-6. Qué contenidos serán deterministas y cuáles generará la IA.
+1. Número de parejas del primer tablero.
+2. Relaciones semánticas concretas.
+3. Recompensas y representación de la reparación.
+4. Contenido de la señal misteriosa.
+5. Transición al capítulo 2.
+
+El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
