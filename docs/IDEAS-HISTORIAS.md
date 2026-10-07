@@ -67,6 +67,8 @@ La historia elegida actualmente combina las tres propuestas anteriores:
 
 Antes de la tormenta, ATLAS viajaba en modo automático bajo el control de COSMO. El cadete estaba despierto realizando una práctica de observación supervisada; no se encontraba de guardia ni tenía la responsabilidad de pilotar la nave. La emergencia bloquea las cápsulas de hibernación e impide despertar a la capitana. La edad exacta del cadete no se menciona.
 
+La emergencia comienza cuando ATLAS atraviesa inesperadamente una tormenta de partículas cargadas. El escudo desvía el impacto principal, pero una sobrecarga daña las comunicaciones, la navegación, la propulsión, el laboratorio y parte de las funciones de COSMO. Poco después, los sensores reciben una señal débil de origen desconocido.
+
 ### Capítulos provisionales
 
 1. **Una voz entre las estrellas:** reparar las comunicaciones y descifrar la señal.

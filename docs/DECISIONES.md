@@ -74,6 +74,14 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 - **Situación inicial:** ATLAS viajaba en modo automático bajo el control de COSMO. El cadete realizaba una práctica de observación supervisada y no era responsable de vigilar o pilotar la nave en solitario.
 - **Motivo:** evita que resulte poco creíble que un menor tenga la responsabilidad de la nave y permite que jugadores de distintas edades se identifiquen con el personaje.
 
+## D-011 — Origen de la emergencia
+
+- **Estado:** aceptada.
+- **Fecha:** 07/10/2026.
+- **Decisión:** durante la práctica del cadete, ATLAS atraviesa inesperadamente una tormenta de partículas cargadas. El escudo evita la destrucción de la nave, pero una sobrecarga desconecta y bloquea varios sistemas.
+- **Consecuencias:** fallan las comunicaciones, las cápsulas de hibernación quedan bloqueadas, el laboratorio de la Cápsula LUR pierde energía, se daña el mapa de navegación, la propulsión entra en modo de seguridad y COSMO pierde parte de sus funciones.
+- **Elemento de misterio:** después de la tormenta, los sensores detectan una señal débil de origen desconocido.
+
 ## Decisiones pendientes
 
 - Público objetivo y edad.
