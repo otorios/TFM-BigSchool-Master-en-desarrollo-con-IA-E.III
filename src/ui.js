@@ -58,15 +58,16 @@ export function createMissionPanel(chapter) {
 }
 
 export function createCard(card, onSelect) {
-  const button = element('button', 'memory-card is-revealed');
+  const button = element('button', `memory-card memory-card--${card.type} is-revealed`);
   button.type = 'button';
   button.dataset.cardId = card.id;
   button.setAttribute('aria-label', 'Carta visible durante la observación');
 
+  const inner = element('span', 'card-inner');
   const back = element('span', 'card-face card-back');
   back.append(element('span', 'card-emblem', 'MQ'), element('span', null, 'ATLAS'));
 
-  const front = element('span', 'card-face card-front');
+  const front = element('span', `card-face card-front card-front--${card.type}`);
   if (card.type === 'concept') {
     const visual = element('span', 'concept-visual', card.symbol);
     visual.setAttribute('aria-hidden', 'true');
@@ -75,7 +76,8 @@ export function createCard(card, onSelect) {
     front.append(element('span', 'clue-label', 'Pista'), element('span', 'clue-text', card.clue));
   }
 
-  button.append(back, front);
+  inner.append(back, front);
+  button.append(inner);
   button.addEventListener('click', () => onSelect(card));
   return button;
 }

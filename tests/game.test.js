@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { cardsMatch, createDeck, getReturnOutcome, remainingEnergy } from '../src/game.js';
+import { formatTime } from '../src/ui.js';
 
 const chapter = {
   pairs: [
@@ -33,4 +34,9 @@ test('clasifica los tres resultados del regreso', () => {
   assert.equal(getReturnOutcome(36).label, 'Regreso rápido');
   assert.equal(getReturnOutcome(24).label, 'Regreso seguro');
   assert.equal(getReturnOutcome(6).label, 'Regreso de ahorro');
+});
+
+test('muestra tiempos superiores a un minuto en minutos y segundos', () => {
+  assert.equal(formatTime(65), '01:05');
+  assert.equal(formatTime(125), '02:05');
 });

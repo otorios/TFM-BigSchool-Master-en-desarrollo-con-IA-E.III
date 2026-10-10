@@ -20,7 +20,7 @@ Este documento permite retomar **Memory Quest: Señal estelar** aunque no esté 
 
 El proyecto cuenta con una primera versión jugable implementada con HTML, CSS y JavaScript sin framework, construida mediante Vite. React con Vite queda como evolución futura.
 
-La aplicación ya incluye inicio y continuación, tres capítulos, observación inicial, parejas semánticas, energía y penalizaciones progresivas, cronómetro, derrota y reintento del capítulo, guardado validado en `localStorage`, reparación de módulos, desenlace según la puntuación y diseño responsive. Las siete pruebas automáticas y la construcción de producción pasan correctamente.
+La aplicación ya incluye inicio y continuación, tres capítulos, observación inicial, parejas semánticas, energía y penalizaciones progresivas, cronómetro, derrota y reintento del capítulo, guardado validado en `localStorage`, reparación de módulos, desenlace según la puntuación y diseño responsive. Tras la primera prueba manual se reforzaron el formulario, el acabado visual y el giro 3D de las cartas, y se unificó el tiempo como `mm:ss`. Las ocho pruebas automáticas y la construcción de producción pasan correctamente.
 
 Las cartas utilizan por ahora símbolos visuales provisionales. El siguiente bloque debe seleccionar y acreditar las imágenes definitivas de la NASA antes de reemplazarlos.
 

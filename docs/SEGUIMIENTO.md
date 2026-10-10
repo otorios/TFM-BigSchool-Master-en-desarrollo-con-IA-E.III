@@ -226,6 +226,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Resolví el misterio de la señal: la antigua baliza responde a los identificadores enviados por la emergencia de ATLAS y proporciona una ruta segura de regreso. |
 | 10/10/2026 | Completado | Elegí `Memory Quest` como nombre general y `Señal estelar` como subtítulo de la primera aventura y del MVP. |
 | 10/10/2026 | Completado | Implementé una primera versión jugable con Vite, tres capítulos, motor compartido, energía, cronómetro, guardado local, desenlace responsive y siete pruebas automáticas. |
+| 10/10/2026 | Revisado | Tras la primera prueba manual, añadí más separación al formulario, reforcé el estilo visual, corregí el giro 3D de las cartas y unifiqué el tiempo como `mm:ss`; ya pasan ocho pruebas. |
 
 ## 10. Próxima decisión
 

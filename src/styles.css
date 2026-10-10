@@ -81,12 +81,14 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
 .game-subtitle { margin-bottom: 2rem; color: var(--amber); font-size: 1.45rem; font-weight: 800; }
 .lead { color: var(--muted); font-size: 1.08rem; line-height: 1.65; }
 
-.name-form { display: grid; gap: 0.8rem; margin: 2rem auto 0; text-align: left; }
+.name-form { display: grid; gap: 0.9rem; margin: 2.25rem auto 0; text-align: left; }
+.name-form label { display: block; margin-bottom: 0.2rem; color: var(--muted); font-weight: 800; letter-spacing: 0.02em; }
 .text-input {
   width: 100%;
   border: 1px solid rgb(184 199 217 / 35%);
   border-radius: 0.85rem;
-  padding: 0.9rem 1rem;
+  min-height: 3.2rem;
+  padding: 0.95rem 1rem;
   color: var(--text);
   background: rgb(7 20 38 / 70%);
 }
@@ -125,19 +127,33 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
 .repair-progress { width: 100%; accent-color: var(--amber); }
 .countdown { margin-bottom: 1rem; color: var(--amber); text-align: center; font-weight: 900; }
 
-.card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.7rem; }
+.card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; padding: 0.35rem; }
 .memory-card {
   position: relative;
-  min-height: 145px;
-  border: 1px solid rgb(69 214 232 / 25%);
-  border-radius: 1rem;
+  min-height: 175px;
+  border: 0;
+  border-radius: 1.15rem;
   padding: 0;
   cursor: pointer;
   color: var(--text);
   background: transparent;
   perspective: 800px;
+  filter: drop-shadow(0 12px 16px rgb(0 0 0 / 22%));
 }
 .memory-card:focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+.memory-card:not(:disabled):hover .card-inner { transform: translateY(-4px); }
+.memory-card.is-revealed .card-inner,
+.memory-card.is-matched .card-inner { transform: rotateY(180deg); }
+.memory-card.is-revealed:not(:disabled):hover .card-inner,
+.memory-card.is-matched .card-inner { transform: rotateY(180deg) translateY(-2px); }
+.card-inner {
+  position: absolute;
+  inset: 0;
+  display: block;
+  border-radius: inherit;
+  transform-style: preserve-3d;
+  transition: transform 520ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
 .card-face {
   position: absolute;
   inset: 0;
@@ -146,19 +162,27 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
+  overflow: hidden;
+  border: 1px solid rgb(69 214 232 / 28%);
   border-radius: inherit;
-  padding: 0.75rem;
+  padding: 1rem;
   backface-visibility: hidden;
-  transition: transform 380ms ease;
+  -webkit-backface-visibility: hidden;
 }
-.card-back { color: var(--cyan); background: linear-gradient(145deg, #153755, #0a1c31); }
-.card-front { transform: rotateY(180deg); background: linear-gradient(145deg, #1b3a5c, #10243d); }
-.memory-card.is-revealed .card-back, .memory-card.is-matched .card-back { transform: rotateY(180deg); }
-.memory-card.is-revealed .card-front, .memory-card.is-matched .card-front { transform: rotateY(360deg); }
-.memory-card.is-matched { border-color: var(--amber); box-shadow: 0 0 0 2px rgb(244 185 66 / 15%); }
+.card-back {
+  color: var(--cyan);
+  background:
+    linear-gradient(135deg, rgb(69 214 232 / 8%) 25%, transparent 25%) 0 0 / 18px 18px,
+    linear-gradient(145deg, #183d5f, #081a2e);
+  box-shadow: inset 0 0 0 4px rgb(7 20 38 / 48%);
+}
+.card-front { transform: rotateY(180deg); }
+.card-front--concept { background: radial-gradient(circle at 50% 28%, rgb(244 185 66 / 18%), transparent 40%), linear-gradient(145deg, #1d4166, #10243d); }
+.card-front--clue { background: linear-gradient(160deg, #143452, #0d2037); }
+.memory-card.is-matched .card-face { border-color: var(--amber); box-shadow: inset 0 0 0 2px rgb(244 185 66 / 22%); }
 .card-emblem { display: grid; place-items: center; width: 3rem; aspect-ratio: 1; border: 2px solid currentColor; border-radius: 50%; font-weight: 900; }
-.concept-visual { font-size: 2.5rem; color: var(--amber); }
-.concept-name { font-size: 0.95rem; }
+.concept-visual { display: grid; place-items: center; width: 4.2rem; aspect-ratio: 1; border: 1px solid rgb(244 185 66 / 35%); border-radius: 50%; color: var(--amber); background: rgb(7 20 38 / 35%); font-size: 2.6rem; }
+.concept-name { font-size: 1rem; }
 .clue-label { color: var(--cyan); font-size: 0.72rem; font-weight: 900; letter-spacing: 0.12em; text-transform: uppercase; }
 .clue-text { color: var(--muted); font-size: clamp(0.72rem, 1.4vw, 0.9rem); line-height: 1.35; }
 
@@ -179,15 +203,15 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
   .stats { justify-content: flex-start; }
   .game-layout { grid-template-columns: 1fr; }
   .mission-panel { position: static; }
-  .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.8rem; }
 }
 
 @media (max-width: 520px) {
   .app-shell { width: min(100% - 1rem, 1180px); padding-top: 0.75rem; }
   .start-screen, .chapter-intro, .result-screen, .final-screen { margin-top: 1rem; padding: 1.25rem; }
   .mission-panel, .board-area { padding: 0.8rem; }
-  .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.55rem; }
-  .memory-card { min-height: 132px; }
+  .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; padding: 0.15rem; }
+  .memory-card { min-height: 155px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

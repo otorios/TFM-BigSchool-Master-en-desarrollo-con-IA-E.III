@@ -16,6 +16,7 @@ import {
   createHeader,
   createMissionPanel,
   element,
+  formatTime,
   setCardState,
   showToast,
   updateStats,
@@ -242,7 +243,7 @@ function completeChapter() {
     ['Energía conservada', `${state.energy}/12`],
     ['Intentos', String(state.attempts)],
     ['Errores', String(state.errors)],
-    ['Tiempo', `${state.elapsedSeconds} s`],
+    ['Tiempo', formatTime(state.elapsedSeconds)],
   ].forEach(([label, value]) => {
     summary.append(element('dt', null, label), element('dd', null, value));
   });
