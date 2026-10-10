@@ -1,21 +1,18 @@
 # Memory Quest
 
-Videojuego educativo de memoria y asociaciones semánticas, potenciado por inteligencia artificial y organizado como una aventura narrativa por capítulos.
+Videojuego web educativo de memoria y asociaciones semánticas, organizado como una aventura narrativa por capítulos y desarrollado con apoyo de inteligencia artificial.
 
 > Estado actual: fase de ideación y definición del proyecto.
 
 ## Idea general
 
-El jugador elige un tema, por ejemplo, astronomía. A partir de ese tema, el sistema crea una aventura breve dividida en capítulos y genera tableros de cartas relacionadas semánticamente.
+El MVP presenta una aventura fija de astronomía, dividida en tres capítulos con tableros de 4, 6 y 8 parejas semánticas.
 
-Las parejas no tienen por qué ser dos imágenes idénticas. Pueden representar relaciones como:
+Las parejas no son dos imágenes idénticas. Cada pareja combina una carta con la imagen y el nombre de un concepto y otra con una definición o pista breve, por ejemplo:
 
 - `Marte` ↔ `El planeta rojo`.
 - `Saturno` ↔ `El planeta con anillos`.
 - `La Luna` ↔ `El satélite natural de la Tierra`.
-- Un personaje histórico ↔ un acontecimiento.
-- Un concepto ↔ su definición.
-- Una palabra ↔ su traducción.
 
 Cada pareja correcta proporciona una pieza o recurso necesario para avanzar. En la primera aventura, el jugador deberá conseguir componentes para reparar una nave espacial y regresar a la Tierra. Al superar cada tablero desbloqueará un nuevo capítulo de la historia.
 
@@ -25,12 +22,12 @@ Memory Quest combina:
 
 - Un juego de memoria sencillo de comprender.
 - Aprendizaje mediante asociaciones semánticas.
-- Historias adaptadas al tema seleccionado.
+- Una aventura espacial dividida en tres capítulos.
 - Progresión narrativa y recompensas.
 - Contenido controlado mediante una biblioteca de recursos.
-- Inteligencia artificial aplicada a la personalización y la narración.
+- Inteligencia artificial como apoyo documentado durante el desarrollo.
 
-La IA aportará creatividad, pero las reglas del juego y los contenidos importantes estarán validados por la aplicación.
+Las parejas, pistas, explicaciones y textos narrativos del MVP estarán preparados y revisados previamente. La aplicación no dependerá de un proveedor de IA durante su ejecución.
 
 ## Primera aventura de referencia
 

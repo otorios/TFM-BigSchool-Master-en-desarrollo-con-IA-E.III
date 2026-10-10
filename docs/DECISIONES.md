@@ -32,7 +32,7 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 
 ## D-005 — Público objetivo
 
-- **Estado:** aceptada.
+- **Estado:** revisada posteriormente por D-012.
 - **Fecha:** 07/10/2026.
 - **Decisión:** orientar el juego a preadolescentes de 10 a 13 años.
 - **Motivo:** permite crear una aventura emocionante y educativa con lenguaje claro, partidas breves y dificultad progresiva.
@@ -68,7 +68,7 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 
 ## D-010 — Edad y situación inicial del cadete
 
-- **Estado:** aceptada.
+- **Estado:** aceptada, con la franja de edad actualizada posteriormente por D-012.
 - **Fecha:** 07/10/2026.
 - **Decisión:** la edad exacta del protagonista no se mencionará en la historia. La franja de 10 a 13 años se mantendrá como referencia para diseñar el lenguaje, la dificultad y la experiencia del público objetivo, no como edad explícita del cadete.
 - **Situación inicial:** ATLAS viajaba en modo automático bajo el control de COSMO. El cadete realizaba una práctica de observación supervisada y no era responsable de vigilar o pilotar la nave en solitario.
@@ -82,13 +82,51 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 - **Consecuencias:** fallan las comunicaciones, las cápsulas de hibernación quedan bloqueadas, el laboratorio de la Cápsula LUR pierde energía, se daña el mapa de navegación, la propulsión entra en modo de seguridad y COSMO pierde parte de sus funciones.
 - **Elemento de misterio:** después de la tormenta, los sensores detectan una señal débil de origen desconocido.
 
+## D-012 — Ajuste del público objetivo
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** ampliar la franja de referencia del público de 10 a 13 años a **10 a 14 años**.
+- **Motivo:** mantiene el enfoque preadolescente y permite diseñar la experiencia para un rango ligeramente más amplio sin cambiar la naturaleza del juego.
+
+## D-013 — Tema y progresión del MVP
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** limitar el MVP a la aventura de astronomía y utilizar tres capítulos con tableros progresivos de **4, 6 y 8 parejas**.
+- **Motivo:** ofrece una progresión clara y un alcance asumible para la fecha de entrega.
+
+## D-014 — Formato de las parejas
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** formar cada pareja con una carta que muestre la imagen y el nombre del concepto y otra que muestre una definición o pista breve.
+- **Motivo:** combina memoria visual y aprendizaje sin recurrir a cartas idénticas.
+
+## D-015 — Catálogo educativo fijo
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** preparar y revisar antes de la partida todas las parejas, imágenes, pistas, explicaciones y textos narrativos del MVP.
+- **Motivo:** prioriza la corrección educativa, simplifica la implementación y evita contenido ambiguo o inesperado.
+
+## D-016 — Uso de inteligencia artificial
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** no integrar un proveedor de IA durante la ejecución del MVP. La IA se utilizará únicamente como apoyo durante el desarrollo y su uso se documentará.
+- **Motivo:** evita costes, secretos, dependencia de red y validaciones adicionales, y permite concentrar el tiempo disponible en un producto completo y estable.
+
+## D-017 — Persistencia del progreso
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** no incorporar usuarios ni base de datos. El progreso se guardará en el navegador mediante `localStorage` y podrá reiniciarse desde el juego.
+- **Motivo:** permite continuar la partida en el mismo navegador con una implementación pequeña y sin almacenar datos personales.
+
 ## Decisiones pendientes
 
-- Público objetivo y edad.
 - Nombre definitivo.
 - Stack tecnológico.
-- Proveedor o modelo de IA.
-- Temas disponibles en la primera versión.
-- Persistencia local o base de datos.
 - Sistema visual y fuentes de imágenes.
 - Plataforma de despliegue.

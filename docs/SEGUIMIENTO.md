@@ -2,13 +2,13 @@
 
 ## 1. Estado actual
 
-El proyecto se encuentra en fase de definición. La idea elegida es crear **Memory Quest**, un videojuego educativo de parejas semánticas con una aventura generada y desbloqueada por capítulos.
+El proyecto se encuentra en fase de definición. La idea elegida es crear **Memory Quest**, un videojuego educativo de parejas semánticas con una aventura fija de astronomía desbloqueada por capítulos.
 
-Todavía están pendientes la selección definitiva del stack, la definición visual y la planificación detallada de implementación.
+Ya se han cerrado el público objetivo, el alcance básico del MVP, el formato de las parejas, el uso de contenido revisado y la persistencia local. Todavía están pendientes la selección definitiva del stack, la definición visual y la planificación detallada de implementación.
 
 ## 2. Visión del producto
 
-El jugador podrá escoger un tema y recibir una aventura relacionada con él. Para avanzar tendrá que completar tableros de memoria cuyas cartas están unidas por una relación semántica, no necesariamente por una imagen idéntica.
+El jugador recorrerá una aventura espacial de astronomía. Para avanzar tendrá que completar tableros de memoria cuyas cartas están unidas por una relación semántica, no por una imagen idéntica. Cada pareja combinará una carta con imagen y nombre y otra con una definición o pista breve.
 
 Al encontrar una pareja:
 
@@ -26,8 +26,8 @@ El MVP es la versión más pequeña que funciona de principio a fin y demuestra 
 ### 3.1 Flujo principal
 
 1. El jugador accede al juego.
-2. Selecciona o escribe un tema.
-3. El sistema crea una aventura corta de tres capítulos.
+2. Inicia una aventura de astronomía compuesta por tres capítulos.
+3. El juego carga el catálogo educativo revisado correspondiente al capítulo.
 4. Cada capítulo contiene un tablero de parejas semánticas.
 5. El jugador voltea cartas y encuentra relaciones correctas.
 6. Cada acierto concede una pieza necesaria para reparar la nave.
@@ -36,9 +36,10 @@ El MVP es la versión más pequeña que funciona de principio a fin y demuestra 
 
 ### 3.2 Funcionalidades obligatorias
 
-- Pantalla inicial y selección de tema.
+- Pantalla inicial para comenzar o continuar la aventura.
 - Una aventura completa de tres capítulos.
-- Generación o selección controlada de parejas semánticas.
+- Tableros progresivos de 4, 6 y 8 parejas semánticas.
+- Catálogo fijo y revisado de conceptos, imágenes, pistas y explicaciones.
 - Tablero funcional con cartas ocultas.
 - Validación de parejas correctas e incorrectas.
 - Explicación de la relación al descubrir una pareja.
@@ -47,14 +48,15 @@ El MVP es la versión más pequeña que funciona de principio a fin y demuestra 
 - Desbloqueo progresivo de capítulos.
 - Pantalla final con resolución de la historia.
 - Diseño responsive y navegación básica mediante teclado.
-- Manejo comprensible de errores de red o del proveedor de IA.
+- Guardado y recuperación del progreso mediante `localStorage`.
+- Opción para borrar el progreso y comenzar una nueva partida.
 - Aplicación desplegada mediante una URL pública.
 - Pruebas de las reglas principales del juego.
 - README con instalación, ejecución, stack y estructura.
 
 ### 3.3 Biblioteca de imágenes y contenidos
 
-En la primera versión no se generarán todas las imágenes durante la partida. Se utilizará una biblioteca propia de recursos revisados previamente.
+En la primera versión se utilizará una biblioteca propia de recursos revisados previamente. No se generarán imágenes ni contenido educativo durante la partida.
 
 Cada recurso podrá almacenar metadatos como:
 
@@ -67,7 +69,7 @@ Edad recomendada: 8+
 Fuente o licencia: pendiente
 ```
 
-El sistema utilizará estos metadatos para seleccionar cartas compatibles con el tema y construir parejas fiables. La IA podrá generar la ambientación, los capítulos y las explicaciones, pero no deberá inventar referencias a imágenes inexistentes.
+El sistema utilizará estos metadatos para cargar las parejas fiables de cada capítulo. Las pistas, explicaciones y referencias a imágenes estarán definidas en el catálogo.
 
 ### 3.4 Contenidos y datos previstos
 
@@ -83,60 +85,20 @@ La estructura de datos deberá poder representar:
 - Recompensas.
 - Puntuaciones y progreso de una partida.
 
-No se decidirá si estos datos necesitan una base de datos completa hasta concretar los casos de uso. Para el MVP podrían comenzar como datos locales estructurados y evolucionar a una base de datos si el guardado o la generación lo requieren.
+Los contenidos se almacenarán como datos locales estructurados. El progreso se conservará en `localStorage`; el MVP no tendrá usuarios ni base de datos.
 
 ## 4. Papel de la inteligencia artificial
 
-La IA debe aportar valor real sin controlar las reglas fundamentales del juego.
+La aplicación no integrará un proveedor de IA durante su ejecución. La IA se utilizará como herramienta de apoyo durante el desarrollo para ideación, documentación, arquitectura, programación, creación inicial de contenidos y pruebas. Todo resultado incorporado al producto será revisado antes de incluirse en el catálogo o en el código.
 
-### Dentro del MVP
-
-- Interpretar o clasificar el tema elegido.
-- Crear el título y la premisa de la aventura.
-- Proponer capítulos vinculados al objetivo general.
-- Redactar explicaciones de las relaciones.
-- Generar contenido en un formato estructurado y validable.
-
-Ejemplo orientativo:
-
-```json
-{
-  "title": "La expedición perdida",
-  "theme": "Astronomía",
-  "chapters": [
-    {
-      "title": "La señal de Marte",
-      "story": "La tripulación detecta una señal entre las interferencias.",
-      "reward": "Módulo de comunicaciones",
-      "pairs": [
-        {
-          "left": "Marte",
-          "right": "El planeta rojo",
-          "explanation": "Marte recibe este nombre por el óxido de hierro de su superficie."
-        }
-      ]
-    }
-  ]
-}
-```
-
-### Validaciones necesarias
-
-- El contenido debe respetar un esquema conocido.
-- No puede haber cartas repetidas dentro del mismo tablero.
-- Cada capítulo debe contener el número previsto de parejas.
-- Las relaciones deben ser comprensibles y apropiadas para la dificultad.
-- Las imágenes solicitadas deben existir en la biblioteca.
-- El contenido debe ser seguro y adecuado.
-- Debe existir una alternativa controlada si la generación falla.
+Este uso se documentará en la memoria del TFM mediante decisiones, ejemplos de asistencia y una explicación de las revisiones realizadas. Una posible generación dinámica de aventuras quedará como ampliación posterior al MVP.
 
 ## 5. Fases de trabajo
 
 ### Fase 1 — Definición
 
 - Cerrar nombre y descripción corta.
-- Definir público objetivo y rango de edad.
-- Elegir el alcance exacto del MVP.
+- Documentar el público objetivo y el alcance acordados.
 - Escribir requisitos y criterios de aceptación.
 - Elegir el stack tecnológico.
 - Diseñar las pantallas y el flujo del jugador.
@@ -146,9 +108,8 @@ Ejemplo orientativo:
 
 - Definir arquitectura.
 - Diseñar el modelo de datos.
-- Definir el contrato de generación de aventuras.
 - Preparar la primera colección de astronomía.
-- Diseñar el comportamiento alternativo sin IA.
+- Definir el formato local del catálogo y del progreso.
 - Preparar estrategia de pruebas y seguridad.
 
 ### Fase 3 — Implementación del núcleo
@@ -159,13 +120,12 @@ Ejemplo orientativo:
 - Incorporar la primera aventura completa.
 - Implementar capítulos, recompensas y desenlace.
 
-### Fase 4 — Integración de IA
+### Fase 4 — Documentación del desarrollo asistido por IA
 
-- Crear prompts estructurados.
-- Validar las respuestas recibidas.
-- Conectar la narrativa con la biblioteca de contenidos.
-- Controlar errores, tiempos de espera y costes.
-- Incorporar trazas suficientes para diagnosticar fallos.
+- Registrar los usos relevantes de IA durante el proyecto.
+- Revisar y validar el contenido y el código asistidos.
+- Seleccionar ejemplos representativos para la memoria.
+- Explicar las decisiones humanas y las limitaciones encontradas.
 
 ### Fase 5 — Calidad y despliegue
 
@@ -207,7 +167,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 ## 7. Conexión con el temario del máster
 
 - **Ingeniería de software:** requisitos, alcance, historias de usuario, criterios de aceptación y SDD.
-- **Arquitectura:** separación entre motor del juego, contenido, persistencia y proveedor de IA.
+- **Arquitectura:** separación entre motor del juego, contenido local y persistencia en el navegador.
 - **Fundamentos de IA:** prompting, generación estructurada y uso responsable.
 - **Flujo de desarrollo con IA:** documentación, contexto, reglas y desarrollo asistido.
 - **Calidad:** pruebas, accesibilidad, usabilidad, métricas y observabilidad.
@@ -219,11 +179,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 
 | Riesgo | Medida de control |
 | --- | --- |
-| Relaciones incorrectas generadas por IA | Catálogo validado, esquema estricto y revisión automática. |
-| La IA solicita imágenes inexistentes | Limitar la selección a identificadores proporcionados por la aplicación. |
+| Relaciones educativas incorrectas | Catálogo fijo revisado antes de incorporarlo al juego. |
 | Alcance excesivo | Terminar primero una aventura de tres capítulos. |
-| Latencia o caída del proveedor | Aventuras de ejemplo y comportamiento alternativo local. |
-| Coste de generación | Generar una vez, reutilizar resultados y limitar tamaño. |
 | Inconsistencia narrativa | Conservar un estado estructurado de la aventura. |
 | Problemas de licencia de imágenes | Registrar fuente y licencia de cada recurso. |
 | Falta de tiempo para la entrega | Congelar ampliaciones hasta que el MVP esté desplegado. |
@@ -235,20 +192,16 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 07/10/2026 | Completado | Seleccionada la idea de un juego de parejas semánticas con narrativa por capítulos. |
 | 07/10/2026 | Completado | Elegida una nave averiada como primera aventura de referencia. |
 | 07/10/2026 | Completado | Acordado utilizar una biblioteca de imágenes en lugar de generarlas todas durante la partida. |
-| 07/10/2026 | Completado | Definido el público objetivo de referencia: preadolescentes de 10 a 13 años. |
+| 07/10/2026 | Revisado | Definido inicialmente el público de 10 a 13 años; ampliado a 10–14 años el 10/10/2026. |
 | 07/10/2026 | Completado | Definidos COSMO, ATLAS, la misión ORIOS y la Cápsula LUR. |
 | 07/10/2026 | Completado | Establecido el origen de la emergencia y la premisa narrativa fusionada. |
-| 07/10/2026 | En curso | Diseño detallado de los tres capítulos; pendiente revisar el capítulo 1. |
+| 07/10/2026 | En curso | Diseño narrativo iniciado; quedan por concretar las parejas y algunos detalles visuales de los capítulos. |
 | 07/10/2026 | Pendiente | Definir reglas, stack, arquitectura, planificación e implementación. |
+| 10/10/2026 | Completado | Ajustado el público objetivo a 10–14 años y limitado el MVP al tema de astronomía. |
+| 10/10/2026 | Completado | Acordados tres capítulos con 4, 6 y 8 parejas y el formato imagen y nombre frente a definición o pista. |
+| 10/10/2026 | Completado | Acordado usar un catálogo y una narrativa fijos y revisados, sin proveedor de IA durante la ejecución. |
+| 10/10/2026 | Completado | Acordado guardar el progreso en `localStorage`, sin usuarios ni base de datos. |
 
 ## 10. Próxima decisión
 
-Revisar y concretar el capítulo 1, **Una voz entre las estrellas**:
-
-1. Número de parejas del primer tablero.
-2. Relaciones semánticas concretas.
-3. Recompensas y representación de la reparación.
-4. Contenido de la señal misteriosa.
-5. Transición al capítulo 2.
-
-El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+La próxima decisión antes de programar es elegir el stack tecnológico. Después se concretarán el sistema visual, las fuentes y licencias de las imágenes y la plataforma de despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
