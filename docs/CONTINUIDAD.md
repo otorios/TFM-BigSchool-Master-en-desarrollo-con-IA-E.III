@@ -32,6 +32,8 @@ La estructura inicial separará inicio, motor, estado, persistencia, interfaz, c
 
 Aplicaré controles mínimos de seguridad para evitar XSS en el DOM y errores por datos manipulados: `textContent`, validación de entradas y `localStorage`, ausencia de secretos, dependencias mínimas, recursos locales y una CSP básica.
 
+La dirección visual será un panel de control de misión juvenil: fondo espacial azul oscuro, paneles redondeados, cian para acciones, ámbar para recompensas y energía, rojo para avisos y textos claros. La interfaz mostrará el tablero junto a la puntuación, los intentos, los mensajes de COSMO y el progreso de reparación, y se adaptará colocando los paneles en vertical en pantallas pequeñas.
+
 ## Concepto aprobado
 
 Memory Quest será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
@@ -94,7 +96,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es definir el **sistema visual y las fuentes de imágenes** del MVP.
+El próximo paso es definir las **fuentes y licencias de las imágenes** del MVP.
 
 La propuesta pendiente de revisar es:
 
@@ -112,7 +114,7 @@ Después del stack deberán concretarse las relaciones semánticas del primer ta
 2. Completar los tres capítulos: objetivo, parejas, recompensa y avance narrativo.
 3. Diseñar las reglas del juego: turnos, aciertos, errores, tiempo y puntuación.
 4. Preparar el catálogo fijo y revisado de astronomía.
-5. Diseñar las pantallas y el recorrido del jugador.
+5. Detallar las pantallas y el recorrido del jugador a partir de la dirección visual aprobada.
 6. Definir la biblioteca de imágenes, sus fuentes y licencias.
 7. Planificar tareas y calendario hasta el 23/10/2026.
 8. Implementar el MVP.
@@ -123,7 +125,7 @@ Después del stack deberán concretarse las relaciones semánticas del primer ta
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance funcional y el stack del MVP ya están cerrados; el siguiente paso es definir la arquitectura mínima y la estructura inicial del proyecto. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance funcional, el stack, la arquitectura mínima, la seguridad y la dirección visual del MVP ya están cerrados; el siguiente paso es definir las fuentes y licencias de las imágenes. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

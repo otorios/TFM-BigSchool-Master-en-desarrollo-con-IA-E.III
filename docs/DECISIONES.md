@@ -168,8 +168,19 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Comprobaciones:** probaré nombres con caracteres especiales y datos manipulados o dañados en `localStorage`.
 - **Motivo:** prevengo XSS en el navegador, errores por datos alterados y exposición accidental de información sin introducir una infraestructura innecesaria.
 
+## D-021 — Dirección visual del MVP
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** utilizaré una estética de panel de control de misión juvenil, con ambiente espacial oscuro, paneles redondeados y una interfaz clara que recuerde al interior de la nave ATLAS sin resultar demasiado infantil ni recargada.
+- **Paleta provisional:** fondo azul marino `#071426`, paneles `#10243D`, cian `#45D6E8` para acciones, ámbar `#F4B942` para recompensas y energía, rojo `#EF6262` para avisos, texto principal `#F3F7FC` y texto secundario `#B8C7D9`.
+- **Aplicación:** mantendré una tipografía grande y legible, animaciones pequeñas y elementos de misión para presentar el nombre, los capítulos, el tablero, la puntuación, los intentos, los mensajes de COSMO, el progreso de reparación y el resultado final.
+- **Cartas:** el reverso tendrá una identidad común relacionada con ATLAS u ORIOS; una carta de cada pareja mostrará la imagen y el nombre del concepto y la otra su definición o pista.
+- **Adaptación:** en pantallas amplias el tablero y la información de misión podrán aparecer en columnas; en móvil los paneles se colocarán uno debajo de otro y el tablero aprovechará el ancho disponible.
+- **Motivo:** esta dirección integra la historia y el juego educativo, mantiene una apariencia atractiva para el público de 10 a 14 años y puede realizarse principalmente con HTML y CSS dentro del tiempo disponible.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Sistema visual y fuentes de imágenes.
+- Fuentes y licencias de las imágenes.
 - Plataforma de despliegue.
