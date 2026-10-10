@@ -9,6 +9,13 @@ Este documento permite retomar Memory Quest aunque no esté disponible el histor
 - **Rama de trabajo:** `main`.
 - No confundirlo con `C:\Users\Usuario\Documents\BigSchool`, que contiene los materiales generales del máster y no debe utilizarse para desarrollar el TFG.
 
+## Proyecto anterior de referencia
+
+- **Repositorio:** `git@github.com:otorios/Juego_parejas_JS.git`.
+- Es un juego de parejas anterior que puedo consultar para recordar mi planteamiento original con JavaScript, niveles, mezcla de cartas y navegación.
+- Debo tratarlo como **solo lectura** y no modificar archivos, ramas, configuración ni historial.
+- Si necesito reutilizar o adaptar código, primero crearé una copia dentro del repositorio del TFG y trabajaré únicamente sobre esa copia.
+
 ## Estado actualizado el 10/10/2026
 
 El proyecto se encuentra en la fase de definición técnica previa a la implementación. Ya están cerrados el alcance funcional, la persistencia y el stack: HTML, CSS y JavaScript sin framework, con Vite. React con Vite queda como evolución futura. Todavía no se ha comenzado la implementación.
