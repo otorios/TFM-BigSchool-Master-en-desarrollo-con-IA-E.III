@@ -12,6 +12,7 @@
   --text: #f3f7fc;
   --muted: #b8c7d9;
   --shadow: 0 24px 70px rgb(0 0 0 / 30%);
+  --line: rgb(111 225 239 / 24%);
 }
 
 * { box-sizing: border-box; }
@@ -23,7 +24,8 @@ body {
   background:
     radial-gradient(circle at 20% 15%, rgb(69 214 232 / 12%), transparent 28rem),
     radial-gradient(circle at 85% 80%, rgb(244 185 66 / 9%), transparent 30rem),
-    var(--background);
+    linear-gradient(180deg, #07172a 0%, #050d19 100%);
+  background-attachment: fixed;
 }
 
 body::before {
@@ -51,10 +53,22 @@ button { touch-action: manipulation; }
 }
 
 .panel {
-  border: 1px solid rgb(69 214 232 / 22%);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
   border-radius: 1.5rem;
-  background: linear-gradient(145deg, rgb(16 36 61 / 96%), rgb(9 27 48 / 96%));
+  background:
+    linear-gradient(135deg, rgb(69 214 232 / 5%), transparent 35%),
+    linear-gradient(145deg, rgb(16 36 61 / 97%), rgb(9 27 48 / 97%));
   box-shadow: var(--shadow);
+}
+
+.panel::before {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 3px;
+  content: "";
+  background: linear-gradient(90deg, transparent, var(--cyan), var(--amber), transparent);
 }
 
 .start-screen, .chapter-intro, .result-screen, .final-screen {
@@ -78,11 +92,17 @@ h1, h2, p { margin-top: 0; }
 h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.05; }
 h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
 .game-logo { margin-bottom: 0.1rem; }
-.game-subtitle { margin-bottom: 2rem; color: var(--amber); font-size: 1.45rem; font-weight: 800; }
+.game-logo {
+  color: #fff;
+  letter-spacing: -0.055em;
+  text-shadow: 0 0 30px rgb(69 214 232 / 25%);
+}
+.game-subtitle { margin-bottom: 2rem; color: var(--amber); font-size: 1.45rem; font-weight: 800; letter-spacing: 0.04em; }
 .lead { color: var(--muted); font-size: 1.08rem; line-height: 1.65; }
 
-.name-form { display: grid; gap: 0.9rem; margin: 2.25rem auto 0; text-align: left; }
-.name-form label { display: block; margin-bottom: 0.2rem; color: var(--muted); font-weight: 800; letter-spacing: 0.02em; }
+.name-form { display: grid; gap: 1rem; margin: 2.25rem auto 0; text-align: left; }
+.field-group { display: grid; gap: 0.65rem; }
+.name-form label { display: block; color: var(--text); font-weight: 800; letter-spacing: 0.02em; }
 .text-input {
   width: 100%;
   border: 1px solid rgb(184 199 217 / 35%);
@@ -90,7 +110,8 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
   min-height: 3.2rem;
   padding: 0.95rem 1rem;
   color: var(--text);
-  background: rgb(7 20 38 / 70%);
+  background: rgb(3 13 27 / 78%);
+  box-shadow: inset 0 1px 10px rgb(0 0 0 / 24%);
 }
 .text-input:focus { outline: 3px solid rgb(69 214 232 / 30%); border-color: var(--cyan); }
 .validation-message { min-height: 1.2rem; margin: 0; color: var(--red); font-size: 0.9rem; }
@@ -114,25 +135,25 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
 .rules-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.65rem; margin: 2rem 0; }
 .rules-list li, .module-list li { border-radius: 999px; padding: 0.55rem 0.8rem; color: var(--muted); background: rgb(69 214 232 / 9%); }
 
-.mission-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-bottom: 1.2rem; }
+.mission-header { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-bottom: 1.2rem; padding: 0.35rem 0.25rem; }
 .mission-title { margin-bottom: 0; font-size: clamp(1.7rem, 4vw, 2.7rem); }
 .stats { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.55rem; }
-.stat { border: 1px solid rgb(69 214 232 / 20%); border-radius: 999px; padding: 0.5rem 0.75rem; color: var(--muted); background: rgb(16 36 61 / 86%); font-size: 0.88rem; font-variant-numeric: tabular-nums; }
+.stat { border: 1px solid rgb(69 214 232 / 20%); border-radius: 999px; padding: 0.55rem 0.85rem; color: var(--text); background: rgb(16 36 61 / 86%); box-shadow: 0 8px 18px rgb(0 0 0 / 14%); font-size: 0.88rem; font-variant-numeric: tabular-nums; }
 
 .game-layout { display: grid; grid-template-columns: minmax(230px, 0.72fr) minmax(0, 2fr); gap: 1rem; align-items: start; }
-.mission-panel, .board-area { padding: 1.2rem; }
+.mission-panel, .board-area { padding: 1.35rem; }
 .mission-panel { position: sticky; top: 1rem; }
 .cosmo-message { color: var(--muted); line-height: 1.55; }
 .progress-label { margin: 2rem 0 0.5rem; color: var(--amber); font-weight: 800; }
 .repair-progress { width: 100%; accent-color: var(--amber); }
-.countdown { margin-bottom: 1rem; color: var(--amber); text-align: center; font-weight: 900; }
+.countdown { width: fit-content; margin: 0 auto 1.2rem; border: 1px solid rgb(244 185 66 / 28%); border-radius: 999px; padding: 0.5rem 0.9rem; color: var(--amber); background: rgb(244 185 66 / 8%); text-align: center; font-weight: 900; }
 
-.card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; padding: 0.35rem; }
+.card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(0.75rem, 1.4vw, 1.15rem); padding: 0.4rem; }
 .memory-card {
   position: relative;
-  min-height: 175px;
+  min-height: 195px;
   border: 0;
-  border-radius: 1.15rem;
+  border-radius: 1.1rem;
   padding: 0;
   cursor: pointer;
   color: var(--text);
@@ -163,7 +184,7 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
   justify-content: center;
   gap: 0.6rem;
   overflow: hidden;
-  border: 1px solid rgb(69 214 232 / 28%);
+  border: 1px solid rgb(69 214 232 / 32%);
   border-radius: inherit;
   padding: 1rem;
   backface-visibility: hidden;
@@ -172,19 +193,21 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
 .card-back {
   color: var(--cyan);
   background:
-    linear-gradient(135deg, rgb(69 214 232 / 8%) 25%, transparent 25%) 0 0 / 18px 18px,
-    linear-gradient(145deg, #183d5f, #081a2e);
-  box-shadow: inset 0 0 0 4px rgb(7 20 38 / 48%);
+    radial-gradient(circle at center, rgb(69 214 232 / 14%), transparent 40%),
+    repeating-linear-gradient(45deg, transparent 0 12px, rgb(69 214 232 / 4%) 12px 13px),
+    linear-gradient(145deg, #173c5f, #07182b);
+  box-shadow: inset 0 0 0 4px rgb(7 20 38 / 48%), inset 0 0 35px rgb(69 214 232 / 8%);
 }
 .card-front { transform: rotateY(180deg); }
-.card-front--concept { background: radial-gradient(circle at 50% 28%, rgb(244 185 66 / 18%), transparent 40%), linear-gradient(145deg, #1d4166, #10243d); }
+.card-front--concept { justify-content: space-between; padding: 0; background: linear-gradient(145deg, #1d4166, #10243d); }
 .card-front--clue { background: linear-gradient(160deg, #143452, #0d2037); }
 .memory-card.is-matched .card-face { border-color: var(--amber); box-shadow: inset 0 0 0 2px rgb(244 185 66 / 22%); }
-.card-emblem { display: grid; place-items: center; width: 3rem; aspect-ratio: 1; border: 2px solid currentColor; border-radius: 50%; font-weight: 900; }
-.concept-visual { display: grid; place-items: center; width: 4.2rem; aspect-ratio: 1; border: 1px solid rgb(244 185 66 / 35%); border-radius: 50%; color: var(--amber); background: rgb(7 20 38 / 35%); font-size: 2.6rem; }
-.concept-name { font-size: 1rem; }
+.card-emblem { display: grid; place-items: center; width: 3.5rem; aspect-ratio: 1; border: 2px solid currentColor; border-radius: 50%; box-shadow: 0 0 25px rgb(69 214 232 / 22%); font-weight: 900; }
+.concept-visual { display: grid; place-items: center; width: 100%; min-height: 0; flex: 1; overflow: hidden; color: var(--amber); background: #061321; font-size: 2.6rem; }
+.concept-image { width: 100%; height: 100%; min-height: 0; object-fit: cover; user-select: none; }
+.concept-name { width: 100%; padding: 0.85rem 0.6rem; color: #fff; background: linear-gradient(90deg, rgb(13 38 63 / 98%), rgb(18 52 81 / 98%)); font-size: 0.98rem; line-height: 1.2; }
 .clue-label { color: var(--cyan); font-size: 0.72rem; font-weight: 900; letter-spacing: 0.12em; text-transform: uppercase; }
-.clue-text { color: var(--muted); font-size: clamp(0.72rem, 1.4vw, 0.9rem); line-height: 1.35; }
+.clue-text { color: var(--text); font-size: clamp(0.76rem, 1.25vw, 0.94rem); line-height: 1.45; }
 
 .toast { position: fixed; z-index: 10; right: 1rem; bottom: 1rem; max-width: 340px; margin: 0; border-radius: 0.85rem; padding: 0.9rem 1rem; color: #071426; box-shadow: var(--shadow); font-weight: 800; }
 .toast--success { background: var(--cyan); }

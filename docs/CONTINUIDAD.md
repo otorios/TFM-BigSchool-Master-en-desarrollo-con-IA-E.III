@@ -20,9 +20,9 @@ Este documento permite retomar **Memory Quest: Señal estelar** aunque no esté 
 
 El proyecto cuenta con una primera versión jugable implementada con HTML, CSS y JavaScript sin framework, construida mediante Vite. React con Vite queda como evolución futura.
 
-La aplicación ya incluye inicio y continuación, tres capítulos, observación inicial, parejas semánticas, energía y penalizaciones progresivas, cronómetro, derrota y reintento del capítulo, guardado validado en `localStorage`, reparación de módulos, desenlace según la puntuación y diseño responsive. Tras la primera prueba manual se reforzaron el formulario, el acabado visual y el giro 3D de las cartas, y se unificó el tiempo como `mm:ss`. Las ocho pruebas automáticas y la construcción de producción pasan correctamente.
+La aplicación ya incluye inicio y continuación, tres capítulos, observación inicial, parejas semánticas, energía y penalizaciones progresivas, cronómetro, derrota y reintento del capítulo, guardado validado en `localStorage`, reparación de módulos, desenlace según la puntuación y diseño responsive. Tras la primera prueba manual se reforzaron el formulario, el acabado visual y el giro 3D de las cartas, y se unificó el tiempo como `mm:ss`. También se corrigió la CSP que impedía a Vite aplicar los estilos durante el desarrollo local. Las ocho pruebas automáticas y la construcción de producción pasan correctamente.
 
-Las cartas utilizan por ahora símbolos visuales provisionales. El siguiente bloque debe seleccionar y acreditar las imágenes definitivas de la NASA antes de reemplazarlos.
+Las 18 cartas de concepto utilizan imágenes locales seleccionadas en la biblioteca oficial de la NASA. Su ficha original y sus créditos están registrados en `docs/CREDITOS-IMAGENES.md`. El tablero ya presenta una cuadrícula responsive, separación visual, reversos identificables y giro 3D.
 
 También he decidido utilizar un único `index.html` con varias vistas y un solo motor de parejas compartido por los tres capítulos, en lugar de una página y un JavaScript distintos para cada nivel.
 
@@ -122,7 +122,7 @@ Sus archivos completan el mapa y permiten establecer una ruta segura. Con los tr
 
 ## Punto exacto para retomar
 
-El próximo paso es seleccionar, descargar, optimizar y acreditar las **imágenes oficiales de la NASA** para las 18 cartas de concepto.
+El próximo paso es realizar una prueba manual completa de los tres capítulos con el nuevo diseño, revisar la legibilidad de cada imagen y pista y anotar cualquier ajuste necesario antes del despliegue.
 
 El primer tablero aprobado es:
 
@@ -154,7 +154,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md y docs/CREDITOS-IMAGENES.md. No cambies decisiones ya aceptadas sin indicarlo. La primera versión jugable, el catálogo y las pruebas ya existen; el siguiente paso es seleccionar y acreditar las imágenes oficiales de la NASA, sustituir los símbolos provisionales y probar la experiencia completa. Trabaja por cambios pequeños y actualiza la documentación aprobada.
+Estamos desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md y docs/CREDITOS-IMAGENES.md. No cambies decisiones ya aceptadas sin indicarlo. La primera versión jugable, el catálogo, las pruebas y las 18 imágenes acreditadas ya existen; el siguiente paso es probar la experiencia completa, ajustar la legibilidad y preparar el despliegue. Trabaja por cambios pequeños y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

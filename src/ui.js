@@ -69,8 +69,18 @@ export function createCard(card, onSelect) {
 
   const front = element('span', `card-face card-front card-front--${card.type}`);
   if (card.type === 'concept') {
-    const visual = element('span', 'concept-visual', card.symbol);
-    visual.setAttribute('aria-hidden', 'true');
+    const visual = element('span', 'concept-visual');
+    if (card.image) {
+      const image = element('img', 'concept-image');
+      image.src = card.image;
+      image.alt = card.alt ?? `Imagen de ${card.name}`;
+      image.loading = 'eager';
+      image.draggable = false;
+      visual.append(image);
+    } else {
+      visual.textContent = card.symbol;
+      visual.setAttribute('aria-hidden', 'true');
+    }
     front.append(visual, element('strong', 'concept-name', card.name));
   } else {
     front.append(element('span', 'clue-label', 'Pista'), element('span', 'clue-text', card.clue));

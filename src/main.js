@@ -65,7 +65,9 @@ function renderStart() {
   const validation = element('p', 'validation-message');
   validation.id = 'name-error';
   input.setAttribute('aria-describedby', validation.id);
-  form.append(label, input, validation);
+  const field = element('div', 'field-group');
+  field.append(label, input, validation);
+  form.append(field);
   form.append(
     createButton('Comenzar misión', () => {}, 'primary'),
   );

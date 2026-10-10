@@ -2,7 +2,7 @@
 
 ## 1. Estado actual
 
-El proyecto cuenta ya con una primera versión jugable de **Memory Quest: Señal estelar**. Están implementados los tres capítulos, el motor compartido, la energía, el cronómetro, el guardado local, el desenlace y las pruebas básicas. Todavía debo incorporar las imágenes definitivas de la NASA, probar la experiencia completa, activar el despliegue y preparar la entrega.
+El proyecto cuenta ya con una primera versión jugable de **Memory Quest: Señal estelar**. Están implementados los tres capítulos, el motor compartido, la energía, el cronómetro, el guardado local, el desenlace, el diseño responsive, las 18 imágenes acreditadas y las pruebas básicas. Todavía debo probar la experiencia completa, activar el despliegue y preparar la entrega.
 
 Ya se han cerrado el público objetivo, el alcance básico del MVP, el formato de las parejas, el uso de contenido revisado, la persistencia local y el stack. Todavía están pendientes la arquitectura mínima, la definición visual y la planificación detallada de implementación.
 
@@ -227,7 +227,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Elegí `Memory Quest` como nombre general y `Señal estelar` como subtítulo de la primera aventura y del MVP. |
 | 10/10/2026 | Completado | Implementé una primera versión jugable con Vite, tres capítulos, motor compartido, energía, cronómetro, guardado local, desenlace responsive y siete pruebas automáticas. |
 | 10/10/2026 | Revisado | Tras la primera prueba manual, añadí más separación al formulario, reforcé el estilo visual, corregí el giro 3D de las cartas y unifiqué el tiempo como `mm:ss`; ya pasan ocho pruebas. |
+| 10/10/2026 | Completado | Corregí la política de seguridad que bloqueaba los estilos de Vite, incorporé las 18 imágenes acreditadas y rediseñé el tablero, las cartas y el formulario. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es seleccionar, descargar, optimizar y acreditar las imágenes oficiales de la NASA para sustituir los símbolos provisionales. Después realizaré las pruebas de juego y prepararé el despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es realizar una prueba manual completa de los tres capítulos, ajustar la legibilidad de imágenes y pistas si fuera necesario y preparar el despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
