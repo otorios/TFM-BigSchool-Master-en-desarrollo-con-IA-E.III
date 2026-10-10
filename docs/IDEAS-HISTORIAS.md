@@ -25,7 +25,7 @@ Cada tablero completado proporciona piezas y energía. Al final, la nave recuper
 
 ## Historia 2 — Las semillas de las estrellas
 
-La nave transporta la **Cápsula LUR**, que conserva semillas de numerosas especies destinadas a ayudar a recuperar ecosistemas terrestres. Después de una avería, los sistemas que protegen su contenido empiezan a fallar.
+La nave transporta la **Cápsula LURRA**, que conserva semillas de numerosas especies destinadas a ayudar a recuperar ecosistemas terrestres. Después de una avería, los sistemas que protegen su contenido empiezan a fallar.
 
 El jugador deberá recuperar:
 
@@ -63,7 +63,7 @@ Al final descubre que la señal fue enviada por otra expedición humana perdida 
 
 La historia elegida actualmente combina las tres propuestas anteriores:
 
-> Un joven cadete despierta tras una tormenta espacial. La nave ATLAS está averiada, la tripulación permanece en hibernación y el laboratorio que protege la Cápsula LUR está perdiendo energía. Mientras intenta reparar los sistemas con ayuda de COSMO, la inteligencia artificial de abordo, recibe una señal de origen desconocido que parece conocer la misión ORIOS.
+> Un joven cadete despierta tras una tormenta espacial. La nave ATLAS está averiada, la tripulación permanece en hibernación y el laboratorio que protege la Cápsula LURRA está perdiendo energía. Mientras intenta reparar los sistemas con ayuda de COSMO, la inteligencia artificial de abordo, recibe una señal de origen desconocido que parece conocer la misión ORIOS.
 
 Antes de la tormenta, ATLAS viajaba en modo automático bajo el control de COSMO. El cadete estaba despierto realizando una práctica de observación supervisada; no se encontraba de guardia ni tenía la responsabilidad de pilotar la nave. La emergencia bloquea las cápsulas de hibernación e impide despertar a la capitana. La edad exacta del cadete no se menciona.
 

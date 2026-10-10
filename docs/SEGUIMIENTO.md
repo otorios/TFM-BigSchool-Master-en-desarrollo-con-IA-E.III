@@ -195,7 +195,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 07/10/2026 | Completado | Elegí una nave averiada como primera aventura de referencia. |
 | 07/10/2026 | Completado | Acordé utilizar una biblioteca de imágenes en lugar de generarlas todas durante la partida. |
 | 07/10/2026 | Revisado | Definí inicialmente el público de 10 a 13 años y lo amplié a 10–14 años el 10/10/2026. |
-| 07/10/2026 | Completado | Definí COSMO, ATLAS, la misión ORIOS y la Cápsula LUR. |
+| 07/10/2026 | Revisado | Definí COSMO, ATLAS, la misión ORIOS y la cápsula de semillas; el 10/10/2026 cambié su nombre de LUR a LURRA. |
 | 07/10/2026 | Completado | Establecí el origen de la emergencia y la premisa narrativa fusionada. |
 | 07/10/2026 | En curso | Inicié el diseño narrativo; me queda concretar las parejas y algunos detalles visuales de los capítulos. |
 | 07/10/2026 | Pendiente | Me quedaba definir reglas, stack, arquitectura, planificación e implementación. |
@@ -216,9 +216,11 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Conservé la observación inicial y el volteo de mi juego anterior, adaptándolos a parejas de imagen y concepto frente a definición o pista. |
 | 10/10/2026 | Completado | Definí el primer tablero con Sol, Tierra, Luna y Vía Láctea; cada acierto recuperará una pieza del transmisor. |
 | 10/10/2026 | Completado | Fijé para las pruebas una observación inicial de 8, 12 y 16 segundos según el capítulo, ampliable si no resulta suficiente. |
-| 10/10/2026 | Completado | Elegí intentos ilimitados para el MVP y reservé la selección de dificultad, los límites y las condiciones especiales para una ampliación. |
+| 10/10/2026 | Revisado | Elegí inicialmente intentos ilimitados, pero después introduje energía y penalizaciones progresivas para que exista un riesgo real de repetir el capítulo. |
 | 10/10/2026 | Completado | Decidí medir y mostrar el tiempo empleado sin establecer un límite ni provocar derrotas en el MVP. |
+| 10/10/2026 | Completado | Definí 12 puntos de energía por capítulo, penalizaciones de 1, 2 y 3 por error y tres resultados de regreso según la puntuación final. |
+| 10/10/2026 | Revisado | Simplifiqué las recompensas: cada tablero entrega un único módulo y cada acierto avanza su barra de reparación. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es decidir la regla de puntuación. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es concretar el segundo capítulo: parejas, reparación y avance narrativo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

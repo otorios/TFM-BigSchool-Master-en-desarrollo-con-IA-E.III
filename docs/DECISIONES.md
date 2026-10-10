@@ -73,9 +73,12 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 
 - **Estado:** aceptada.
 - **Fecha:** 07/10/2026.
+- **Fecha de actualización:** 10/10/2026.
 - **Decisión:** he decidido que ATLAS transporte una cápsula que conserva semillas de numerosas especies, en lugar de una única planta experimental.
 - **Motivo:** así aumento el valor científico de la misión y puedo crear futuras aventuras relacionadas con diferentes plantas, ecosistemas, biología y sostenibilidad.
-- **Nombre elegido:** he elegido **Cápsula LUR**. `Lur` significa “tierra” en euskera y lo he escogido por ser breve, fácil de pronunciar y estar conectado con el propósito de la misión.
+- **Idea original del nombre:** había elegido **Cápsula LUR** por su relación con la tierra en euskera y con el propósito de la misión.
+- **Decisión actual del nombre:** he decidido llamarla **Cápsula LURRA**.
+- **Motivo del cambio de nombre:** `LURRA` mantiene la referencia a la tierra y me parece un nombre más completo y natural para la cápsula.
 
 ## D-010 — Edad y situación inicial del cadete
 
@@ -90,7 +93,7 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Estado:** aceptada.
 - **Fecha:** 07/10/2026.
 - **Decisión:** he decidido que, durante la práctica del cadete, ATLAS atraviese inesperadamente una tormenta de partículas cargadas. El escudo evita la destrucción de la nave, pero una sobrecarga desconecta y bloquea varios sistemas.
-- **Consecuencias:** fallan las comunicaciones, las cápsulas de hibernación quedan bloqueadas, el laboratorio de la Cápsula LUR pierde energía, se daña el mapa de navegación, la propulsión entra en modo de seguridad y COSMO pierde parte de sus funciones.
+- **Consecuencias:** fallan las comunicaciones, las cápsulas de hibernación quedan bloqueadas, el laboratorio de la Cápsula LURRA pierde energía, se daña el mapa de navegación, la propulsión entra en modo de seguridad y COSMO pierde parte de sus funciones.
 - **Elemento de misterio:** después de la tormenta, los sensores detectan una señal débil de origen desconocido.
 
 ## D-012 — Uso de inteligencia artificial
@@ -204,8 +207,10 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Fecha:** 10/10/2026.
 - **Capítulo:** `Una voz entre las estrellas`.
 - **Parejas:** `Sol` ↔ `Soy la estrella situada en el centro del sistema solar`; `Tierra` ↔ `Soy el planeta en el que vivimos y tengo agua líquida en mi superficie`; `Luna` ↔ `Soy el satélite natural que orbita la Tierra`; `Vía Láctea` ↔ `Soy la galaxia en la que se encuentra el sistema solar`.
-- **Recompensa:** cada acierto recuperará una pieza del transmisor. Al reunir las cuatro piezas se repararán las comunicaciones de ATLAS y se recibirá la señal misteriosa.
-- **Motivo:** comenzaré con conceptos reconocibles para enseñar el funcionamiento de las parejas semánticas antes de aumentar la dificultad.
+- **Idea original de la recompensa:** cada pareja correcta recuperaría una pieza distinta del transmisor y las cuatro piezas repararían las comunicaciones.
+- **Decisión actual de la recompensa:** cada acierto hará avanzar una barra de reparación. Al completar todo el tablero obtendré un único módulo de comunicaciones y se recibirá la señal misteriosa.
+- **Motivo del cambio:** evito diseñar, nombrar y explicar una pieza distinta por pareja, mantengo una respuesta visible para cada acierto y simplifico los recursos gráficos y narrativos.
+- **Progresión general:** el segundo capítulo entregará el módulo de protección de la Cápsula LURRA y el tercero el módulo de navegación y propulsión. Los tres módulos permitirán completar la reparación de ATLAS.
 
 ## D-025 — Duración de la observación inicial
 
@@ -220,8 +225,10 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 
 - **Estado:** aceptada para el MVP.
 - **Fecha:** 10/10/2026.
-- **Decisión actual:** permitiré intentos ilimitados. Cada selección de dos cartas contará como un intento; los errores aumentarán el contador, pero no harán perder ni reiniciar el capítulo.
-- **Motivo:** garantizo que el jugador pueda completar la aventura y aprender sin bloquear la entrega con más reglas y casos de derrota.
+- **Fecha de actualización:** 10/10/2026.
+- **Idea original:** iba a permitir intentos ilimitados; los errores aumentarían el contador, pero no harían perder ni reiniciar el capítulo.
+- **Decisión actual:** cada selección de dos cartas contará como un intento. Los errores consumirán la energía del capítulo y, si llega a cero antes de completar el tablero, se perderá y reiniciará solamente ese capítulo. Se conservarán los anteriores.
+- **Motivo del cambio:** quiero que exista un riesgo real y una dificultad progresiva sin obligar a repetir toda la aventura.
 - **Evolución futura:** quiero permitir que el jugador elija una dificultad. Según el modo, la partida podrá mantener intentos ilimitados o introducir un límite de intentos, tiempo limitado y parejas o condiciones especiales que deban evitarse. Esta ampliación recuperará la progresión de dificultad de mi juego original, pero sus reglas exactas se decidirán después del MVP.
 
 ## D-027 — Tiempo de partida
@@ -233,7 +240,26 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Motivo:** obtengo una medida útil sin añadir presión ni impedir que el jugador complete la actividad educativa.
 - **Evolución futura:** el cronómetro permitirá añadir más adelante modos de dificultad con tiempo máximo.
 
+## D-028 — Energía, puntuación y resultado
+
+- **Estado:** aceptada para pruebas.
+- **Fecha:** 10/10/2026.
+- **Decisión:** cada capítulo comenzará con 12 puntos de energía. Los aciertos avanzarán la reparación sin consumir energía y los errores restarán una cantidad creciente según el capítulo.
+
+| Regla | Capítulo 1 | Capítulo 2 | Capítulo 3 |
+| --- | ---: | ---: | ---: |
+| Parejas | 4 | 6 | 8 |
+| Observación inicial | 8 segundos | 12 segundos | 16 segundos |
+| Energía inicial | 12 puntos | 12 puntos | 12 puntos |
+| Energía perdida por error | 1 punto | 2 puntos | 3 puntos |
+| Derrota al llegar a 0 | 12.º error | 6.º error | 4.º error |
+| Módulo obtenido | Comunicaciones | Protección de LURRA | Navegación y propulsión |
+
+- **Derrota:** si la energía llega a cero, reiniciaré únicamente el capítulo actual con 12 puntos; conservaré los capítulos ya completados.
+- **Puntuación final:** sumaré la energía restante de los tres capítulos. El máximo será 36 puntos y, para completar la aventura, el mínimo posible será 6.
+- **Regreso:** con 30–36 puntos ATLAS regresará rápidamente y con reserva; con 18–29 realizará un regreso normal y seguro; con 6–17 viajará más despacio para ahorrar energía. En los tres casos la misión se completará.
+- **Validación:** ajustaré la energía o las penalizaciones si las pruebas muestran que un capítulo resulta demasiado fácil o demasiado exigente.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Regla de puntuación.
