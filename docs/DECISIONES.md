@@ -86,29 +86,33 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
-- **Decisión:** ampliar la franja de referencia del público de 10 a 13 años a **10 a 14 años**.
-- **Motivo:** mantiene el enfoque preadolescente y permite diseñar la experiencia para un rango ligeramente más amplio sin cambiar la naturaleza del juego.
+- **Idea original:** orientar el juego a preadolescentes de 10 a 13 años.
+- **Decisión actual:** ampliar la franja de referencia del público a **10 a 14 años**.
+- **Motivo del cambio:** mantiene el enfoque preadolescente y permite diseñar la experiencia para un rango ligeramente más amplio sin cambiar la naturaleza del juego.
 
 ## D-013 — Tema y progresión del MVP
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
-- **Decisión:** limitar el MVP a la aventura de astronomía y utilizar tres capítulos con tableros progresivos de **4, 6 y 8 parejas**.
-- **Motivo:** ofrece una progresión clara y un alcance asumible para la fecha de entrega.
+- **Idea original:** permitir que el jugador eligiera o escribiera un tema y que el sistema construyera una aventura relacionada. Para el primer tablero se había propuesto provisionalmente utilizar seis parejas.
+- **Decisión actual:** limitar el MVP a una aventura fija de astronomía y utilizar tres capítulos con tableros progresivos de **4, 6 y 8 parejas**.
+- **Motivo del cambio:** evita crear y validar múltiples temáticas, establece una dificultad progresiva clara y mantiene un alcance asumible para la fecha de entrega.
 
 ## D-014 — Formato de las parejas
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
-- **Decisión:** formar cada pareja con una carta que muestre la imagen y el nombre del concepto y otra que muestre una definición o pista breve.
-- **Motivo:** combina memoria visual y aprendizaje sin recurrir a cartas idénticas.
+- **Idea original:** admitir distintos tipos de relaciones semánticas, como concepto y definición, personaje y acontecimiento, palabra y traducción o dos imágenes relacionadas.
+- **Decisión actual:** formar todas las parejas del MVP con una carta que muestre la imagen y el nombre del concepto y otra que muestre una definición o pista breve.
+- **Motivo del cambio:** proporciona una mecánica uniforme, combina memoria visual y aprendizaje y simplifica tanto el diseño como la explicación del juego.
 
 ## D-015 — Catálogo educativo fijo
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
-- **Decisión:** preparar y revisar antes de la partida todas las parejas, imágenes, pistas, explicaciones y textos narrativos del MVP.
-- **Motivo:** prioriza la corrección educativa, simplifica la implementación y evita contenido ambiguo o inesperado.
+- **Idea original:** utilizar una biblioteca controlada de imágenes y conceptos, permitiendo que la IA construyera o adaptara durante la partida las relaciones, explicaciones y partes narrativas.
+- **Decisión actual:** preparar y revisar antes de la partida todas las parejas, imágenes, pistas, explicaciones y textos narrativos del MVP.
+- **Motivo del cambio:** prioriza la corrección educativa, simplifica la implementación y evita contenido ambiguo, incorrecto o inesperado.
 
 ## D-016 — Uso de inteligencia artificial
 
@@ -122,8 +126,9 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
-- **Decisión:** no incorporar usuarios ni base de datos. El progreso se guardará en el navegador mediante `localStorage` y podrá reiniciarse desde el juego.
-- **Motivo:** permite continuar la partida en el mismo navegador con una implementación pequeña y sin almacenar datos personales.
+- **Idea original:** mantener abierta la posibilidad de utilizar una base de datos y perfiles de usuario si el guardado de partidas o la generación de contenido lo requerían.
+- **Decisión actual:** no incorporar usuarios ni base de datos. El progreso se guardará en el navegador mediante `localStorage` y podrá reiniciarse desde el juego.
+- **Motivo del cambio:** permite continuar la partida en el mismo navegador con una implementación pequeña, sin backend y sin almacenar datos personales.
 
 ## Decisiones pendientes
 
