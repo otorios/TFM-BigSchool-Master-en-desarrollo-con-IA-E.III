@@ -65,13 +65,13 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 - COSMO tendrá personalidad fija durante el MVP: cercana, inteligente y con algo de humor.
 - Elegir la personalidad de COSMO queda como ampliación futura.
-- Se utilizará una biblioteca controlada de imágenes y metadatos.
-- No se generarán todas las imágenes durante cada partida.
-- La narrativa, las parejas, las pistas y las explicaciones estarán preparadas y revisadas previamente.
-- No habrá proveedor de IA durante la ejecución; la IA se utilizará únicamente como apoyo documentado al desarrollo.
-- No habrá usuarios ni base de datos; el progreso se guardará en `localStorage`.
-- La historia espacial será la primera aventura completa.
-- La mitología vasca queda registrada como posible temática futura.
+- Utilizaré una biblioteca controlada de imágenes y metadatos.
+- No generaré imágenes durante cada partida.
+- Prepararé y revisaré previamente la narrativa, las parejas, las pistas y las explicaciones.
+- No integraré un proveedor de IA durante la ejecución; utilizaré la IA únicamente como apoyo documentado al desarrollo.
+- No incorporaré usuarios ni base de datos; guardaré el progreso en `localStorage`.
+- La historia espacial será mi primera aventura completa.
+- Dejo registrada la mitología vasca como posible temática futura.
 
 ## Punto exacto para retomar
 

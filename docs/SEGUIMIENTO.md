@@ -56,7 +56,7 @@ El MVP es la versión más pequeña que funciona de principio a fin y demuestra 
 
 ### 3.3 Biblioteca de imágenes y contenidos
 
-En la primera versión se utilizará una biblioteca propia de recursos revisados previamente. No se generarán imágenes ni contenido educativo durante la partida.
+En la primera versión utilizaré una biblioteca propia de recursos revisados previamente. No generaré imágenes ni contenido educativo durante la partida.
 
 Cada recurso podrá almacenar metadatos como:
 
@@ -89,16 +89,16 @@ Los contenidos se almacenarán como datos locales estructurados. El progreso se 
 
 ## 4. Papel de la inteligencia artificial
 
-La aplicación no integrará un proveedor de IA durante su ejecución. La IA se utilizará como herramienta de apoyo durante el desarrollo para ideación, documentación, arquitectura, programación, creación inicial de contenidos y pruebas. Todo resultado incorporado al producto será revisado antes de incluirse en el catálogo o en el código.
+No integraré un proveedor de IA durante la ejecución de la aplicación. Utilizaré la IA como herramienta de apoyo durante el desarrollo para ideación, documentación, arquitectura, programación, creación inicial de contenidos y pruebas. Revisaré todo resultado antes de incorporarlo al catálogo o al código.
 
-Este uso se documentará en la memoria del TFM mediante decisiones, ejemplos de asistencia y una explicación de las revisiones realizadas. Una posible generación dinámica de aventuras quedará como ampliación posterior al MVP.
+Documentaré este uso en la memoria del TFM mediante decisiones, ejemplos de asistencia y una explicación de las revisiones realizadas. Dejaré una posible generación dinámica de aventuras como ampliación posterior al MVP.
 
 ## 5. Fases de trabajo
 
 ### Fase 1 — Definición
 
 - Cerrar nombre y descripción corta.
-- Documentar el público objetivo y el alcance acordados.
+- Documentaré el público objetivo y el alcance acordados.
 - Escribir requisitos y criterios de aceptación.
 - Elegir el stack tecnológico.
 - Diseñar las pantallas y el flujo del jugador.
@@ -189,19 +189,19 @@ Estas funcionalidades no deben retrasar la entrega principal:
 
 | Fecha | Estado | Decisión o avance |
 | --- | --- | --- |
-| 07/10/2026 | Completado | Seleccionada la idea de un juego de parejas semánticas con narrativa por capítulos. |
-| 07/10/2026 | Completado | Elegida una nave averiada como primera aventura de referencia. |
-| 07/10/2026 | Completado | Acordado utilizar una biblioteca de imágenes en lugar de generarlas todas durante la partida. |
-| 07/10/2026 | Revisado | Definido inicialmente el público de 10 a 13 años; ampliado a 10–14 años el 10/10/2026. |
-| 07/10/2026 | Completado | Definidos COSMO, ATLAS, la misión ORIOS y la Cápsula LUR. |
-| 07/10/2026 | Completado | Establecido el origen de la emergencia y la premisa narrativa fusionada. |
-| 07/10/2026 | En curso | Diseño narrativo iniciado; quedan por concretar las parejas y algunos detalles visuales de los capítulos. |
-| 07/10/2026 | Pendiente | Definir reglas, stack, arquitectura, planificación e implementación. |
-| 10/10/2026 | Completado | Ajustado el público objetivo a 10–14 años y limitado el MVP al tema de astronomía. |
-| 10/10/2026 | Completado | Acordados tres capítulos con 4, 6 y 8 parejas y el formato imagen y nombre frente a definición o pista. |
-| 10/10/2026 | Completado | Acordado usar un catálogo y una narrativa fijos y revisados, sin proveedor de IA durante la ejecución. |
-| 10/10/2026 | Completado | Acordado guardar el progreso en `localStorage`, sin usuarios ni base de datos. |
-| 10/10/2026 | Completado | Elegido HTML, CSS y JavaScript sin framework con Vite para el MVP; React con Vite queda como evolución futura. |
+| 07/10/2026 | Completado | Seleccioné la idea de un juego de parejas semánticas con narrativa por capítulos. |
+| 07/10/2026 | Completado | Elegí una nave averiada como primera aventura de referencia. |
+| 07/10/2026 | Completado | Acordé utilizar una biblioteca de imágenes en lugar de generarlas todas durante la partida. |
+| 07/10/2026 | Revisado | Definí inicialmente el público de 10 a 13 años y lo amplié a 10–14 años el 10/10/2026. |
+| 07/10/2026 | Completado | Definí COSMO, ATLAS, la misión ORIOS y la Cápsula LUR. |
+| 07/10/2026 | Completado | Establecí el origen de la emergencia y la premisa narrativa fusionada. |
+| 07/10/2026 | En curso | Inicié el diseño narrativo; me queda concretar las parejas y algunos detalles visuales de los capítulos. |
+| 07/10/2026 | Pendiente | Me quedaba definir reglas, stack, arquitectura, planificación e implementación. |
+| 10/10/2026 | Completado | Ajusté el público objetivo a 10–14 años y limité el MVP al tema de astronomía. |
+| 10/10/2026 | Completado | Acordé tres capítulos con 4, 6 y 8 parejas y el formato imagen y nombre frente a definición o pista. |
+| 10/10/2026 | Completado | Decidí usar un catálogo y una narrativa fijos y revisados, sin proveedor de IA durante la ejecución. |
+| 10/10/2026 | Completado | Decidí guardar el progreso en `localStorage`, sin usuarios ni base de datos. |
+| 10/10/2026 | Completado | Elegí HTML, CSS y JavaScript sin framework con Vite para el MVP; dejo React con Vite como evolución futura. |
 
 ## 10. Próxima decisión
 
