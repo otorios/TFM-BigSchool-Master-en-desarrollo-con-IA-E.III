@@ -207,7 +207,16 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Recompensa:** cada acierto recuperará una pieza del transmisor. Al reunir las cuatro piezas se repararán las comunicaciones de ATLAS y se recibirá la señal misteriosa.
 - **Motivo:** comenzaré con conceptos reconocibles para enseñar el funcionamiento de las parejas semánticas antes de aumentar la dificultad.
 
+## D-025 — Duración de la observación inicial
+
+- **Estado:** aceptada para pruebas.
+- **Fecha:** 10/10/2026.
+- **Decisión:** mostraré todas las cartas durante 8 segundos en el primer capítulo, 12 segundos en el segundo y 16 segundos en el tercero antes de ocultarlas y permitir la interacción.
+- **Comportamiento:** durante esta fase aparecerá una cuenta atrás y no se podrán seleccionar cartas.
+- **Criterio:** utilizaré inicialmente dos segundos por pareja para aumentar el tiempo de observación de forma proporcional al tamaño del tablero.
+- **Validación:** comprobaré durante las pruebas si estos tiempos permiten leer y observar las cartas con comodidad; si resultan insuficientes, los ampliaré.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Duración de la observación inicial y reglas de intentos, tiempo y puntuación.
+- Reglas de intentos, tiempo y puntuación.

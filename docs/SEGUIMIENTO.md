@@ -216,7 +216,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Elegí GitHub Pages para publicar gratuitamente el juego desde el repositorio público mediante una construcción automática con Vite. |
 | 10/10/2026 | Completado | Conservé la observación inicial y el volteo de mi juego anterior, adaptándolos a parejas de imagen y concepto frente a definición o pista. |
 | 10/10/2026 | Completado | Definí el primer tablero con Sol, Tierra, Luna y Vía Láctea; cada acierto recuperará una pieza del transmisor. |
+| 10/10/2026 | Completado | Fijé para las pruebas una observación inicial de 8, 12 y 16 segundos según el capítulo, ampliable si no resulta suficiente. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es decidir la duración de la observación inicial y las reglas básicas de intentos, tiempo y puntuación. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es decidir las reglas básicas de intentos, tiempo y puntuación. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
