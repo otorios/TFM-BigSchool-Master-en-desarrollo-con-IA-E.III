@@ -239,4 +239,4 @@ Estas funcionalidades no deben retrasar la entrega principal:
 
 ## 10. Próxima decisión
 
-El siguiente paso es realizar una prueba manual completa de los tres capítulos, ajustar la legibilidad de imágenes y pistas si fuera necesario y preparar el despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente bloque es personalizar el diseño con algunos elementos ilustrados para que resulte menos tecnológico y conecte con mi proyecto anterior, empezando por la pantalla inicial y revisando si puedo reutilizar ilustraciones propias. Después realizaré una prueba completa y prepararé el despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

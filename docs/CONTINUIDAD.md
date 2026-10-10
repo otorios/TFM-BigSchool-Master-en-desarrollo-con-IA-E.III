@@ -20,7 +20,7 @@ Este documento permite retomar **Memory Quest: Señal estelar** aunque no esté 
 
 El proyecto cuenta con una primera versión jugable implementada con HTML, CSS y JavaScript sin framework, construida mediante Vite. React con Vite queda como evolución futura.
 
-La aplicación ya incluye inicio y continuación, tres capítulos, observación inicial, parejas semánticas, energía y penalizaciones progresivas, cronómetro, derrota y reintento del capítulo, guardado validado en `localStorage`, reparación de módulos, desenlace según la puntuación y diseño responsive. Tras la primera prueba manual se reforzaron el formulario, el acabado visual y el giro 3D de las cartas, y se unificó el tiempo como `mm:ss`. También se corrigió la CSP que impedía a Vite aplicar los estilos durante el desarrollo local. Las ocho pruebas automáticas y la construcción de producción pasan correctamente.
+La aplicación ya incluye inicio y continuación, tres capítulos, observación inicial, parejas semánticas, energía, seis fallos por capítulo, cronómetro, derrota y reintento, guardado validado en `localStorage`, reparación de módulos, transiciones con recompensa, desenlace según la puntuación y diseño responsive. Las pistas se simplificaron para que no se corten; el tablero se compacta según la pantalla; y la cuenta atrás queda centrada en la línea superior sin provocar desplazamientos. Las once pruebas automáticas y la construcción de producción pasan correctamente.
 
 Las 18 cartas de concepto utilizan imágenes locales seleccionadas en la biblioteca oficial de la NASA. Su ficha original y sus créditos están registrados en `docs/CREDITOS-IMAGENES.md`. El tablero ya presenta una cuadrícula responsive, separación visual, reversos identificables y giro 3D.
 
@@ -38,7 +38,7 @@ Aplicaré controles mínimos de seguridad para evitar XSS en el DOM y errores po
 
 La dirección visual será un panel de control de misión juvenil: fondo espacial azul oscuro, paneles redondeados, cian para acciones, ámbar para recompensas y energía, rojo para avisos y textos claros. La interfaz mostrará el tablero junto a la puntuación, los intentos, los mensajes de COSMO y el progreso de reparación. En ordenador adaptará automáticamente el tamaño de las cartas y los espacios al número de parejas y a la altura disponible para intentar mantener todo el tablero visible, tomando como referencia mínima un portátil de 1366 × 768. En móvil priorizará la legibilidad aunque sea necesario desplazarse.
 
-Para el MVP utilizaré principalmente imágenes astronómicas oficiales de la NASA, descargadas dentro del proyecto y con su procedencia, enlace, crédito y condiciones de uso registrados. Por falta de tiempo no crearé ahora todo el apartado artístico: como evolución futura quiero incorporar ilustraciones propias y de artistas reconocidos, recuperando el enfoque educativo de mi juego de parejas anterior.
+Para el MVP utilizaré principalmente imágenes astronómicas oficiales de la NASA, descargadas dentro del proyecto y con su procedencia, enlace, crédito y condiciones de uso registrados. No sustituiré ahora todo el apartado visual, pero el siguiente bloque incorporará algunos elementos ilustrados para reducir la sensación excesivamente tecnológica y conectar con mi juego de parejas anterior. Como evolución futura quiero ampliar esa dirección con más ilustraciones propias y obras de artistas reconocidos.
 
 Publicaré el juego gratuitamente mediante GitHub Pages desde el repositorio público del TFG. Una acción de GitHub construirá el proyecto con Vite y desplegará la versión generada, manteniendo código, historial y publicación en el mismo servicio.
 
@@ -122,7 +122,7 @@ Sus archivos completan el mapa y permiten establecer una ruta segura. Con los tr
 
 ## Punto exacto para retomar
 
-El próximo paso es realizar una prueba manual completa de los tres capítulos con el nuevo diseño, revisar la legibilidad de cada imagen y pista y anotar cualquier ajuste necesario antes del despliegue.
+El siguiente bloque es personalizar el diseño para que resulte algo menos tecnológico y tenga una conexión visual con mi juego anterior. Mantendré la interfaz y las cartas que ya funcionan, e incorporaré ilustraciones de forma selectiva, empezando por decidir el tratamiento de la pantalla inicial. Primero comprobaré si dispongo de ilustraciones propias digitalizadas que puedan reutilizarse; si no encajan, definiremos una alternativa sencilla sin aumentar demasiado el alcance. Después haré una prueba completa y prepararé el despliegue.
 
 El primer tablero aprobado es:
 
@@ -154,7 +154,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md y docs/CREDITOS-IMAGENES.md. No cambies decisiones ya aceptadas sin indicarlo. La primera versión jugable, el catálogo, las pruebas y las 18 imágenes acreditadas ya existen; el siguiente paso es probar la experiencia completa, ajustar la legibilidad y preparar el despliegue. Trabaja por cambios pequeños y actualiza la documentación aprobada.
+Estamos desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md y docs/CREDITOS-IMAGENES.md. No cambies decisiones ya aceptadas sin indicarlo. La demo funcional, las 18 imágenes acreditadas y once pruebas ya existen. Los últimos ajustes de jugabilidad y distribución están validados. El siguiente bloque es dar al diseño un toque más personal e ilustrado, menos tecnológico, empezando por la pantalla inicial y comprobando si hay ilustraciones propias reutilizables. Trabaja por cambios pequeños y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo
