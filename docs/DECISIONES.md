@@ -116,6 +116,14 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Motivo:** es la opción que ya conozco, reduce el aprendizaje que necesito y maximiza mis posibilidades de terminar una entrega completa con el tiempo disponible.
 - **Evolución futura:** dejo registrada una versión más completa basada en React y Vite. Podré abordarla después de la entrega si quiero ampliar o reorganizar la aplicación mediante componentes.
 
+## D-015 — Organización de las pantallas y niveles
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Idea anterior de referencia:** en mi juego de parejas anterior utilicé una página HTML y un archivo JavaScript diferentes para cada nivel. El sistema funcionaba, pero repetía la estructura y buena parte de la lógica.
+- **Decisión actual:** utilizaré un único `index.html` con varias vistas controladas por JavaScript y un solo motor de parejas compartido por los tres capítulos.
+- **Motivo del cambio:** podré cargar los capítulos como datos, corregir la lógica una sola vez y evitar duplicar el tablero, la comprobación de parejas y la navegación.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.

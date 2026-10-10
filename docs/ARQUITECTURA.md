@@ -11,6 +11,14 @@ Dejo React con Vite como posible evolución posterior, no como parte de mi entre
 
 Concretaré la arquitectura detallada antes de comenzar la implementación.
 
+## Organización de la interfaz
+
+- Utilizaré un único `index.html`.
+- JavaScript controlará las vistas de inicio, introducción, tablero, resultado de capítulo y desenlace.
+- Un único motor generará y gestionará los tableros de los tres capítulos.
+- Los capítulos aportarán sus datos y su número de parejas al motor compartido.
+- Al avanzar de capítulo actualizaré la vista sin navegar a otro archivo HTML.
+
 Como mínimo documentaré:
 
 - Diagrama de contexto.
