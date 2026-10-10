@@ -33,6 +33,15 @@ Concretaré la arquitectura detallada antes de comenzar la implementación.
 - Las reglas modificarán este objeto y la interfaz se actualizará a partir de sus valores.
 - Separaré el estado temporal del progreso persistente guardado en `localStorage`.
 
+## Persistencia por puntos de control
+
+- Guardaré el nombre del jugador al comenzar la aventura.
+- Al completar un capítulo guardaré el siguiente capítulo desbloqueado, la puntuación acumulada y los sistemas reparados.
+- Al terminar guardaré que la aventura está completada.
+- No persistiré el orden del tablero, las cartas volteadas ni las parejas parciales del capítulo en curso.
+- Si se interrumpe un capítulo, al continuar se cargará de nuevo desde el principio.
+- La opción de nueva partida eliminará el progreso guardado.
+
 Como mínimo documentaré:
 
 - Diagrama de contexto.

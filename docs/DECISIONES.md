@@ -141,6 +141,16 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Motivo:** podré consultar y modificar la situación de la partida desde un único lugar, evitando repartir variables relacionadas por distintos archivos.
 - **Límite:** no guardaré en `localStorage` los estados momentáneos, como las cartas que estén volteadas durante una comparación.
 
+## D-018 — Puntos de guardado
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** guardaré el progreso en `localStorage` al introducir el nombre, al completar cada capítulo y al terminar la aventura.
+- **Datos persistentes:** nombre del jugador, capítulo desbloqueado, puntuación acumulada, sistemas reparados y estado de finalización de la aventura.
+- **Comportamiento al continuar:** si cierro el juego durante un tablero, conservaré los capítulos ya completados pero comenzaré de nuevo el capítulo que estaba jugando.
+- **Nueva partida:** borraré el progreso anterior antes de comenzar.
+- **Motivo:** los puntos de control permiten continuar la aventura sin tener que guardar posiciones de cartas ni reconstruir una partida incompleta.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
