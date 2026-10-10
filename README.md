@@ -2,7 +2,7 @@
 
 Videojuego web educativo de memoria y asociaciones semánticas, organizado como una aventura narrativa por capítulos y desarrollado con apoyo de inteligencia artificial.
 
-> Estado actual: fase de ideación y definición del proyecto.
+> Estado actual: primera versión jugable implementada. Pendientes principales: incorporar y acreditar las imágenes de la NASA, realizar pruebas de juego, activar el despliegue y preparar la entrega.
 
 ## Idea general
 
@@ -10,11 +10,11 @@ El MVP presenta una aventura fija de astronomía, dividida en tres capítulos co
 
 Las parejas no son dos imágenes idénticas. Cada pareja combina una carta con la imagen y el nombre de un concepto y otra con una definición o pista breve, por ejemplo:
 
-- `Marte` ↔ `El planeta rojo`.
-- `Saturno` ↔ `El planeta con anillos`.
-- `La Luna` ↔ `El satélite natural de la Tierra`.
+- `Sol` ↔ `Soy la estrella situada en el centro del sistema solar`.
+- `Atmósfera` ↔ `Soy la capa de gases que rodea un planeta`.
+- `Año luz` ↔ `Soy la distancia que recorre la luz durante un año`.
 
-Cada pareja correcta proporciona una pieza o recurso necesario para avanzar. En la primera aventura, el jugador deberá conseguir componentes para reparar una nave espacial y regresar a la Tierra. Al superar cada tablero desbloqueará un nuevo capítulo de la historia.
+Cada pareja correcta hace avanzar una barra de reparación. Completar un tablero entrega un módulo de la nave y desbloquea el siguiente capítulo de la historia.
 
 ## Propuesta de valor
 
@@ -36,6 +36,33 @@ Las parejas, pistas, explicaciones y textos narrativos del MVP estarán preparad
 **Objetivo:** superar los tableros para recuperar energía, reparar las comunicaciones, restaurar la navegación y poner en marcha la propulsión.  
 **Recompensa final:** reparar la nave y regresar a casa.
 
+## Ejecutar el proyecto
+
+Requisitos: Node.js 20.19 o posterior.
+
+```bash
+npm install
+npm run dev
+```
+
+Vite mostrará la dirección local de desarrollo. Para verificar la versión de producción y las pruebas:
+
+```bash
+npm test
+npm run build
+npm run preview
+```
+
+## Estructura principal
+
+- `src/data/chapters.js`: catálogo fijo de capítulos y parejas.
+- `src/game.js`: creación del tablero, emparejamiento, energía y resultado.
+- `src/state.js`: estado temporal del capítulo.
+- `src/storage.js`: validación y persistencia mediante `localStorage`.
+- `src/ui.js`: creación segura de elementos y actualización de la interfaz.
+- `src/main.js`: coordinación de pantallas, partida y narrativa.
+- `tests/`: pruebas del motor, la entrada de nombre y el progreso manipulado.
+
 ## Documentación del proyecto
 
 - [Seguimiento del proyecto](docs/SEGUIMIENTO.md)
@@ -44,6 +71,7 @@ Las parejas, pistas, explicaciones y textos narrativos del MVP estarán preparad
 - [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md)
 - [Decisiones del proyecto](docs/DECISIONES.md)
 - [Arquitectura](docs/ARQUITECTURA.md)
+- [Créditos y estado de las imágenes](docs/CREDITOS-IMAGENES.md)
 - [Presentación](presentation/README.md)
 - [Material para la demostración](media/README.md)
 

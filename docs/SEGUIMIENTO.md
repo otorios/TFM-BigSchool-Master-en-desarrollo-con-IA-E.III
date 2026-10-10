@@ -2,7 +2,7 @@
 
 ## 1. Estado actual
 
-El proyecto se encuentra en fase de definición. La idea elegida es crear **Memory Quest: Señal estelar**, la primera aventura de un videojuego educativo de parejas semánticas organizado mediante un nombre general y subtítulos por historia.
+El proyecto cuenta ya con una primera versión jugable de **Memory Quest: Señal estelar**. Están implementados los tres capítulos, el motor compartido, la energía, el cronómetro, el guardado local, el desenlace y las pruebas básicas. Todavía debo incorporar las imágenes definitivas de la NASA, probar la experiencia completa, activar el despliegue y preparar la entrega.
 
 Ya se han cerrado el público objetivo, el alcance básico del MVP, el formato de las parejas, el uso de contenido revisado, la persistencia local y el stack. Todavía están pendientes la arquitectura mínima, la definición visual y la planificación detallada de implementación.
 
@@ -225,7 +225,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Definí las ocho parejas del tablero final y el módulo de navegación y propulsión que permite emprender el regreso. |
 | 10/10/2026 | Completado | Resolví el misterio de la señal: la antigua baliza responde a los identificadores enviados por la emergencia de ATLAS y proporciona una ruta segura de regreso. |
 | 10/10/2026 | Completado | Elegí `Memory Quest` como nombre general y `Señal estelar` como subtítulo de la primera aventura y del MVP. |
+| 10/10/2026 | Completado | Implementé una primera versión jugable con Vite, tres capítulos, motor compartido, energía, cronómetro, guardado local, desenlace responsive y siete pruebas automáticas. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es convertir las decisiones aprobadas en el catálogo de datos y comenzar la estructura implementable del MVP. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es seleccionar, descargar, optimizar y acreditar las imágenes oficiales de la NASA para sustituir los símbolos provisionales. Después realizaré las pruebas de juego y prepararé el despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

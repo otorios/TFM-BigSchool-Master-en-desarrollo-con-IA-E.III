@@ -18,7 +18,11 @@ Este documento permite retomar **Memory Quest: Señal estelar** aunque no esté 
 
 ## Estado actualizado el 10/10/2026
 
-El proyecto se encuentra en la fase de definición técnica previa a la implementación. Ya están cerrados el alcance funcional, la persistencia y el stack: HTML, CSS y JavaScript sin framework, con Vite. React con Vite queda como evolución futura. Todavía no se ha comenzado la implementación.
+El proyecto cuenta con una primera versión jugable implementada con HTML, CSS y JavaScript sin framework, construida mediante Vite. React con Vite queda como evolución futura.
+
+La aplicación ya incluye inicio y continuación, tres capítulos, observación inicial, parejas semánticas, energía y penalizaciones progresivas, cronómetro, derrota y reintento del capítulo, guardado validado en `localStorage`, reparación de módulos, desenlace según la puntuación y diseño responsive. Las siete pruebas automáticas y la construcción de producción pasan correctamente.
+
+Las cartas utilizan por ahora símbolos visuales provisionales. El siguiente bloque debe seleccionar y acreditar las imágenes definitivas de la NASA antes de reemplazarlos.
 
 También he decidido utilizar un único `index.html` con varias vistas y un solo motor de parejas compartido por los tres capítulos, en lugar de una página y un JavaScript distintos para cada nivel.
 
@@ -118,7 +122,7 @@ Sus archivos completan el mapa y permiten establecer una ruta segura. Con los tr
 
 ## Punto exacto para retomar
 
-El próximo paso es convertir las decisiones aprobadas en el **catálogo de datos** y comenzar la estructura implementable del MVP.
+El próximo paso es seleccionar, descargar, optimizar y acreditar las **imágenes oficiales de la NASA** para las 18 cartas de concepto.
 
 El primer tablero aprobado es:
 
@@ -150,7 +154,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía, los tres capítulos, el desenlace y el título ya están cerrados; el siguiente paso es convertir las decisiones en el catálogo de datos y comenzar la estructura implementable del MVP. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md y docs/CREDITOS-IMAGENES.md. No cambies decisiones ya aceptadas sin indicarlo. La primera versión jugable, el catálogo y las pruebas ya existen; el siguiente paso es seleccionar y acreditar las imágenes oficiales de la NASA, sustituir los símbolos provisionales y probar la experiencia completa. Trabaja por cambios pequeños y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

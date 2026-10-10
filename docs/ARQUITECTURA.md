@@ -9,7 +9,7 @@
 
 Dejo React con Vite como posible evolución posterior, no como parte de mi entrega inicial.
 
-Concretaré la arquitectura detallada antes de comenzar la implementación.
+La primera versión implementa esta arquitectura y mantiene cada responsabilidad en un módulo pequeño.
 
 ## Organización de la interfaz
 
@@ -21,15 +21,15 @@ Concretaré la arquitectura detallada antes de comenzar la implementación.
 
 ## Contenido local
 
-- Definiré los capítulos y sus contenidos en un módulo JavaScript, inicialmente `src/data/chapters.js`.
+- Defino los capítulos y sus contenidos en `src/data/chapters.js`.
 - Cada capítulo incluirá su identificador, título, textos narrativos, recompensa y lista de parejas.
-- Cada pareja incluirá como mínimo un identificador, nombre, ruta de imagen, pista y explicación.
-- El motor recibirá estos datos sin contener textos ni rutas específicos de un capítulo.
+- Cada pareja incluye un identificador, nombre, pista, símbolo visual provisional y campo preparado para la ruta de imagen.
+- El motor recibe estos datos sin contener textos ni rutas específicos de un capítulo.
 
 ## Estado de la partida
 
-- Centralizaré el estado temporal en un objeto JavaScript llamado `gameState`.
-- Incluirá el capítulo actual, puntuación, intentos, cartas seleccionadas, parejas encontradas, reparaciones y bloqueo del tablero.
+- Centralizo el estado temporal en un objeto JavaScript creado por `createGameState`.
+- Incluye el capítulo actual, energía, intentos, errores, cartas seleccionadas, parejas encontradas, tiempo y bloqueo del tablero.
 - Las reglas modificarán este objeto y la interfaz se actualizará a partir de sus valores.
 - Separaré el estado temporal del progreso persistente guardado en `localStorage`.
 
@@ -58,18 +58,19 @@ src/
   styles.css
 public/
   images/
+    README.md
 tests/
 docs/
 presentation/
 media/
 ```
 
-- `main.js` iniciará y coordinará la aplicación.
-- `game.js` contendrá las reglas del juego.
-- `state.js` contendrá `gameState`.
-- `storage.js` gestionará `localStorage`.
-- `ui.js` actualizará las vistas y controles.
-- `chapters.js` contendrá los datos fijos de la aventura.
+- `main.js` inicia y coordina la aplicación.
+- `game.js` contiene las reglas puras del juego.
+- `state.js` crea el estado temporal.
+- `storage.js` gestiona y valida `localStorage`.
+- `ui.js` crea y actualiza las vistas y controles mediante APIs seguras del DOM.
+- `chapters.js` contiene los datos fijos de la aventura.
 
 ## Seguridad mínima
 
