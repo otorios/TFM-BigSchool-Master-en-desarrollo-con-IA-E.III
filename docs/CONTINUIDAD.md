@@ -38,6 +38,8 @@ Para el MVP utilizaré principalmente imágenes astronómicas oficiales de la NA
 
 Publicaré el juego gratuitamente mediante GitHub Pages desde el repositorio público del TFG. Una acción de GitHub construirá el proyecto con Vite y desplegará la versión generada, manteniendo código, historial y publicación en el mismo servicio.
 
+Conservaré la mecánica base de mi juego anterior: las cartas se mostrarán al comenzar durante unos segundos y después se ocultarán. En cada intento se voltearán dos; las relaciones correctas permanecerán visibles y las incorrectas volverán a ocultarse. La diferencia es que ahora cada pareja relacionará una imagen y su concepto con una definición o pista.
+
 ## Concepto aprobado
 
 Memory Quest será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
@@ -100,17 +102,20 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es concretar las **relaciones semánticas del primer tablero y su recompensa narrativa**.
+El próximo paso es decidir la **duración de la observación inicial y las reglas de intentos, tiempo y puntuación**.
 
-La propuesta pendiente de revisar es:
+El primer tablero aprobado es:
 
-- Cuatro parejas semánticas sencillas sobre astronomía.
-- Cada pareja concede energía o una pieza del transmisor.
+- `Sol` y su definición como estrella situada en el centro del sistema solar.
+- `Tierra` y su definición como planeta en el que vivimos y con agua líquida en su superficie.
+- `Luna` y su definición como satélite natural que orbita la Tierra.
+- `Vía Láctea` y su definición como galaxia que contiene el sistema solar.
+- Cada pareja concede una pieza del transmisor.
 - Completar el tablero repara el módulo de comunicaciones.
 - La señal recibida menciona ORIOS y LUR a pesar de ser anterior a la misión.
 - COSMO cierra el capítulo preguntando cómo puede la señal conocer la cápsula.
 
-Después del stack deberán concretarse las relaciones semánticas del primer tablero, la representación visual de la reparación y el fragmento de señal que cierra el capítulo.
+Todavía deberán concretarse la representación visual de la reparación y el fragmento exacto de señal que cierra el capítulo.
 
 ## Orden de los siguientes bloques
 
@@ -129,7 +134,7 @@ Después del stack deberán concretarse las relaciones semánticas del primer ta
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance funcional, el stack, la arquitectura mínima, la seguridad, la dirección visual, la procedencia de las imágenes y el despliegue del MVP ya están cerrados; el siguiente paso es concretar las relaciones semánticas del primer tablero y su recompensa narrativa. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica de volteo y el primer tablero ya están cerrados; el siguiente paso es decidir la duración de la observación inicial y las reglas de intentos, tiempo y puntuación. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

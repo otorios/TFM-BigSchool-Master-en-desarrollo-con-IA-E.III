@@ -189,6 +189,25 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Motivo:** no supone ningún gasto, evita abrir y mantener otro servicio y conserva en GitHub el código, el historial y la versión publicada.
 - **Alternativa valorada:** Notion Sites me permite publicar gratuitamente páginas informativas, pero no sustituye el alojamiento de una aplicación JavaScript construida con Vite. Podría utilizarlo en el futuro como página de presentación que enlazara al juego, pero no es necesario para el MVP.
 
+## D-023 — Mecánica de descubrimiento de parejas
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Referencia:** conservaré la base de mi juego de parejas anterior: al comenzar el tablero observaré todas las cartas visibles durante unos segundos y después se ocultarán.
+- **Decisión:** seleccionaré dos cartas en cada intento. Si forman la relación semántica correcta, permanecerán visibles; si no corresponden, se mostrarán brevemente y volverán a ocultarse.
+- **Diferencia educativa:** las dos cartas no serán imágenes idénticas. Relacionaré una imagen acompañada del nombre del concepto con su definición o pista.
+- **Motivo:** mantengo una mecánica que ya conozco y que funciona como juego de memoria, pero la convierto en una actividad de asociación y aprendizaje.
+
+## D-024 — Primer tablero y reparación
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Capítulo:** `Una voz entre las estrellas`.
+- **Parejas:** `Sol` ↔ `Soy la estrella situada en el centro del sistema solar`; `Tierra` ↔ `Soy el planeta en el que vivimos y tengo agua líquida en mi superficie`; `Luna` ↔ `Soy el satélite natural que orbita la Tierra`; `Vía Láctea` ↔ `Soy la galaxia en la que se encuentra el sistema solar`.
+- **Recompensa:** cada acierto recuperará una pieza del transmisor. Al reunir las cuatro piezas se repararán las comunicaciones de ATLAS y se recibirá la señal misteriosa.
+- **Motivo:** comenzaré con conceptos reconocibles para enseñar el funcionamiento de las parejas semánticas antes de aumentar la dificultad.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
+- Duración de la observación inicial y reglas de intentos, tiempo y puntuación.

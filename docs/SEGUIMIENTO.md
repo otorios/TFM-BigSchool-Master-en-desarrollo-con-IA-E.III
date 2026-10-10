@@ -28,8 +28,8 @@ El MVP es la versión más pequeña que funciona de principio a fin y demuestra 
 1. El jugador accede al juego.
 2. Inicia una aventura de astronomía compuesta por tres capítulos.
 3. El juego carga el catálogo educativo revisado correspondiente al capítulo.
-4. Cada capítulo contiene un tablero de parejas semánticas.
-5. El jugador voltea cartas y encuentra relaciones correctas.
+4. Cada capítulo muestra brevemente sus cartas y después las oculta.
+5. El jugador voltea dos cartas por intento y busca relaciones semánticas correctas; los aciertos permanecen visibles y los errores vuelven a ocultarse.
 6. Cada acierto concede una pieza necesaria para reparar la nave.
 7. Al terminar el tablero se desbloquea un fragmento de la historia.
 8. Al completar los tres capítulos se presenta el desenlace.
@@ -214,7 +214,9 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Elegí una dirección visual de panel de control de misión juvenil, con estética espacial, paneles claros y diseño adaptable. |
 | 10/10/2026 | Completado | Elegí imágenes astronómicas oficiales de la NASA para el MVP por falta de tiempo y dejé las ilustraciones propias y de artistas reconocidos como evolución futura. |
 | 10/10/2026 | Completado | Elegí GitHub Pages para publicar gratuitamente el juego desde el repositorio público mediante una construcción automática con Vite. |
+| 10/10/2026 | Completado | Conservé la observación inicial y el volteo de mi juego anterior, adaptándolos a parejas de imagen y concepto frente a definición o pista. |
+| 10/10/2026 | Completado | Definí el primer tablero con Sol, Tierra, Luna y Vía Láctea; cada acierto recuperará una pieza del transmisor. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es concretar las relaciones semánticas del primer tablero y su recompensa narrativa. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es decidir la duración de la observación inicial y las reglas básicas de intentos, tiempo y puntuación. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
