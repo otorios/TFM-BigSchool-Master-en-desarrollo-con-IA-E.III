@@ -42,6 +42,8 @@ Conservaré la mecánica base de mi juego anterior: las cartas se mostrarán al 
 
 La observación inicial durará provisionalmente 8 segundos en el primer capítulo, 12 en el segundo y 16 en el tercero. Durante la cuenta atrás no se podrán seleccionar cartas. Ampliaré estos tiempos si las pruebas muestran que no permiten leer y observar con comodidad.
 
+En el MVP no habrá un máximo de intentos. Cada selección de dos cartas aumentará el contador y un error no provocará una derrota ni reiniciará el capítulo. Como ampliación quiero añadir selección de dificultad, con posibles límites de intentos, tiempo máximo y parejas o condiciones que deban evitarse, recuperando ideas de mi juego original.
+
 ## Concepto aprobado
 
 Memory Quest será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
@@ -104,7 +106,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es decidir las **reglas de intentos, tiempo y puntuación**.
+El próximo paso es decidir las **reglas de tiempo y puntuación**.
 
 El primer tablero aprobado es:
 
@@ -136,7 +138,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica de volteo, el primer tablero y la duración inicial de observación ya están cerrados; el siguiente paso es decidir las reglas de intentos, tiempo y puntuación. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica de volteo, el primer tablero, la observación inicial y los intentos ilimitados del MVP ya están cerrados; el siguiente paso es decidir las reglas de tiempo y puntuación. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

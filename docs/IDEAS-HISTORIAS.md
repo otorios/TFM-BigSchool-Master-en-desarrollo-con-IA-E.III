@@ -96,6 +96,7 @@ Añadir aquí nuevas posibilidades sin incorporarlas directamente al alcance del
 - [ ] Cuentas de usuario y sincronización del progreso entre navegadores o dispositivos.
 - [ ] Evolucionar la interfaz a React con Vite para organizar el juego mediante componentes y facilitar futuras ampliaciones.
 - [ ] Crear una evolución artística con ilustraciones propias y obras de artistas o ilustradores reconocidos, recuperando el enfoque educativo de mi juego de parejas anterior y documentando su autoría y sus derechos de uso.
+- [ ] Añadir selección de dificultad: mantener intentos ilimitados en el modo sencillo y permitir en otros modos límites de intentos, tiempo máximo o parejas y condiciones especiales que deban evitarse, recuperando la dificultad progresiva de mi juego original.
 
 ## Plantilla para registrar una idea
 

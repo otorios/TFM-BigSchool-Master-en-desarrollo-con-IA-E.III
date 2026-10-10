@@ -152,7 +152,7 @@ Documentaré este uso en la memoria del TFM mediante decisiones, ejemplos de asi
 
 Estas funcionalidades no deben retrasar la entrega principal:
 
-- Dificultad adaptativa según los errores del jugador.
+- Selección de dificultad con intentos ilimitados o limitados, tiempo máximo y posibles parejas o condiciones especiales que deban evitarse, recuperando la progresión de mi juego original.
 - Partidas de refuerzo con los conceptos fallados.
 - Más aventuras y escenarios narrativos.
 - Generación opcional de portadas o imágenes de capítulo.
@@ -163,7 +163,6 @@ Estas funcionalidades no deben retrasar la entrega principal:
 - Narración y efectos de voz.
 - Elección de características de la IA acompañante, como personalidad, tono o forma de comunicarse.
 - Logros y rankings.
-- Modo infantil y modo adulto.
 - Panel para gestionar imágenes, conceptos y relaciones.
 - Generación completa de imágenes bajo demanda.
 
@@ -217,7 +216,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Conservé la observación inicial y el volteo de mi juego anterior, adaptándolos a parejas de imagen y concepto frente a definición o pista. |
 | 10/10/2026 | Completado | Definí el primer tablero con Sol, Tierra, Luna y Vía Láctea; cada acierto recuperará una pieza del transmisor. |
 | 10/10/2026 | Completado | Fijé para las pruebas una observación inicial de 8, 12 y 16 segundos según el capítulo, ampliable si no resulta suficiente. |
+| 10/10/2026 | Completado | Elegí intentos ilimitados para el MVP y reservé la selección de dificultad, los límites y las condiciones especiales para una ampliación. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es decidir las reglas básicas de intentos, tiempo y puntuación. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es decidir las reglas básicas de tiempo y puntuación. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

@@ -216,7 +216,15 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Criterio:** utilizaré inicialmente dos segundos por pareja para aumentar el tiempo de observación de forma proporcional al tamaño del tablero.
 - **Validación:** comprobaré durante las pruebas si estos tiempos permiten leer y observar las cartas con comodidad; si resultan insuficientes, los ampliaré.
 
+## D-026 — Intentos del MVP
+
+- **Estado:** aceptada para el MVP.
+- **Fecha:** 10/10/2026.
+- **Decisión actual:** permitiré intentos ilimitados. Cada selección de dos cartas contará como un intento; los errores aumentarán el contador, pero no harán perder ni reiniciar el capítulo.
+- **Motivo:** garantizo que el jugador pueda completar la aventura y aprender sin bloquear la entrega con más reglas y casos de derrota.
+- **Evolución futura:** quiero permitir que el jugador elija una dificultad. Según el modo, la partida podrá mantener intentos ilimitados o introducir un límite de intentos, tiempo limitado y parejas o condiciones especiales que deban evitarse. Esta ampliación recuperará la progresión de dificultad de mi juego original, pero sus reglas exactas se decidirán después del MVP.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Reglas de intentos, tiempo y puntuación.
+- Reglas de tiempo y puntuación.
