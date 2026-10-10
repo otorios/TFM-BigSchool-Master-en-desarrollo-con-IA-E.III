@@ -114,8 +114,9 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
-- **Decisión:** no integrar un proveedor de IA durante la ejecución del MVP. La IA se utilizará únicamente como apoyo durante el desarrollo y su uso se documentará.
-- **Motivo:** evita costes, secretos, dependencia de red y validaciones adicionales, y permite concentrar el tiempo disponible en un producto completo y estable.
+- **Idea original:** integrar un proveedor de IA en la aplicación para interpretar el tema elegido y generar durante la partida el título, la ambientación, los capítulos y las explicaciones educativas.
+- **Decisión actual:** no integrar un proveedor de IA durante la ejecución del MVP. La narrativa, las parejas, las pistas y las explicaciones estarán preparadas y revisadas previamente. La IA se utilizará únicamente como apoyo durante el desarrollo y su uso se documentará.
+- **Motivo del cambio:** la integración añadía costes, gestión de secretos, dependencia de red, validación de respuestas y más trabajo de pruebas. Con el tiempo disponible se prioriza entregar un juego completo, estable y educativo.
 
 ## D-017 — Persistencia del progreso
 
