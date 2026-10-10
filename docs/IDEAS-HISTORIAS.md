@@ -94,6 +94,7 @@ Añadir aquí nuevas posibilidades sin incorporarlas directamente al alcance del
 - [ ] Generación dinámica de títulos, historias, transiciones y explicaciones mediante un proveedor de IA, manteniendo validado el contenido educativo.
 - [ ] Catálogo ampliable de temáticas para que el jugador elija una aventura distinta de astronomía.
 - [ ] Cuentas de usuario y sincronización del progreso entre navegadores o dispositivos.
+- [ ] Evolucionar la interfaz a React con Vite para organizar el juego mediante componentes y facilitar futuras ampliaciones.
 
 ## Plantilla para registrar una idea
 

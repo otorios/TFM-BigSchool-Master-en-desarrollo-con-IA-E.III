@@ -1,6 +1,15 @@
 # Arquitectura
 
-Documento reservado para describir la arquitectura cuando se seleccione el stack.
+## Stack seleccionado para el MVP
+
+- HTML semántico.
+- CSS.
+- JavaScript sin framework, organizado mediante módulos.
+- Vite como herramienta de desarrollo y construcción.
+
+React con Vite queda registrado como posible evolución posterior, no como parte de la entrega inicial.
+
+La arquitectura detallada se concretará antes de comenzar la implementación.
 
 Como mínimo deberá documentar:
 

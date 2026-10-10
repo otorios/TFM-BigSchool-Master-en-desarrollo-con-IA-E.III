@@ -108,9 +108,16 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 - **Decisión actual:** no incorporar usuarios ni base de datos. El progreso se guardará en el navegador mediante `localStorage` y podrá reiniciarse desde el juego.
 - **Motivo del cambio:** permite continuar la partida en el mismo navegador con una implementación pequeña, sin backend y sin almacenar datos personales.
 
+## D-014 — Stack tecnológico del MVP
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión actual:** desarrollar el MVP con HTML, CSS y JavaScript sin framework, usando Vite como herramienta gratuita de desarrollo y construcción.
+- **Motivo:** es la opción que la autora ya conoce, reduce el aprendizaje necesario y maximiza las posibilidades de terminar una entrega completa con el tiempo disponible.
+- **Evolución futura:** queda registrada una versión más completa basada en React y Vite. Podrá abordarse después de la entrega si se desea ampliar o reorganizar la aplicación mediante componentes.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Stack tecnológico.
 - Sistema visual y fuentes de imágenes.
 - Plataforma de despliegue.

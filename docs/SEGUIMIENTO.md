@@ -4,7 +4,7 @@
 
 El proyecto se encuentra en fase de definición. La idea elegida es crear **Memory Quest**, un videojuego educativo de parejas semánticas con una aventura fija de astronomía desbloqueada por capítulos.
 
-Ya se han cerrado el público objetivo, el alcance básico del MVP, el formato de las parejas, el uso de contenido revisado y la persistencia local. Todavía están pendientes la selección definitiva del stack, la definición visual y la planificación detallada de implementación.
+Ya se han cerrado el público objetivo, el alcance básico del MVP, el formato de las parejas, el uso de contenido revisado, la persistencia local y el stack. Todavía están pendientes la arquitectura mínima, la definición visual y la planificación detallada de implementación.
 
 ## 2. Visión del producto
 
@@ -201,7 +201,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Acordados tres capítulos con 4, 6 y 8 parejas y el formato imagen y nombre frente a definición o pista. |
 | 10/10/2026 | Completado | Acordado usar un catálogo y una narrativa fijos y revisados, sin proveedor de IA durante la ejecución. |
 | 10/10/2026 | Completado | Acordado guardar el progreso en `localStorage`, sin usuarios ni base de datos. |
+| 10/10/2026 | Completado | Elegido HTML, CSS y JavaScript sin framework con Vite para el MVP; React con Vite queda como evolución futura. |
 
 ## 10. Próxima decisión
 
-La próxima decisión antes de programar es elegir el stack tecnológico. Después se concretarán el sistema visual, las fuentes y licencias de las imágenes y la plataforma de despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso antes de programar es definir la arquitectura mínima, el formato de los datos locales y la estructura inicial del proyecto. Después se concretarán el sistema visual, las fuentes y licencias de las imágenes y la plataforma de despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

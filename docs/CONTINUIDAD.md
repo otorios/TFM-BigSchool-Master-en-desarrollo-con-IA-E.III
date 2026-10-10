@@ -11,7 +11,7 @@ Este documento permite retomar Memory Quest aunque no esté disponible el histor
 
 ## Estado actualizado el 10/10/2026
 
-El proyecto se encuentra en la fase de definición funcional y técnica. Ya están cerrados el público objetivo, el tema, el tamaño de los tableros, el formato de las parejas, el uso de contenido fijo, el papel de la IA y la persistencia. Todavía no se ha seleccionado el stack ni se ha comenzado la implementación.
+El proyecto se encuentra en la fase de definición técnica previa a la implementación. Ya están cerrados el alcance funcional, la persistencia y el stack: HTML, CSS y JavaScript sin framework, con Vite. React con Vite queda como evolución futura. Todavía no se ha comenzado la implementación.
 
 ## Concepto aprobado
 
@@ -75,7 +75,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-La próxima decisión es seleccionar el **stack tecnológico** antes de comenzar la implementación.
+El próximo paso es concretar la **arquitectura mínima, el formato de los datos locales y la estructura inicial del proyecto** antes de comenzar la implementación.
 
 La propuesta pendiente de revisar es:
 
@@ -89,23 +89,22 @@ Después del stack deberán concretarse las relaciones semánticas del primer ta
 
 ## Orden de los siguientes bloques
 
-1. Elegir el stack tecnológico.
-2. Diseñar la arquitectura, el formato de los datos locales y el guardado mediante `localStorage`.
-3. Completar los tres capítulos: objetivo, parejas, recompensa y avance narrativo.
-4. Diseñar las reglas del juego: turnos, aciertos, errores, tiempo y puntuación.
-5. Preparar el catálogo fijo y revisado de astronomía.
-6. Diseñar las pantallas y el recorrido del jugador.
-7. Definir la biblioteca de imágenes, sus fuentes y licencias.
-8. Planificar tareas y calendario hasta el 23/10/2026.
-9. Implementar el MVP.
-10. Probar, desplegar y preparar README, slides y vídeo.
+1. Diseñar la arquitectura, el formato de los datos locales y el guardado mediante `localStorage`.
+2. Completar los tres capítulos: objetivo, parejas, recompensa y avance narrativo.
+3. Diseñar las reglas del juego: turnos, aciertos, errores, tiempo y puntuación.
+4. Preparar el catálogo fijo y revisado de astronomía.
+5. Diseñar las pantallas y el recorrido del jugador.
+6. Definir la biblioteca de imágenes, sus fuentes y licencias.
+7. Planificar tareas y calendario hasta el 23/10/2026.
+8. Implementar el MVP.
+9. Probar, desplegar y preparar README, slides y vídeo.
 
 ## Prompt de reanudación
 
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance funcional básico del MVP ya está cerrado y la próxima decisión es elegir el stack tecnológico. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance funcional y el stack del MVP ya están cerrados; el siguiente paso es definir la arquitectura mínima y la estructura inicial del proyecto. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo
