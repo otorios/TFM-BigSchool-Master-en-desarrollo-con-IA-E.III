@@ -113,7 +113,7 @@ export const chapters = [
     objective: 'Reconstruir la navegación y reactivar la propulsión.',
     module: 'Módulo de navegación y propulsión',
     observationSeconds: 28,
-    errorCost: 3,
+    errorCost: 2,
     intro:
       'El mapa de la baliza está incompleto. Reconstruye las referencias estelares para encontrar una ruta segura de regreso a la Tierra.',
     success:

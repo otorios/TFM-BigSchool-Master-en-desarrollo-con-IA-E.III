@@ -247,15 +247,18 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 
 - **Estado:** aceptada para pruebas.
 - **Fecha:** 10/10/2026.
-- **Decisión:** cada capítulo comenzará con 12 puntos de energía. Los aciertos avanzarán la reparación sin consumir energía y los errores restarán una cantidad creciente según el capítulo.
+- **Fecha de actualización:** 10/10/2026.
+- **Idea original:** cada capítulo comenzaría con 12 puntos de energía y los errores restarían 1, 2 y 3 puntos respectivamente. El tercer capítulo terminaría al cometer el cuarto error.
+- **Decisión actual:** cada capítulo comenzará con 12 puntos de energía. Los errores restarán 1 punto en el primero y 2 puntos tanto en el segundo como en el tercero. Los aciertos avanzarán la reparación sin consumir energía.
+- **Motivo del cambio:** el tercer tablero ya es más difícil porque contiene ocho parejas. Restar 3 puntos hacía que la partida terminara demasiado pronto, por lo que amplío su margen de cuatro a seis errores sin cambiar la puntuación máxima.
 
 | Regla | Capítulo 1 | Capítulo 2 | Capítulo 3 |
 | --- | ---: | ---: | ---: |
 | Parejas | 4 | 6 | 8 |
 | Observación inicial | 14 segundos | 21 segundos | 28 segundos |
 | Energía inicial | 12 puntos | 12 puntos | 12 puntos |
-| Energía perdida por error | 1 punto | 2 puntos | 3 puntos |
-| Derrota al llegar a 0 | 12.º error | 6.º error | 4.º error |
+| Energía perdida por error | 1 punto | 2 puntos | 2 puntos |
+| Derrota al llegar a 0 | 12.º error | 6.º error | 6.º error |
 | Módulo obtenido | Comunicaciones | Protección de LURRA | Navegación y propulsión |
 
 - **Derrota:** si la energía llega a cero, reiniciaré únicamente el capítulo actual con 12 puntos; conservaré los capítulos ya completados.
