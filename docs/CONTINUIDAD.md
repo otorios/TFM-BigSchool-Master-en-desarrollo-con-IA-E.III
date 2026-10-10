@@ -85,7 +85,9 @@ Después de la tormenta, los sensores reciben una señal débil de origen descon
 - Proteger la Cápsula LURRA.
 - Relacionar atmósfera, magnetosfera, zona habitable, exoplaneta, cometa y asteroide con sus definiciones.
 - Completar las seis parejas entrega el módulo de protección de LURRA y recupera la energía necesaria para conservar las semillas.
-- El avance narrativo al terminar todavía está pendiente de concretar.
+- COSMO descubre que la señal contiene un protocolo de conservación casi idéntico al de LURRA y un fragmento de mapa hacia una antigua baliza situada en la ruta de regreso.
+- La baliza está relacionada con una expedición anterior a ORIOS, pero todavía no se sabe cómo conoce los datos actuales de la misión.
+- El capítulo termina planteando la necesidad de reconstruir el mapa para descubrir el origen de la señal y encontrar el camino a casa.
 
 ### Capítulo 3 — El camino a casa
 
@@ -112,7 +114,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es concretar el **avance narrativo al completar el segundo capítulo**.
+El próximo paso es concretar las **ocho parejas educativas y la resolución narrativa del tercer capítulo**.
 
 El primer tablero aprobado es:
 
@@ -144,7 +146,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía y los dos primeros tableros ya están cerrados; el siguiente paso es concretar el avance narrativo al completar el segundo capítulo. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía y los dos primeros capítulos ya están cerrados; el siguiente paso es concretar las ocho parejas educativas y la resolución narrativa del tercer capítulo. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

@@ -270,7 +270,17 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Motivo:** aumento la dificultad con conceptos relacionados con la protección planetaria, los cuerpos menores y la búsqueda de lugares adecuados para la vida, manteniendo definiciones breves y diferenciables.
 - **Validación educativa:** utilizaré como referencias las páginas de NASA Science sobre exoplanetas y zona habitable, magnetosferas, cometas y asteroides.
 
+## D-030 — Avance narrativo del segundo capítulo
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** al recuperar el módulo de protección, LURRA quedará estable y sus semillas estarán fuera de peligro. COSMO utilizará la energía del laboratorio para analizar mejor la señal.
+- **Descubrimiento:** la señal contendrá un protocolo de conservación biológica casi idéntico al de LURRA y un fragmento de mapa con las coordenadas de una antigua baliza situada en la ruta de regreso.
+- **Misterio:** los registros relacionarán la baliza con una expedición científica anterior a ORIOS. Esto explicará parte de la conexión tecnológica, pero todavía no cómo conoce los datos actuales de la misión.
+- **Transición:** COSMO indicará que deberán reconstruir el mapa de navegación para descubrir quién envió la señal y encontrar el camino a casa.
+- **Motivo:** conecto la protección de las semillas con el misterio principal y preparo de forma directa la reparación de navegación y propulsión del último capítulo.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Avance narrativo al completar el segundo capítulo.
+- Parejas educativas y resolución narrativa del tercer capítulo.

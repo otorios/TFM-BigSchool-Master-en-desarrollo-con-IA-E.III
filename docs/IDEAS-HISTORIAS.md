@@ -75,6 +75,8 @@ La emergencia comienza cuando ATLAS atraviesa inesperadamente una tormenta de pa
 2. **Las semillas de la Tierra:** restablecer la energía y salvar la cápsula del laboratorio.
 3. **El camino a casa:** reconstruir el mapa estelar y activar la propulsión.
 
+Al terminar el segundo capítulo, COSMO descubre que la señal comparte con LURRA un protocolo de conservación biológica y contiene un fragmento de mapa hacia una antigua baliza. Los registros la relacionan con una expedición anterior a ORIOS, aunque todavía no explican cómo conoce los datos actuales de la misión.
+
 ### Desenlace provisional
 
 La señal pertenecía a una antigua expedición científica. Sus datos permiten completar la reparación y la nave regresa a la Tierra con la cápsula de semillas a salvo.

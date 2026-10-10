@@ -221,7 +221,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Definí 12 puntos de energía por capítulo, penalizaciones de 1, 2 y 3 por error y tres resultados de regreso según la puntuación final. |
 | 10/10/2026 | Revisado | Simplifiqué las recompensas: cada tablero entrega un único módulo y cada acierto avanza su barra de reparación. |
 | 10/10/2026 | Completado | Definí las seis parejas del segundo capítulo y el módulo que recupera la protección de LURRA. |
+| 10/10/2026 | Completado | Cerré el segundo capítulo con el protocolo compartido de LURRA, una antigua baliza y un fragmento de mapa hacia la ruta de regreso. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es concretar el avance narrativo al completar el segundo capítulo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es concretar las ocho parejas educativas y la resolución narrativa del tercer capítulo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
