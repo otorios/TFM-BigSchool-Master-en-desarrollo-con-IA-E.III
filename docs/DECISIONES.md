@@ -290,7 +290,17 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Motivo:** cierro la progresión con conceptos más avanzados sobre distancias, movimiento, orientación y objetos del universo, manteniendo definiciones breves y diferenciables.
 - **Validación educativa:** utilizaré como referencia principal el glosario de NASA Science sobre el universo.
 
+## D-032 — Resolución de la señal y desenlace
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Origen:** la baliza será un transmisor automático dejado en el espacio por una expedición científica anterior que desarrolló el protocolo de conservación del que posteriormente nació LURRA.
+- **Explicación del misterio:** durante la tormenta, un sistema de emergencia independiente de ATLAS alcanzó a emitir brevemente los identificadores de ORIOS y LURRA antes de que fallaran las comunicaciones. La baliza recibió el mensaje, reconoció una evolución de su propio protocolo y respondió utilizando esos nombres; no conocía el futuro.
+- **Resolución:** sus archivos permitirán completar el mapa y establecer una ruta segura. Con los tres módulos reparados, COSMO podrá despertar a la capitana y preparar el regreso de ATLAS con LURRA a salvo.
+- **Resultado variable:** el mensaje final describirá un regreso rápido, normal o lento según la energía conservada, pero la misión terminará con éxito en los tres casos.
+- **Continuidad futura:** la expedición anterior podrá investigarse en otra aventura sin dejar preguntas necesarias para comprender el final del MVP.
+- **Motivo:** explico de manera coherente por qué una tecnología antigua conoce los nombres actuales, cierro el viaje principal y mantengo una posibilidad narrativa futura.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Resolución de la baliza y desenlace narrativo.

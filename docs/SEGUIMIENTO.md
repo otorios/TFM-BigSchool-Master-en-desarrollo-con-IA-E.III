@@ -223,7 +223,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Definí las seis parejas del segundo capítulo y el módulo que recupera la protección de LURRA. |
 | 10/10/2026 | Completado | Cerré el segundo capítulo con el protocolo compartido de LURRA, una antigua baliza y un fragmento de mapa hacia la ruta de regreso. |
 | 10/10/2026 | Completado | Definí las ocho parejas del tablero final y el módulo de navegación y propulsión que permite emprender el regreso. |
+| 10/10/2026 | Completado | Resolví el misterio de la señal: la antigua baliza responde a los identificadores enviados por la emergencia de ATLAS y proporciona una ruta segura de regreso. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es resolver el misterio de la baliza y cerrar el desenlace narrativo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es revisar el nombre definitivo y convertir las decisiones aprobadas en el catálogo de datos y el plan inmediato de implementación. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

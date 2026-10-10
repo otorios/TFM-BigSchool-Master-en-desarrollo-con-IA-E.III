@@ -98,9 +98,11 @@ Después de la tormenta, los sensores reciben una señal débil de origen descon
 - Descubrir el origen de la señal y regresar a la Tierra.
 - La resolución exacta de la baliza y el desenlace todavía están pendientes de concretar.
 
-### Desenlace provisional
+### Desenlace aprobado
 
-La señal pertenecía a una antigua expedición científica. Sus datos permiten completar la reparación y ATLAS regresa a la Tierra con la Cápsula LURRA a salvo. El resto de la tripulación puede despertar.
+La señal procede de una baliza automática dejada por una expedición científica anterior, responsable del protocolo de conservación del que posteriormente nació LURRA. Durante la tormenta, un sistema de emergencia independiente de ATLAS alcanzó a enviar los identificadores de ORIOS y LURRA. La baliza reconoció una evolución de su protocolo y respondió utilizando esos nombres; no conocía el futuro.
+
+Sus archivos completan el mapa y permiten establecer una ruta segura. Con los tres módulos reparados, COSMO despierta a la capitana y ATLAS regresa a la Tierra con LURRA a salvo. El viaje será rápido, normal o lento según la energía restante, pero la misión terminará con éxito en los tres casos.
 
 ## Decisiones de alcance
 
@@ -116,7 +118,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es resolver el **misterio de la baliza y cerrar el desenlace narrativo**.
+El próximo paso es revisar el **nombre definitivo** y convertir las decisiones aprobadas en el catálogo de datos y el plan inmediato de implementación.
 
 El primer tablero aprobado es:
 
@@ -148,7 +150,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía y los tres tableros ya están cerrados; el siguiente paso es resolver el misterio de la baliza y cerrar el desenlace narrativo. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía, los tres capítulos y el desenlace ya están cerrados; el siguiente paso es revisar el nombre definitivo y convertir las decisiones aprobadas en el catálogo de datos y el plan inmediato de implementación. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

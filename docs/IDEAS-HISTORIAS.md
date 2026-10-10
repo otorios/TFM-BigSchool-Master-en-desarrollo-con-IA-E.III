@@ -77,9 +77,9 @@ La emergencia comienza cuando ATLAS atraviesa inesperadamente una tormenta de pa
 
 Al terminar el segundo capítulo, COSMO descubre que la señal comparte con LURRA un protocolo de conservación biológica y contiene un fragmento de mapa hacia una antigua baliza. Los registros la relacionan con una expedición anterior a ORIOS, aunque todavía no explican cómo conoce los datos actuales de la misión.
 
-### Desenlace provisional
+### Desenlace aprobado
 
-La señal pertenecía a una antigua expedición científica. Sus datos permiten completar la reparación y la nave regresa a la Tierra con la cápsula de semillas a salvo.
+La señal procede de una baliza automática dejada por una expedición científica anterior, cuyo protocolo de conservación sirvió como base para LURRA. Un sistema de emergencia de ATLAS había enviado los identificadores de ORIOS y LURRA durante la tormenta; la baliza los reconoció y respondió con esos nombres, sin conocer el futuro. Sus archivos completan el mapa y permiten regresar a la Tierra con las semillas a salvo.
 
 ## Nuevas ideas pendientes
 
