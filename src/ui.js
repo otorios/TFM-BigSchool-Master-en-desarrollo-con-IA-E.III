@@ -34,7 +34,9 @@ export function createHeader(chapter, state, playerName) {
   const timer = element('span', 'stat');
   timer.dataset.stat = 'timer';
   timer.textContent = 'Tiempo: 00:00';
-  stats.append(energy, failures, timer);
+  const phase = element('span', 'stat stat--phase', `Observación: ${chapter.observationSeconds}s`);
+  phase.dataset.countdown = '';
+  stats.append(energy, failures, timer, phase);
   header.append(titleGroup, stats);
   return header;
 }

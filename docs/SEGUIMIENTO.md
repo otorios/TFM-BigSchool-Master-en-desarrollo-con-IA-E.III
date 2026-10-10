@@ -235,6 +235,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Revisado | Simplifiqué las 18 pistas a frases breves con una sola idea principal y añadí una prueba que limita su longitud para conservar la legibilidad de las cartas. |
 | 10/10/2026 | Revisado | Sustituí durante la partida el contador ascendente de intentos por una cuenta atrás de fallos restantes; mantengo el total de intentos en el resumen del capítulo. |
 | 10/10/2026 | Revisado | Reduje de doce a seis los fallos disponibles del primer capítulo y unifiqué en −2 la penalización de los tres niveles para evitar reglas innecesariamente distintas. |
+| 10/10/2026 | Revisado | Moví la cuenta atrás de observación a la línea de indicadores y mantengo su espacio como `En juego` para evitar que las cartas se desplacen al voltearse. |
 
 ## 10. Próxima decisión
 

@@ -142,12 +142,11 @@ function startChapter(chapterIndex) {
   const layout = element('div', 'game-layout');
   layout.append(createMissionPanel(chapter));
   const boardArea = element('section', 'board-area panel');
-  const countdown = element('p', 'countdown', `Observa las cartas: ${chapter.observationSeconds}`);
-  countdown.dataset.countdown = '';
+  const countdown = app.querySelector('[data-countdown]');
   const board = element('div', `card-grid card-grid--${chapter.pairs.length}`);
   board.setAttribute('aria-label', `Tablero del capítulo ${chapter.id}`);
   deck.forEach((card) => board.append(createCard(card, handleCardSelection)));
-  boardArea.append(countdown, board);
+  boardArea.append(board);
   layout.append(boardArea);
   app.append(layout);
   updateStats(app, state, chapter.pairs.length, chapter.errorCost);
@@ -155,7 +154,7 @@ function startChapter(chapterIndex) {
   let remaining = chapter.observationSeconds;
   observationId = window.setInterval(() => {
     remaining -= 1;
-    countdown.textContent = remaining > 0 ? `Observa las cartas: ${remaining}` : '¡Comienza!';
+    countdown.textContent = remaining > 0 ? `Observación: ${remaining}s` : '¡Listo!';
     if (remaining <= 0) {
       window.clearInterval(observationId);
       observationId = null;
@@ -163,7 +162,9 @@ function startChapter(chapterIndex) {
       state.boardLocked = false;
       state.startedAt = Date.now();
       startTimer();
-      window.setTimeout(() => countdown.remove(), 800);
+      window.setTimeout(() => {
+        countdown.textContent = 'En juego';
+      }, 800);
     }
   }, 1000);
 }
