@@ -280,7 +280,17 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Transición:** COSMO indicará que deberán reconstruir el mapa de navegación para descubrir quién envió la señal y encontrar el camino a casa.
 - **Motivo:** conecto la protección de las semillas con el misterio principal y preparo de forma directa la reparación de navegación y propulsión del último capítulo.
 
+## D-031 — Tercer tablero y reparación final
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Capítulo:** `El camino a casa`.
+- **Parejas:** `Órbita` ↔ `Soy la trayectoria que sigue un objeto alrededor de otro por efecto de la gravedad`; `Gravedad` ↔ `Soy la fuerza de atracción que existe entre los cuerpos con masa`; `Año luz` ↔ `Soy la distancia que recorre la luz durante un año`; `Constelación` ↔ `Soy una región del cielo asociada a un patrón reconocible de estrellas`; `Nebulosa` ↔ `Soy una nube de gas y polvo situada entre las estrellas o alrededor de ellas`; `Supernova` ↔ `Soy la enorme explosión que puede producirse al final de la vida de una estrella`; `Púlsar` ↔ `Soy una estrella de neutrones que gira rápidamente y emite pulsos regulares`; `Agujero negro` ↔ `Soy un objeto con una gravedad tan intensa que ni siquiera la luz puede escapar`.
+- **Recompensa:** cada acierto hará avanzar la barra de reparación. Al completar las ocho parejas obtendré el módulo de navegación y propulsión, podré reconstruir el mapa de la baliza y emprender el regreso.
+- **Motivo:** cierro la progresión con conceptos más avanzados sobre distancias, movimiento, orientación y objetos del universo, manteniendo definiciones breves y diferenciables.
+- **Validación educativa:** utilizaré como referencia principal el glosario de NASA Science sobre el universo.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Parejas educativas y resolución narrativa del tercer capítulo.
+- Resolución de la baliza y desenlace narrativo.

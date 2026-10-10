@@ -222,7 +222,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Revisado | Simplifiqué las recompensas: cada tablero entrega un único módulo y cada acierto avanza su barra de reparación. |
 | 10/10/2026 | Completado | Definí las seis parejas del segundo capítulo y el módulo que recupera la protección de LURRA. |
 | 10/10/2026 | Completado | Cerré el segundo capítulo con el protocolo compartido de LURRA, una antigua baliza y un fragmento de mapa hacia la ruta de regreso. |
+| 10/10/2026 | Completado | Definí las ocho parejas del tablero final y el módulo de navegación y propulsión que permite emprender el regreso. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es concretar las ocho parejas educativas y la resolución narrativa del tercer capítulo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es resolver el misterio de la baliza y cerrar el desenlace narrativo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

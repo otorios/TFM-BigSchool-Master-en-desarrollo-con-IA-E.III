@@ -93,8 +93,10 @@ Después de la tormenta, los sensores reciben una señal débil de origen descon
 
 - Reconstruir el mapa estelar.
 - Reactivar la propulsión.
+- Relacionar órbita, gravedad, año luz, constelación, nebulosa, supernova, púlsar y agujero negro con sus definiciones.
+- Completar las ocho parejas entrega el módulo de navegación y propulsión, permite reconstruir el mapa de la baliza y emprender el regreso.
 - Descubrir el origen de la señal y regresar a la Tierra.
-- Contenido narrativo y jugable todavía pendiente de concretar.
+- La resolución exacta de la baliza y el desenlace todavía están pendientes de concretar.
 
 ### Desenlace provisional
 
@@ -114,7 +116,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es concretar las **ocho parejas educativas y la resolución narrativa del tercer capítulo**.
+El próximo paso es resolver el **misterio de la baliza y cerrar el desenlace narrativo**.
 
 El primer tablero aprobado es:
 
@@ -146,7 +148,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía y los dos primeros capítulos ya están cerrados; el siguiente paso es concretar las ocho parejas educativas y la resolución narrativa del tercer capítulo. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía y los tres tableros ya están cerrados; el siguiente paso es resolver el misterio de la baliza y cerrar el desenlace narrativo. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo
