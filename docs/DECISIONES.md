@@ -78,7 +78,7 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 
 ## D-010 — Edad y situación inicial del cadete
 
-- **Estado:** aceptada, con la franja de edad actualizada en D-005.
+- **Estado:** aceptada.
 - **Fecha:** 07/10/2026.
 - **Decisión:** la edad exacta del protagonista no se mencionará en la historia. La franja de 10 a 13 años se mantendrá como referencia para diseñar el lenguaje, la dificultad y la experiencia del público objetivo, no como edad explícita del cadete.
 - **Situación inicial:** ATLAS viajaba en modo automático bajo el control de COSMO. El cadete realizaba una práctica de observación supervisada y no era responsable de vigilar o pilotar la nave en solitario.
