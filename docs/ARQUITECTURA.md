@@ -26,6 +26,13 @@ Concretaré la arquitectura detallada antes de comenzar la implementación.
 - Cada pareja incluirá como mínimo un identificador, nombre, ruta de imagen, pista y explicación.
 - El motor recibirá estos datos sin contener textos ni rutas específicos de un capítulo.
 
+## Estado de la partida
+
+- Centralizaré el estado temporal en un objeto JavaScript llamado `gameState`.
+- Incluirá el capítulo actual, puntuación, intentos, cartas seleccionadas, parejas encontradas, reparaciones y bloqueo del tablero.
+- Las reglas modificarán este objeto y la interfaz se actualizará a partir de sus valores.
+- Separaré el estado temporal del progreso persistente guardado en `localStorage`.
+
 Como mínimo documentaré:
 
 - Diagrama de contexto.

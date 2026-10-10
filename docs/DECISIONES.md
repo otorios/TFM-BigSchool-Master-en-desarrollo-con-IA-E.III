@@ -132,6 +132,15 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Motivo:** es un formato que conozco, puedo añadir comentarios y podré importarlo directamente en el motor sin cargar ni procesar archivos externos.
 - **Evolución futura:** si el proyecto crece, podré migrar estos datos a JSON, una API o una base de datos sin cambiar las reglas principales del juego.
 
+## D-017 — Estado temporal de la partida
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** agruparé el estado actual de la partida en un único objeto JavaScript llamado `gameState`.
+- **Contenido previsto:** capítulo actual, puntuación, intentos, cartas seleccionadas, parejas encontradas, reparaciones y bloqueo temporal del tablero.
+- **Motivo:** podré consultar y modificar la situación de la partida desde un único lugar, evitando repartir variables relacionadas por distintos archivos.
+- **Límite:** no guardaré en `localStorage` los estados momentáneos, como las cartas que estén volteadas durante una comparación.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.

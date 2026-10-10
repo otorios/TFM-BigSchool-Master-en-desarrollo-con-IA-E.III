@@ -24,6 +24,8 @@ También he decidido utilizar un único `index.html` con varias vistas y un solo
 
 Definiré los capítulos, parejas, pistas, explicaciones y narrativa como objetos JavaScript exportados desde `src/data/chapters.js`.
 
+Centralizaré el estado temporal de la partida en un único objeto JavaScript `gameState`. Mantendré separados los datos momentáneos del tablero y el progreso que deba persistir en `localStorage`.
+
 ## Concepto aprobado
 
 Memory Quest será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
@@ -86,7 +88,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es decidir cómo representaré el **estado actual de la partida** mientras el jugador avanza.
+El próximo paso es decidir **qué progreso guardaré en `localStorage` y cuándo lo actualizaré**.
 
 La propuesta pendiente de revisar es:
 
