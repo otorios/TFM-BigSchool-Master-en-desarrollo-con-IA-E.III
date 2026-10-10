@@ -301,6 +301,10 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Continuidad futura:** la expedición anterior podrá investigarse en otra aventura sin dejar preguntas necesarias para comprender el final del MVP.
 - **Motivo:** explico de manera coherente por qué una tecnología antigua conoce los nombres actuales, cierro el viaje principal y mantengo una posibilidad narrativa futura.
 
-## Decisiones pendientes
+## D-033 — Nombre del juego y de la aventura
 
-- Nombre definitivo.
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** utilizaré **Memory Quest** como nombre general del juego y **Señal estelar** como subtítulo de la primera aventura. El título completo del MVP será **Memory Quest: Señal estelar**.
+- **Motivo:** el nombre general es adecuado para un videojuego que podrá incorporar historias distintas, mientras que el subtítulo aporta identidad a esta aventura sin revelar desde el principio que la señal procede de una baliza.
+- **Evolución futura:** mantendré `Memory Quest: [subtítulo de la aventura]` como sistema de nombres para nuevas expansiones, temáticas o historias.

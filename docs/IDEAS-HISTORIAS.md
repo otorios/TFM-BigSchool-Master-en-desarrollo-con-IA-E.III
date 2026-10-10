@@ -1,6 +1,6 @@
 # Banco de ideas para historias
 
-Este documento recoge ideas narrativas que podrían utilizarse como aventuras completas, escenarios alternativos o futuras ampliaciones de Memory Quest.
+Este documento recoge ideas narrativas que podrían utilizarse como aventuras completas, escenarios alternativos o futuras ampliaciones de Memory Quest. Cada aventura podrá utilizar el formato `Memory Quest: [subtítulo]`; la primera será **Memory Quest: Señal estelar**.
 
 Las ideas de este banco no forman parte automáticamente del MVP. Su objetivo es conservarlas para poder revisarlas, combinarlas o desarrollarlas más adelante sin aumentar el alcance actual.
 

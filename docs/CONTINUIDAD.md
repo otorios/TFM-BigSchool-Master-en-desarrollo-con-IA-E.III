@@ -1,6 +1,6 @@
 # Continuidad del proyecto
 
-Este documento permite retomar Memory Quest aunque no esté disponible el historial de conversación. Debe actualizarse al cerrar cada sesión de trabajo relevante.
+Este documento permite retomar **Memory Quest: Señal estelar** aunque no esté disponible el historial de conversación. Debe actualizarse al cerrar cada sesión de trabajo relevante.
 
 ## Repositorio correcto
 
@@ -50,7 +50,7 @@ Cada acierto hará avanzar una barra de reparación y completar un tablero entre
 
 ## Concepto aprobado
 
-Memory Quest será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
+**Memory Quest: Señal estelar** será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
 
 Las cartas no serán idénticas. Cada pareja relacionará una carta con la imagen y el nombre de un concepto con otra que contenga una definición o pista breve.
 
@@ -118,7 +118,7 @@ Sus archivos completan el mapa y permiten establecer una ruta segura. Con los tr
 
 ## Punto exacto para retomar
 
-El próximo paso es revisar el **nombre definitivo** y convertir las decisiones aprobadas en el catálogo de datos y el plan inmediato de implementación.
+El próximo paso es convertir las decisiones aprobadas en el **catálogo de datos** y comenzar la estructura implementable del MVP.
 
 El primer tablero aprobado es:
 
@@ -150,7 +150,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía, los tres capítulos y el desenlace ya están cerrados; el siguiente paso es revisar el nombre definitivo y convertir las decisiones aprobadas en el catálogo de datos y el plan inmediato de implementación. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía, los tres capítulos, el desenlace y el título ya están cerrados; el siguiente paso es convertir las decisiones en el catálogo de datos y comenzar la estructura implementable del MVP. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

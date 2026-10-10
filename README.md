@@ -1,4 +1,4 @@
-# Memory Quest
+# Memory Quest: Señal estelar
 
 Videojuego web educativo de memoria y asociaciones semánticas, organizado como una aventura narrativa por capítulos y desarrollado con apoyo de inteligencia artificial.
 
