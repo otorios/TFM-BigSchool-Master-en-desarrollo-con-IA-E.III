@@ -151,6 +151,14 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Nueva partida:** borraré el progreso anterior antes de comenzar.
 - **Motivo:** los puntos de control permiten continuar la aventura sin tener que guardar posiciones de cartas ni reconstruir una partida incompleta.
 
+## D-019 — Estructura inicial del proyecto
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** utilizaré una estructura pequeña basada en `index.html`, módulos JavaScript dentro de `src/`, contenidos en `src/data/chapters.js`, estilos en `src/styles.css`, imágenes en `public/images/` y pruebas en `tests/`.
+- **Módulos principales:** `main.js`, `game.js`, `state.js`, `storage.js` y `ui.js`.
+- **Motivo:** separo las responsabilidades del juego sin crear una arquitectura excesiva para el tamaño y el plazo del MVP.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.

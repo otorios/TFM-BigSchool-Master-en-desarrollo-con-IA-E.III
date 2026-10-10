@@ -28,6 +28,8 @@ Centralizaré el estado temporal de la partida en un único objeto JavaScript `g
 
 Guardaré en `localStorage` el nombre, el capítulo desbloqueado, la puntuación acumulada, los sistemas reparados y la finalización. Utilizaré puntos de control al comenzar y completar capítulos; no guardaré tableros a medias.
 
+La estructura inicial separará inicio, motor, estado, persistencia, interfaz, contenidos y estilos en módulos pequeños dentro de `src/`; las imágenes estarán en `public/images/` y las pruebas en `tests/`.
+
 ## Concepto aprobado
 
 Memory Quest será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
@@ -90,7 +92,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es cerrar la **estructura inicial de carpetas y archivos** del proyecto.
+El próximo paso es cerrar los **controles mínimos de seguridad** del MVP.
 
 La propuesta pendiente de revisar es:
 

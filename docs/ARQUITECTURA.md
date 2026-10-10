@@ -42,6 +42,35 @@ Concretaré la arquitectura detallada antes de comenzar la implementación.
 - Si se interrumpe un capítulo, al continuar se cargará de nuevo desde el principio.
 - La opción de nueva partida eliminará el progreso guardado.
 
+## Estructura inicial
+
+```text
+index.html
+package.json
+src/
+  main.js
+  game.js
+  state.js
+  storage.js
+  ui.js
+  data/
+    chapters.js
+  styles.css
+public/
+  images/
+tests/
+docs/
+presentation/
+media/
+```
+
+- `main.js` iniciará y coordinará la aplicación.
+- `game.js` contendrá las reglas del juego.
+- `state.js` contendrá `gameState`.
+- `storage.js` gestionará `localStorage`.
+- `ui.js` actualizará las vistas y controles.
+- `chapters.js` contendrá los datos fijos de la aventura.
+
 Como mínimo documentaré:
 
 - Diagrama de contexto.

@@ -206,7 +206,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Elegí objetos JavaScript en un módulo local para definir capítulos, parejas, pistas, explicaciones y narrativa. |
 | 10/10/2026 | Completado | Decidí centralizar el estado temporal de la partida en un único objeto JavaScript `gameState`. |
 | 10/10/2026 | Completado | Decidí guardar el progreso mediante puntos de control y reiniciar el capítulo si una partida se interrumpe a mitad del tablero. |
+| 10/10/2026 | Completado | Cerré una estructura inicial pequeña con módulos separados para motor, estado, persistencia, interfaz y contenido. |
 
 ## 10. Próxima decisión
 
-El siguiente paso antes de programar es cerrar la estructura inicial de carpetas y archivos. Después se concretarán el sistema visual, las fuentes y licencias de las imágenes y la plataforma de despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso antes de programar es cerrar los controles mínimos de seguridad. Después se concretarán el sistema visual, las fuentes y licencias de las imágenes y la plataforma de despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
