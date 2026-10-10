@@ -142,12 +142,11 @@ function startChapter(chapterIndex) {
   const layout = element('div', 'game-layout');
   layout.append(createMissionPanel(chapter));
   const boardArea = element('section', 'board-area panel');
-  const countdown = element('p', 'countdown', `Observación: ${chapter.observationSeconds}s`);
-  countdown.dataset.countdown = '';
+  const countdown = app.querySelector('[data-countdown]');
   const board = element('div', `card-grid card-grid--${chapter.pairs.length}`);
   board.setAttribute('aria-label', `Tablero del capítulo ${chapter.id}`);
   deck.forEach((card) => board.append(createCard(card, handleCardSelection)));
-  boardArea.append(countdown, board);
+  boardArea.append(board);
   layout.append(boardArea);
   app.append(layout);
   updateStats(app, state, chapter.pairs.length, chapter.errorCost);
