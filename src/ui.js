@@ -44,7 +44,6 @@ export function createMissionPanel(chapter) {
   panel.append(
     element('p', 'eyebrow', 'COSMO // Objetivo de misión'),
     element('h2', null, chapter.objective),
-    element('p', 'cosmo-message', chapter.intro),
   );
 
   const progressLabel = element('p', 'progress-label', `Reparación: 0/${chapter.pairs.length}`);

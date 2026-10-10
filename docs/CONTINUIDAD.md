@@ -44,7 +44,7 @@ Publicaré el juego gratuitamente mediante GitHub Pages desde el repositorio pú
 
 Conservaré la mecánica base de mi juego anterior: las cartas se mostrarán al comenzar durante unos segundos y después se ocultarán. En cada intento se voltearán dos; las relaciones correctas permanecerán visibles y las incorrectas volverán a ocultarse. La diferencia es que ahora cada pareja relacionará una imagen y su concepto con una definición o pista.
 
-La observación inicial durará provisionalmente 8 segundos en el primer capítulo, 12 en el segundo y 16 en el tercero. Durante la cuenta atrás no se podrán seleccionar cartas. Ampliaré estos tiempos si las pruebas muestran que no permiten leer y observar con comodidad.
+La observación inicial iba a durar 8, 12 y 16 segundos, pero la primera prueba mostró que no era suficiente para leer y observar con comodidad. La duración actual es de 20 segundos en el primer capítulo, 30 en el segundo y 40 en el tercero. Durante la cuenta atrás no se podrán seleccionar cartas y volveré a ajustar los tiempos si las pruebas lo requieren.
 
 Cada selección de dos cartas aumentará el contador de intentos. Cada capítulo comenzará con 12 puntos de energía y los errores restarán 1, 2 o 3 puntos en los capítulos 1, 2 y 3, respectivamente. Si la energía llega a cero, se reiniciará solamente el capítulo actual y se conservarán los anteriores. Como ampliación quiero añadir selección de dificultad, con posibles intentos ilimitados, otros límites, tiempo máximo y parejas o condiciones que deban evitarse, recuperando ideas de mi juego original.
 

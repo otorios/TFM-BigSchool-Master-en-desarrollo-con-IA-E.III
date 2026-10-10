@@ -228,6 +228,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Implementé una primera versión jugable con Vite, tres capítulos, motor compartido, energía, cronómetro, guardado local, desenlace responsive y siete pruebas automáticas. |
 | 10/10/2026 | Revisado | Tras la primera prueba manual, añadí más separación al formulario, reforcé el estilo visual, corregí el giro 3D de las cartas y unifiqué el tiempo como `mm:ss`; ya pasan ocho pruebas. |
 | 10/10/2026 | Completado | Corregí la política de seguridad que bloqueaba los estilos de Vite, incorporé las 18 imágenes acreditadas y rediseñé el tablero, las cartas y el formulario. |
+| 10/10/2026 | Revisado | Amplié la observación inicial de 8/12/16 a 20/30/40 segundos y eliminé del tablero el texto narrativo ya leído en la introducción para evitar distracciones. |
 
 ## 10. Próxima decisión
 

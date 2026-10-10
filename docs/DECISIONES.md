@@ -216,10 +216,13 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 
 - **Estado:** aceptada para pruebas.
 - **Fecha:** 10/10/2026.
-- **Decisión:** mostraré todas las cartas durante 8 segundos en el primer capítulo, 12 segundos en el segundo y 16 segundos en el tercero antes de ocultarlas y permitir la interacción.
+- **Fecha de actualización:** 10/10/2026.
+- **Idea original:** mostraría todas las cartas durante 8 segundos en el primer capítulo, 12 segundos en el segundo y 16 segundos en el tercero.
+- **Decisión actual:** mostraré todas las cartas durante 20 segundos en el primer capítulo, 30 segundos en el segundo y 40 segundos en el tercero antes de ocultarlas y permitir la interacción.
+- **Motivo del cambio:** la primera prueba muestra que los tiempos originales no permiten leer y observar las pistas con comodidad, incluso sin leer despacio. Doy prioridad a comprender el contenido educativo y memorizar su posición sin generar presión innecesaria.
 - **Comportamiento:** durante esta fase aparecerá una cuenta atrás y no se podrán seleccionar cartas.
-- **Criterio:** utilizaré inicialmente dos segundos por pareja para aumentar el tiempo de observación de forma proporcional al tamaño del tablero.
-- **Validación:** comprobaré durante las pruebas si estos tiempos permiten leer y observar las cartas con comodidad; si resultan insuficientes, los ampliaré.
+- **Criterio:** aumento el tiempo de forma proporcional al tamaño del tablero y mantengo diez segundos adicionales de margen en cada capítulo.
+- **Validación:** volveré a comprobar durante las pruebas si estos tiempos permiten leer y observar las cartas con comodidad.
 
 ## D-026 — Intentos del MVP
 
@@ -249,7 +252,7 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 | Regla | Capítulo 1 | Capítulo 2 | Capítulo 3 |
 | --- | ---: | ---: | ---: |
 | Parejas | 4 | 6 | 8 |
-| Observación inicial | 8 segundos | 12 segundos | 16 segundos |
+| Observación inicial | 20 segundos | 30 segundos | 40 segundos |
 | Energía inicial | 12 puntos | 12 puntos | 12 puntos |
 | Energía perdida por error | 1 punto | 2 puntos | 3 puntos |
 | Derrota al llegar a 0 | 12.º error | 6.º error | 4.º error |

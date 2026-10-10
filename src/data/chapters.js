@@ -4,7 +4,7 @@ export const chapters = [
     title: 'Una voz entre las estrellas',
     objective: 'Restablecer las comunicaciones de ATLAS.',
     module: 'Módulo de comunicaciones',
-    observationSeconds: 8,
+    observationSeconds: 20,
     errorCost: 1,
     intro:
       'La tormenta ha dejado a ATLAS sin comunicaciones. COSMO necesita tu ayuda para reconstruir el transmisor y descubrir el origen de una señal imposible.',
@@ -50,7 +50,7 @@ export const chapters = [
     title: 'Las semillas de la Tierra',
     objective: 'Recuperar la protección de la Cápsula LURRA.',
     module: 'Módulo de protección de LURRA',
-    observationSeconds: 12,
+    observationSeconds: 30,
     errorCost: 2,
     intro:
       'El laboratorio pierde energía y las semillas de LURRA están en peligro. Reconstruye su sistema de protección antes de que la reserva se agote.',
@@ -112,7 +112,7 @@ export const chapters = [
     title: 'El camino a casa',
     objective: 'Reconstruir la navegación y reactivar la propulsión.',
     module: 'Módulo de navegación y propulsión',
-    observationSeconds: 16,
+    observationSeconds: 40,
     errorCost: 3,
     intro:
       'El mapa de la baliza está incompleto. Reconstruye las referencias estelares para encontrar una ruta segura de regreso a la Tierra.',
