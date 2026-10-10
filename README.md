@@ -2,7 +2,7 @@
 
 Videojuego web educativo de memoria y asociaciones semánticas, organizado como una aventura narrativa por capítulos y desarrollado con apoyo de inteligencia artificial.
 
-> Estado actual: primera versión jugable implementada. Pendientes principales: incorporar y acreditar las imágenes de la NASA, realizar pruebas de juego, activar el despliegue y preparar la entrega.
+> Estado actual: primera versión jugable con diseño responsive, imágenes acreditadas y pruebas básicas. Pendientes principales: completar las pruebas de juego, activar el despliegue y preparar la entrega.
 
 ## Idea general
 
@@ -10,9 +10,9 @@ El MVP presenta una aventura fija de astronomía, dividida en tres capítulos co
 
 Las parejas no son dos imágenes idénticas. Cada pareja combina una carta con la imagen y el nombre de un concepto y otra con una definición o pista breve, por ejemplo:
 
-- `Sol` ↔ `Soy la estrella situada en el centro del sistema solar`.
-- `Atmósfera` ↔ `Soy la capa de gases que rodea un planeta`.
-- `Año luz` ↔ `Soy la distancia que recorre la luz durante un año`.
+- `Sol` ↔ `Estrella central del sistema solar`.
+- `Atmósfera` ↔ `Capa de gases que rodea un planeta`.
+- `Año luz` ↔ `Distancia que recorre la luz en un año`.
 
 Cada pareja correcta hace avanzar una barra de reparación. Completar un tablero entrega un módulo de la nave y desbloquea el siguiente capítulo de la historia.
 

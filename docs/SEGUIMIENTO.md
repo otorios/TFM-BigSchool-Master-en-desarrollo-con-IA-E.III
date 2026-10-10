@@ -232,6 +232,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Revisado | Hice que las cartas y los espacios se compacten según el nivel y la altura del ordenador para mantener el tablero completo visible en portátiles; en móvil priorizo la lectura aunque exista desplazamiento. |
 | 10/10/2026 | Revisado | Reduje de 3 a 2 puntos la penalización por error del tercer capítulo para ampliar el margen de cuatro a seis errores. |
 | 10/10/2026 | Completado | Reorganicé la transición entre capítulos para destacar el módulo recuperado, el progreso de ATLAS y el avance narrativo antes de mostrar las estadísticas. |
+| 10/10/2026 | Revisado | Simplifiqué las 18 pistas a frases breves con una sola idea principal y añadí una prueba que limita su longitud para conservar la legibilidad de las cartas. |
 
 ## 10. Próxima decisión
 

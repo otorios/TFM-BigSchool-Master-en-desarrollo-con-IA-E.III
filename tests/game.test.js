@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { cardsMatch, createDeck, getReturnOutcome, remainingEnergy } from '../src/game.js';
 import { formatTime } from '../src/ui.js';
+import { chapters } from '../src/data/chapters.js';
 
 const chapter = {
   pairs: [
@@ -39,4 +40,9 @@ test('clasifica los tres resultados del regreso', () => {
 test('muestra tiempos superiores a un minuto en minutos y segundos', () => {
   assert.equal(formatTime(65), '01:05');
   assert.equal(formatTime(125), '02:05');
+});
+
+test('mantiene las pistas breves y legibles', () => {
+  const clues = chapters.flatMap((item) => item.pairs.map((pair) => pair.clue));
+  assert.equal(clues.every((clue) => clue.length <= 70), true);
 });

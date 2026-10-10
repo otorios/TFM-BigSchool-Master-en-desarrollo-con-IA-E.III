@@ -14,7 +14,7 @@ export const chapters = [
       {
         id: 'sun',
         name: 'Sol',
-        clue: 'Soy la estrella situada en el centro del sistema solar.',
+        clue: 'Estrella central del sistema solar.',
         symbol: '☀',
         image: 'images/cards/sun.jpg',
         alt: 'El Sol observado en rayos X de alta energía.',
@@ -22,7 +22,7 @@ export const chapters = [
       {
         id: 'earth',
         name: 'Tierra',
-        clue: 'Soy el planeta en el que vivimos y tengo agua líquida en mi superficie.',
+        clue: 'Planeta donde vivimos, con agua líquida en su superficie.',
         symbol: '⊕',
         image: 'images/cards/earth.jpg',
         alt: 'La Tierra vista desde el espacio.',
@@ -30,7 +30,7 @@ export const chapters = [
       {
         id: 'moon',
         name: 'Luna',
-        clue: 'Soy el satélite natural que orbita la Tierra.',
+        clue: 'Satélite natural de la Tierra.',
         symbol: '☾',
         image: 'images/cards/moon.jpg',
         alt: 'La Luna llena sobre el horizonte terrestre.',
@@ -38,7 +38,7 @@ export const chapters = [
       {
         id: 'milky-way',
         name: 'Vía Láctea',
-        clue: 'Soy la galaxia en la que se encuentra el sistema solar.',
+        clue: 'Galaxia que contiene el sistema solar.',
         symbol: '✦',
         image: 'images/cards/milky-way.jpg',
         alt: 'Mapa de la Vía Láctea observado en distintas longitudes de onda.',
@@ -60,7 +60,7 @@ export const chapters = [
       {
         id: 'atmosphere',
         name: 'Atmósfera',
-        clue: 'Soy la capa de gases que rodea un planeta.',
+        clue: 'Capa de gases que rodea un planeta.',
         symbol: '◉',
         image: 'images/cards/atmosphere.jpg',
         alt: 'La Tierra rodeada por su fina capa atmosférica.',
@@ -68,7 +68,7 @@ export const chapters = [
       {
         id: 'magnetosphere',
         name: 'Magnetosfera',
-        clue: 'Soy la región dominada por el campo magnético de un planeta y ayudo a protegerlo de partículas procedentes del espacio.',
+        clue: 'Campo magnético que protege un planeta.',
         symbol: '⌁',
         image: 'images/cards/magnetosphere.jpg',
         alt: 'Ilustración de la magnetosfera terrestre frente al viento solar.',
@@ -76,7 +76,7 @@ export const chapters = [
       {
         id: 'habitable-zone',
         name: 'Zona habitable',
-        clue: 'Soy la región alrededor de una estrella donde podría existir agua líquida en la superficie de un planeta.',
+        clue: 'Región donde un planeta podría tener agua líquida.',
         symbol: '◎',
         image: 'images/cards/habitable-zone.jpg',
         alt: 'Representación artística de un planeta potencialmente habitable.',
@@ -84,7 +84,7 @@ export const chapters = [
       {
         id: 'exoplanet',
         name: 'Exoplaneta',
-        clue: 'Soy un planeta que orbita una estrella distinta del Sol.',
+        clue: 'Planeta que orbita una estrella distinta del Sol.',
         symbol: '●',
         image: 'images/cards/exoplanet.jpg',
         alt: 'Representación artística de un exoplaneta orbitando otra estrella.',
@@ -92,7 +92,7 @@ export const chapters = [
       {
         id: 'comet',
         name: 'Cometa',
-        clue: 'Estoy formado por hielo, roca y polvo; al acercarme al Sol puedo desarrollar una cola.',
+        clue: 'Cuerpo de hielo, roca y polvo que puede formar una cola.',
         symbol: '☄',
         image: 'images/cards/comet.jpg',
         alt: 'Representación de la sonda Rosetta junto a un cometa.',
@@ -100,7 +100,7 @@ export const chapters = [
       {
         id: 'asteroid',
         name: 'Asteroide',
-        clue: 'Soy un cuerpo rocoso o metálico, más pequeño que un planeta, que orbita el Sol.',
+        clue: 'Cuerpo rocoso o metálico que orbita el Sol.',
         symbol: '◆',
         image: 'images/cards/asteroid.jpg',
         alt: 'El asteroide Eros y otras observaciones de asteroides.',
@@ -122,7 +122,7 @@ export const chapters = [
       {
         id: 'orbit',
         name: 'Órbita',
-        clue: 'Soy la trayectoria que sigue un objeto alrededor de otro por efecto de la gravedad.',
+        clue: 'Trayectoria de un objeto alrededor de otro.',
         symbol: '⟲',
         image: 'images/cards/orbit.jpg',
         alt: 'Una nave espacial en órbita alrededor de Saturno.',
@@ -130,7 +130,7 @@ export const chapters = [
       {
         id: 'gravity',
         name: 'Gravedad',
-        clue: 'Soy la fuerza de atracción que existe entre los cuerpos con masa.',
+        clue: 'Fuerza que atrae a los cuerpos con masa.',
         symbol: '↓',
         image: 'images/cards/gravity.jpg',
         alt: 'Diagrama sobre los efectos gravitatorios alrededor de un agujero negro.',
@@ -138,7 +138,7 @@ export const chapters = [
       {
         id: 'light-year',
         name: 'Año luz',
-        clue: 'Soy la distancia que recorre la luz durante un año.',
+        clue: 'Distancia que recorre la luz en un año.',
         symbol: '↝',
         image: 'images/cards/light-year.jpg',
         alt: 'Observaciones del universo realizadas con distintos telescopios espaciales.',
@@ -146,7 +146,7 @@ export const chapters = [
       {
         id: 'constellation',
         name: 'Constelación',
-        clue: 'Soy una región del cielo asociada a un patrón reconocible de estrellas.',
+        clue: 'Región del cielo con un patrón reconocible de estrellas.',
         symbol: '⁂',
         image: 'images/cards/constellation.jpg',
         alt: 'La constelación de Orión fotografiada desde el espacio.',
@@ -154,7 +154,7 @@ export const chapters = [
       {
         id: 'nebula',
         name: 'Nebulosa',
-        clue: 'Soy una nube de gas y polvo situada entre las estrellas o alrededor de ellas.',
+        clue: 'Nube de gas y polvo entre las estrellas.',
         symbol: '☁',
         image: 'images/cards/nebula.jpg',
         alt: 'Nebulosa Dumbbell formada por gas y polvo entre las estrellas.',
@@ -162,7 +162,7 @@ export const chapters = [
       {
         id: 'supernova',
         name: 'Supernova',
-        clue: 'Soy la enorme explosión que puede producirse al final de la vida de una estrella.',
+        clue: 'Gran explosión al final de la vida de una estrella.',
         symbol: '✺',
         image: 'images/cards/supernova.jpg',
         alt: 'Restos luminosos de la supernova de Kepler.',
@@ -170,7 +170,7 @@ export const chapters = [
       {
         id: 'pulsar',
         name: 'Púlsar',
-        clue: 'Soy una estrella de neutrones que gira rápidamente y emite pulsos regulares.',
+        clue: 'Estrella de neutrones que gira y emite pulsos.',
         symbol: '⌁',
         image: 'images/cards/pulsar.jpg',
         alt: 'Ilustración de distintos tipos de estrellas de neutrones, incluido un púlsar.',
@@ -178,7 +178,7 @@ export const chapters = [
       {
         id: 'black-hole',
         name: 'Agujero negro',
-        clue: 'Soy un objeto con una gravedad tan intensa que ni siquiera la luz puede escapar.',
+        clue: 'Objeto cuya gravedad impide escapar incluso a la luz.',
         symbol: '◍',
         image: 'images/cards/black-hole.jpg',
         alt: 'Representación artística de un agujero negro destruyendo una estrella.',

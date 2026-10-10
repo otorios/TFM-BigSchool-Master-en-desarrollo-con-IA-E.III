@@ -56,7 +56,7 @@ Cada acierto hará avanzar una barra de reparación y completar un tablero entre
 
 **Memory Quest: Señal estelar** será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
 
-Las cartas no serán idénticas. Cada pareja relacionará una carta con la imagen y el nombre de un concepto con otra que contenga una definición o pista breve.
+Las cartas no serán idénticas. Cada pareja relacionará una carta con la imagen y el nombre de un concepto con otra que contenga una definición o pista breve. Las pistas utilizarán una sola idea principal, frases directas y un máximo técnico de 70 caracteres para mantener su legibilidad en todos los niveles.
 
 Cada pareja correcta proporcionará recursos relacionados con la historia. Completar un tablero reparará una parte de la nave y desbloqueará el siguiente capítulo.
 

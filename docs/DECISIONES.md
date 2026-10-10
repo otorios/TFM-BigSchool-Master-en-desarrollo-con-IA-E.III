@@ -205,8 +205,11 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
+- **Fecha de actualización:** 10/10/2026.
 - **Capítulo:** `Una voz entre las estrellas`.
-- **Parejas:** `Sol` ↔ `Soy la estrella situada en el centro del sistema solar`; `Tierra` ↔ `Soy el planeta en el que vivimos y tengo agua líquida en mi superficie`; `Luna` ↔ `Soy el satélite natural que orbita la Tierra`; `Vía Láctea` ↔ `Soy la galaxia en la que se encuentra el sistema solar`.
+- **Idea original de las pistas:** utilizaría definiciones completas redactadas en primera persona, pero ocupaban demasiado espacio en las cartas.
+- **Parejas actuales:** `Sol` ↔ `Estrella central del sistema solar`; `Tierra` ↔ `Planeta donde vivimos, con agua líquida en su superficie`; `Luna` ↔ `Satélite natural de la Tierra`; `Vía Láctea` ↔ `Galaxia que contiene el sistema solar`.
+- **Motivo de la simplificación:** mantengo una sola idea educativa por carta y facilito su lectura durante la observación.
 - **Idea original de la recompensa:** cada pareja correcta recuperaría una pieza distinta del transmisor y las cuatro piezas repararían las comunicaciones.
 - **Decisión actual de la recompensa:** cada acierto hará avanzar una barra de reparación. Al completar todo el tablero obtendré un único módulo de comunicaciones y se recibirá la señal misteriosa.
 - **Motivo del cambio:** evito diseñar, nombrar y explicar una pieza distinta por pareja, mantengo una respuesta visible para cada acierto y simplifico los recursos gráficos y narrativos.
@@ -270,8 +273,11 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
+- **Fecha de actualización:** 10/10/2026.
 - **Capítulo:** `Las semillas de la Tierra`.
-- **Parejas:** `Atmósfera` ↔ `Soy la capa de gases que rodea un planeta`; `Magnetosfera` ↔ `Soy la región dominada por el campo magnético de un planeta y ayudo a protegerlo de partículas procedentes del espacio`; `Zona habitable` ↔ `Soy la región alrededor de una estrella donde podría existir agua líquida en la superficie de un planeta`; `Exoplaneta` ↔ `Soy un planeta que orbita una estrella distinta del Sol`; `Cometa` ↔ `Estoy formado por hielo, roca y polvo; al acercarme al Sol puedo desarrollar una cola`; `Asteroide` ↔ `Soy un cuerpo rocoso o metálico, más pequeño que un planeta, que orbita el Sol`.
+- **Idea original de las pistas:** utilizaría definiciones completas redactadas en primera persona, pero algunas quedaban cortadas en las cartas compactas.
+- **Parejas actuales:** `Atmósfera` ↔ `Capa de gases que rodea un planeta`; `Magnetosfera` ↔ `Campo magnético que protege un planeta`; `Zona habitable` ↔ `Región donde un planeta podría tener agua líquida`; `Exoplaneta` ↔ `Planeta que orbita una estrella distinta del Sol`; `Cometa` ↔ `Cuerpo de hielo, roca y polvo que puede formar una cola`; `Asteroide` ↔ `Cuerpo rocoso o metálico que orbita el Sol`.
+- **Motivo de la simplificación:** conservo los términos científicos esenciales en frases directas y legibles.
 - **Recompensa:** cada acierto hará avanzar la barra de reparación. Al completar las seis parejas obtendré el módulo de protección de LURRA y el laboratorio recuperará la energía necesaria para conservar las semillas.
 - **Motivo:** aumento la dificultad con conceptos relacionados con la protección planetaria, los cuerpos menores y la búsqueda de lugares adecuados para la vida, manteniendo definiciones breves y diferenciables.
 - **Validación educativa:** utilizaré como referencias las páginas de NASA Science sobre exoplanetas y zona habitable, magnetosferas, cometas y asteroides.
@@ -290,8 +296,11 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
+- **Fecha de actualización:** 10/10/2026.
 - **Capítulo:** `El camino a casa`.
-- **Parejas:** `Órbita` ↔ `Soy la trayectoria que sigue un objeto alrededor de otro por efecto de la gravedad`; `Gravedad` ↔ `Soy la fuerza de atracción que existe entre los cuerpos con masa`; `Año luz` ↔ `Soy la distancia que recorre la luz durante un año`; `Constelación` ↔ `Soy una región del cielo asociada a un patrón reconocible de estrellas`; `Nebulosa` ↔ `Soy una nube de gas y polvo situada entre las estrellas o alrededor de ellas`; `Supernova` ↔ `Soy la enorme explosión que puede producirse al final de la vida de una estrella`; `Púlsar` ↔ `Soy una estrella de neutrones que gira rápidamente y emite pulsos regulares`; `Agujero negro` ↔ `Soy un objeto con una gravedad tan intensa que ni siquiera la luz puede escapar`.
+- **Idea original de las pistas:** utilizaría definiciones completas redactadas en primera persona, pero el tablero final necesita textos especialmente compactos.
+- **Parejas actuales:** `Órbita` ↔ `Trayectoria de un objeto alrededor de otro`; `Gravedad` ↔ `Fuerza que atrae a los cuerpos con masa`; `Año luz` ↔ `Distancia que recorre la luz en un año`; `Constelación` ↔ `Región del cielo con un patrón reconocible de estrellas`; `Nebulosa` ↔ `Nube de gas y polvo entre las estrellas`; `Supernova` ↔ `Gran explosión al final de la vida de una estrella`; `Púlsar` ↔ `Estrella de neutrones que gira y emite pulsos`; `Agujero negro` ↔ `Objeto cuya gravedad impide escapar incluso a la luz`.
+- **Motivo de la simplificación:** evito cortes de texto y reduzco el esfuerzo de lectura sin eliminar los conceptos avanzados.
 - **Recompensa:** cada acierto hará avanzar la barra de reparación. Al completar las ocho parejas obtendré el módulo de navegación y propulsión, podré reconstruir el mapa de la baliza y emprender el regreso.
 - **Motivo:** cierro la progresión con conceptos más avanzados sobre distancias, movimiento, orientación y objetos del universo, manteniendo definiciones breves y diferenciables.
 - **Validación educativa:** utilizaré como referencia principal el glosario de NASA Science sobre el universo.
