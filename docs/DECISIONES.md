@@ -217,11 +217,11 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Estado:** aceptada para pruebas.
 - **Fecha:** 10/10/2026.
 - **Fecha de actualización:** 10/10/2026.
-- **Idea original:** mostraría todas las cartas durante 8 segundos en el primer capítulo, 12 segundos en el segundo y 16 segundos en el tercero.
-- **Decisión actual:** mostraré todas las cartas durante 20 segundos en el primer capítulo, 30 segundos en el segundo y 40 segundos en el tercero antes de ocultarlas y permitir la interacción.
-- **Motivo del cambio:** la primera prueba muestra que los tiempos originales no permiten leer y observar las pistas con comodidad, incluso sin leer despacio. Doy prioridad a comprender el contenido educativo y memorizar su posición sin generar presión innecesaria.
+- **Idea original:** mostraría todas las cartas durante 8 segundos en el primer capítulo, 12 segundos en el segundo y 16 segundos en el tercero. En la primera revisión los amplié a 20, 30 y 40 segundos.
+- **Decisión actual:** mostraré todas las cartas durante 14 segundos en el primer capítulo, 21 segundos en el segundo y 28 segundos en el tercero antes de ocultarlas y permitir la interacción.
+- **Motivo del cambio:** los tiempos originales no permitían leer y observar con comodidad, pero la primera ampliación hacía demasiado larga la espera. Utilizo un punto medio que permite revisar las pistas sin frenar el ritmo de la partida.
 - **Comportamiento:** durante esta fase aparecerá una cuenta atrás y no se podrán seleccionar cartas.
-- **Criterio:** aumento el tiempo de forma proporcional al tamaño del tablero y mantengo diez segundos adicionales de margen en cada capítulo.
+- **Criterio:** mantengo una progresión proporcional de tres segundos y medio por pareja.
 - **Validación:** volveré a comprobar durante las pruebas si estos tiempos permiten leer y observar las cartas con comodidad.
 
 ## D-026 — Intentos del MVP
@@ -252,7 +252,7 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 | Regla | Capítulo 1 | Capítulo 2 | Capítulo 3 |
 | --- | ---: | ---: | ---: |
 | Parejas | 4 | 6 | 8 |
-| Observación inicial | 20 segundos | 30 segundos | 40 segundos |
+| Observación inicial | 14 segundos | 21 segundos | 28 segundos |
 | Energía inicial | 12 puntos | 12 puntos | 12 puntos |
 | Energía perdida por error | 1 punto | 2 puntos | 3 puntos |
 | Derrota al llegar a 0 | 12.º error | 6.º error | 4.º error |
