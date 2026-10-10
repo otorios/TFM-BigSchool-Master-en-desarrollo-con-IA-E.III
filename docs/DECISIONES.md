@@ -29,14 +29,15 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Decisión actual:** he decidido limitar el MVP a una única aventura fija de astronomía en la que debe repararse una nave espacial.
 - **Motivo del cambio:** evito crear y validar múltiples temáticas y puedo concentrar el trabajo en una experiencia completa y coherente.
 
-## D-004 — Imágenes controladas
+## D-004 — Imágenes controladas y procedencia
 
 - **Estado:** aceptada para el MVP.
 - **Fecha:** 07/10/2026.
 - **Fecha de actualización:** 10/10/2026.
-- **Idea original:** quería utilizar una biblioteca controlada de imágenes y conceptos, permitiendo que la IA construyera o adaptara durante la partida las relaciones, explicaciones y partes narrativas.
-- **Decisión actual:** he decidido preparar y revisar previamente todas las imágenes, parejas, pistas, explicaciones y textos narrativos del MVP.
-- **Motivo del cambio:** mantengo el control de imágenes y licencias, priorizo la corrección educativa y evito contenido ambiguo, incorrecto o inesperado.
+- **Idea original:** quería utilizar una biblioteca controlada de imágenes y conceptos, permitiendo que la IA construyera o adaptara durante la partida las relaciones, explicaciones y partes narrativas. Este planteamiento también parte de mi juego de parejas anterior, en el que utilicé obras de ilustradores de la historia con finalidad educativa e incorporé algunas ilustraciones propias como fondos.
+- **Decisión actual:** he decidido preparar y revisar previamente todas las imágenes, parejas, pistas, explicaciones y textos narrativos del MVP. Para esta versión utilizaré principalmente imágenes astronómicas oficiales de la NASA, descargadas en el proyecto y acompañadas de su título, procedencia, enlace original, crédito y condiciones de uso. Revisaré cada recurso y evitaré utilizar logotipos o insignias como elementos gráficos del juego.
+- **Motivo del cambio:** mantengo el control de imágenes y licencias, priorizo la corrección educativa y evito contenido ambiguo, incorrecto o inesperado. El uso de imágenes de la NASA me permite completar una versión coherente y gratuita dentro del poco tiempo disponible.
+- **Evolución futura:** me gustaría sustituir o complementar estas imágenes con ilustraciones propias y obras de artistas o ilustradores reconocidos, siempre documentando correctamente su autoría y sus derechos de uso.
 
 ## D-005 — Público objetivo
 
@@ -182,5 +183,4 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Fuentes y licencias de las imágenes.
 - Plataforma de despliegue.

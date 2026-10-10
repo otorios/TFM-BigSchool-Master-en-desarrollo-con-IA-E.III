@@ -66,7 +66,10 @@ Categoría: astronomía
 Conceptos: Marte, planeta, planeta rojo
 Dificultad: fácil
 Edad recomendada: 8+
-Fuente o licencia: pendiente
+Fuente: NASA
+Crédito: autoría o misión indicada en la ficha original
+Enlace original: pendiente de seleccionar
+Condiciones de uso: revisadas y registradas para cada recurso
 ```
 
 El sistema utilizará estos metadatos para cargar las parejas fiables de cada capítulo. Las pistas, explicaciones y referencias a imágenes estarán definidas en el catálogo.
@@ -209,7 +212,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Cerré una estructura inicial pequeña con módulos separados para motor, estado, persistencia, interfaz y contenido. |
 | 10/10/2026 | Completado | Definí controles mínimos contra XSS en el DOM, datos manipulados en `localStorage`, exposición de secretos y dependencias innecesarias. |
 | 10/10/2026 | Completado | Elegí una dirección visual de panel de control de misión juvenil, con estética espacial, paneles claros y diseño adaptable. |
+| 10/10/2026 | Completado | Elegí imágenes astronómicas oficiales de la NASA para el MVP por falta de tiempo y dejé las ilustraciones propias y de artistas reconocidos como evolución futura. |
 
 ## 10. Próxima decisión
 
-El siguiente paso antes de programar es definir las fuentes y licencias de las imágenes. Después se concretará la plataforma de despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso antes de programar es concretar la plataforma de despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

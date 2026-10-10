@@ -95,6 +95,7 @@ Añadir aquí nuevas posibilidades sin incorporarlas directamente al alcance del
 - [ ] Catálogo ampliable de temáticas para que el jugador elija una aventura distinta de astronomía.
 - [ ] Cuentas de usuario y sincronización del progreso entre navegadores o dispositivos.
 - [ ] Evolucionar la interfaz a React con Vite para organizar el juego mediante componentes y facilitar futuras ampliaciones.
+- [ ] Crear una evolución artística con ilustraciones propias y obras de artistas o ilustradores reconocidos, recuperando el enfoque educativo de mi juego de parejas anterior y documentando su autoría y sus derechos de uso.
 
 ## Plantilla para registrar una idea
 
