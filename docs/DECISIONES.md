@@ -113,7 +113,7 @@ Este documento conservará las decisiones importantes y sus motivos para evitar 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
 - **Decisión actual:** desarrollar el MVP con HTML, CSS y JavaScript sin framework, usando Vite como herramienta gratuita de desarrollo y construcción.
-- **Motivo:** es la opción que la autora ya conoce, reduce el aprendizaje necesario y maximiza las posibilidades de terminar una entrega completa con el tiempo disponible.
+- **Motivo:** es la opción que ya conozco, reduce el aprendizaje que necesito y maximiza mis posibilidades de terminar una entrega completa con el tiempo disponible.
 - **Evolución futura:** queda registrada una versión más completa basada en React y Vite. Podrá abordarse después de la entrega si se desea ampliar o reorganizar la aplicación mediante componentes.
 
 ## Decisiones pendientes
