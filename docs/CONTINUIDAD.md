@@ -30,6 +30,8 @@ Guardaré en `localStorage` el nombre, el capítulo desbloqueado, la puntuación
 
 La estructura inicial separará inicio, motor, estado, persistencia, interfaz, contenidos y estilos en módulos pequeños dentro de `src/`; las imágenes estarán en `public/images/` y las pruebas en `tests/`.
 
+Aplicaré controles mínimos de seguridad para evitar XSS en el DOM y errores por datos manipulados: `textContent`, validación de entradas y `localStorage`, ausencia de secretos, dependencias mínimas, recursos locales y una CSP básica.
+
 ## Concepto aprobado
 
 Memory Quest será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
@@ -92,7 +94,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es cerrar los **controles mínimos de seguridad** del MVP.
+El próximo paso es definir el **sistema visual y las fuentes de imágenes** del MVP.
 
 La propuesta pendiente de revisar es:
 

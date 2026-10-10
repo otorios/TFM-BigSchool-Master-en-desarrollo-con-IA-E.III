@@ -159,6 +159,15 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Módulos principales:** `main.js`, `game.js`, `state.js`, `storage.js` y `ui.js`.
 - **Motivo:** separo las responsabilidades del juego sin crear una arquitectura excesiva para el tamaño y el plazo del MVP.
 
+## D-020 — Controles mínimos de seguridad
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** aplicaré controles de seguridad proporcionados a una aplicación web estática sin backend, base de datos ni API.
+- **Controles:** mostraré entradas con `textContent`, limitaré el nombre del jugador, evitaré `innerHTML`, `eval()` y `document.write()`, validaré los datos recuperados de `localStorage`, no incluiré secretos, reduciré dependencias, usaré recursos locales cuando sea posible y añadiré una política CSP básica.
+- **Comprobaciones:** probaré nombres con caracteres especiales y datos manipulados o dañados en `localStorage`.
+- **Motivo:** prevengo XSS en el navegador, errores por datos alterados y exposición accidental de información sin introducir una infraestructura innecesaria.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
