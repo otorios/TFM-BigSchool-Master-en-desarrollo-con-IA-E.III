@@ -217,6 +217,25 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
 .result-summary { display: grid; grid-template-columns: 1fr auto; gap: 0.65rem 1.5rem; max-width: 420px; margin: 2rem auto; text-align: left; }
 .result-summary dt { color: var(--muted); }
 .result-summary dd { margin: 0; color: var(--amber); font-weight: 900; }
+.module-reward {
+  position: relative;
+  margin: 1.75rem auto 1rem;
+  overflow: hidden;
+  border: 1px solid rgb(244 185 66 / 42%);
+  border-radius: 1.1rem;
+  padding: 1.25rem;
+  background:
+    radial-gradient(circle at 50% 0%, rgb(244 185 66 / 18%), transparent 62%),
+    rgb(5 18 34 / 65%);
+  box-shadow: inset 0 0 28px rgb(244 185 66 / 5%);
+}
+.module-reward::before { display: block; margin: 0 auto 0.75rem; content: "◆"; color: var(--amber); font-size: 1.8rem; text-shadow: 0 0 22px rgb(244 185 66 / 55%); }
+.reward-label { margin-bottom: 0.35rem; color: var(--amber); font-size: 0.72rem; font-weight: 900; letter-spacing: 0.14em; text-transform: uppercase; }
+.reward-name { margin-bottom: 0.55rem; color: var(--text); }
+.reward-progress { margin: 0; color: var(--muted); font-size: 0.9rem; font-weight: 700; }
+.chapter-transition { margin: 1rem 0 0; border-left: 3px solid var(--cyan); padding: 0.85rem 1rem; background: rgb(69 214 232 / 5%); text-align: left; }
+.chapter-transition .eyebrow { margin-bottom: 0.35rem; }
+.chapter-transition .lead { margin-bottom: 0; font-size: 1rem; }
 .outcome-message { color: var(--cyan); font-size: 1.1rem; }
 .final-score { color: var(--amber); font-size: 1.5rem; font-weight: 900; }
 .module-list { display: grid; gap: 0.5rem; margin: 1.5rem 0 2rem; }

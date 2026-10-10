@@ -236,10 +236,27 @@ function completeChapter() {
   clearApp(app);
   const screen = element('section', 'result-screen panel');
   screen.append(
-    element('p', 'eyebrow', 'Sistema reparado'),
-    element('h1', null, chapter.module),
+    element('p', 'eyebrow', 'Capítulo completado'),
+    element('h1', null, `¡Buen trabajo, ${progress.playerName}!`),
+  );
+
+  const reward = element('section', 'module-reward');
+  reward.append(
+    element('p', 'reward-label', 'Módulo recuperado'),
+    element('h2', 'reward-name', chapter.module),
+    element(
+      'p',
+      'reward-progress',
+      `${progress.repairedModules.length} de ${chapters.length} módulos de ATLAS reparados`,
+    ),
+  );
+
+  const transition = element('section', 'chapter-transition');
+  transition.append(
+    element('p', 'eyebrow', 'COSMO // Informe de misión'),
     element('p', 'lead', chapter.success),
   );
+
   const summary = element('dl', 'result-summary');
   [
     ['Energía conservada', `${state.energy}/12`],
@@ -249,10 +266,10 @@ function completeChapter() {
   ].forEach(([label, value]) => {
     summary.append(element('dt', null, label), element('dd', null, value));
   });
-  screen.append(summary);
+  screen.append(reward, transition, summary);
   screen.append(
     createButton(
-      progress.completed ? 'Ver desenlace' : 'Continuar al siguiente capítulo',
+      progress.completed ? 'Ver desenlace' : `Continuar al capítulo ${progress.nextChapter + 1}`,
       () => (progress.completed ? renderFinal() : renderChapterIntro(progress.nextChapter)),
     ),
   );

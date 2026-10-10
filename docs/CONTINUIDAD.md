@@ -50,7 +50,7 @@ Cada selección de dos cartas aumentará el contador de intentos. Cada capítulo
 
 La partida no tendrá límite de tiempo. Un cronómetro comenzará cuando se oculten las cartas y se detendrá al completar el tablero; el resultado mostrará el tiempo empleado como información y apoyo para las pruebas, sin provocar derrotas.
 
-Cada acierto hará avanzar una barra de reparación y completar un tablero entregará un único módulo de la nave. La puntuación final será la suma de la energía restante de los tres capítulos, con un máximo de 36 puntos. ATLAS siempre regresará al completar la aventura, pero lo hará más rápido o más despacio según la energía conservada.
+Cada acierto hará avanzar una barra de reparación y completar un tablero entregará un único módulo de la nave. Al terminar cada capítulo aparecerá una transición que destacará el módulo recuperado, el progreso de reparación de ATLAS, el informe de COSMO, lo que ocurre a continuación y las estadísticas de la partida. La puntuación final será la suma de la energía restante de los tres capítulos, con un máximo de 36 puntos. ATLAS siempre regresará al completar la aventura, pero lo hará más rápido o más despacio según la energía conservada.
 
 ## Concepto aprobado
 
