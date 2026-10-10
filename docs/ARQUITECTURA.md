@@ -19,6 +19,13 @@ Concretaré la arquitectura detallada antes de comenzar la implementación.
 - Los capítulos aportarán sus datos y su número de parejas al motor compartido.
 - Al avanzar de capítulo actualizaré la vista sin navegar a otro archivo HTML.
 
+## Contenido local
+
+- Definiré los capítulos y sus contenidos en un módulo JavaScript, inicialmente `src/data/chapters.js`.
+- Cada capítulo incluirá su identificador, título, textos narrativos, recompensa y lista de parejas.
+- Cada pareja incluirá como mínimo un identificador, nombre, ruta de imagen, pista y explicación.
+- El motor recibirá estos datos sin contener textos ni rutas específicos de un capítulo.
+
 Como mínimo documentaré:
 
 - Diagrama de contexto.

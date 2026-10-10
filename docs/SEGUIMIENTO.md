@@ -203,7 +203,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Decidí guardar el progreso en `localStorage`, sin usuarios ni base de datos. |
 | 10/10/2026 | Completado | Elegí HTML, CSS y JavaScript sin framework con Vite para el MVP; dejo React con Vite como evolución futura. |
 | 10/10/2026 | Completado | Elegí un único `index.html` con varias vistas y un motor de parejas compartido por los tres capítulos. |
+| 10/10/2026 | Completado | Elegí objetos JavaScript en un módulo local para definir capítulos, parejas, pistas, explicaciones y narrativa. |
 
 ## 10. Próxima decisión
 
-El siguiente paso antes de programar es decidir el formato de los datos locales que definirán capítulos, parejas, pistas y narrativa. Después se concretarán la estructura inicial, el sistema visual, las fuentes y licencias de las imágenes y la plataforma de despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso antes de programar es decidir cómo representar el estado actual de la partida. Después se concretarán la estructura inicial, el sistema visual, las fuentes y licencias de las imágenes y la plataforma de despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

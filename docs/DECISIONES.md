@@ -124,6 +124,14 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Decisión actual:** utilizaré un único `index.html` con varias vistas controladas por JavaScript y un solo motor de parejas compartido por los tres capítulos.
 - **Motivo del cambio:** podré cargar los capítulos como datos, corregir la lógica una sola vez y evitar duplicar el tablero, la comprobación de parejas y la navegación.
 
+## D-016 — Formato de los contenidos locales
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** definiré los capítulos, parejas, pistas, explicaciones y textos narrativos como objetos JavaScript exportados desde un módulo local.
+- **Motivo:** es un formato que conozco, puedo añadir comentarios y podré importarlo directamente en el motor sin cargar ni procesar archivos externos.
+- **Evolución futura:** si el proyecto crece, podré migrar estos datos a JSON, una API o una base de datos sin cambiar las reglas principales del juego.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.

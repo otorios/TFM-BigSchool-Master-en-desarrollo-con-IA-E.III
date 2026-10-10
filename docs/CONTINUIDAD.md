@@ -22,6 +22,8 @@ El proyecto se encuentra en la fase de definición técnica previa a la implemen
 
 También he decidido utilizar un único `index.html` con varias vistas y un solo motor de parejas compartido por los tres capítulos, en lugar de una página y un JavaScript distintos para cada nivel.
 
+Definiré los capítulos, parejas, pistas, explicaciones y narrativa como objetos JavaScript exportados desde `src/data/chapters.js`.
+
 ## Concepto aprobado
 
 Memory Quest será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
@@ -84,7 +86,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es decidir el **formato de los datos locales** con los que definiré capítulos, parejas, pistas y textos narrativos.
+El próximo paso es decidir cómo representaré el **estado actual de la partida** mientras el jugador avanza.
 
 La propuesta pendiente de revisar es:
 
