@@ -224,7 +224,16 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Motivo:** garantizo que el jugador pueda completar la aventura y aprender sin bloquear la entrega con más reglas y casos de derrota.
 - **Evolución futura:** quiero permitir que el jugador elija una dificultad. Según el modo, la partida podrá mantener intentos ilimitados o introducir un límite de intentos, tiempo limitado y parejas o condiciones especiales que deban evitarse. Esta ampliación recuperará la progresión de dificultad de mi juego original, pero sus reglas exactas se decidirán después del MVP.
 
+## D-027 — Tiempo de partida
+
+- **Estado:** aceptada para el MVP.
+- **Fecha:** 10/10/2026.
+- **Decisión:** no impondré un límite de tiempo ni provocaré una derrota por tardar. Mostraré un cronómetro informativo que comenzará cuando se oculten las cartas y se detendrá al encontrar la última pareja.
+- **Resultado:** mostraré el tiempo empleado al finalizar el capítulo para aportar información al jugador y facilitar las pruebas de juego.
+- **Motivo:** obtengo una medida útil sin añadir presión ni impedir que el jugador complete la actividad educativa.
+- **Evolución futura:** el cronómetro permitirá añadir más adelante modos de dificultad con tiempo máximo.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Reglas de tiempo y puntuación.
+- Regla de puntuación.

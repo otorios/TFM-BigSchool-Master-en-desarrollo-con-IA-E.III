@@ -217,7 +217,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Definí el primer tablero con Sol, Tierra, Luna y Vía Láctea; cada acierto recuperará una pieza del transmisor. |
 | 10/10/2026 | Completado | Fijé para las pruebas una observación inicial de 8, 12 y 16 segundos según el capítulo, ampliable si no resulta suficiente. |
 | 10/10/2026 | Completado | Elegí intentos ilimitados para el MVP y reservé la selección de dificultad, los límites y las condiciones especiales para una ampliación. |
+| 10/10/2026 | Completado | Decidí medir y mostrar el tiempo empleado sin establecer un límite ni provocar derrotas en el MVP. |
 
 ## 10. Próxima decisión
 
-El siguiente paso es decidir las reglas básicas de tiempo y puntuación. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+El siguiente paso es decidir la regla de puntuación. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
