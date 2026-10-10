@@ -150,7 +150,7 @@ function startChapter(chapterIndex) {
   boardArea.append(countdown, board);
   layout.append(boardArea);
   app.append(layout);
-  updateStats(app, state, chapter.pairs.length);
+  updateStats(app, state, chapter.pairs.length, chapter.errorCost);
 
   let remaining = chapter.observationSeconds;
   observationId = window.setInterval(() => {
@@ -171,7 +171,8 @@ function startChapter(chapterIndex) {
 function startTimer() {
   timerId = window.setInterval(() => {
     state.elapsedSeconds = Math.floor((Date.now() - state.startedAt) / 1000);
-    updateStats(app, state, chapters[state.chapterIndex].pairs.length);
+    const chapter = chapters[state.chapterIndex];
+    updateStats(app, state, chapter.pairs.length, chapter.errorCost);
   }, 1000);
 }
 
@@ -196,7 +197,7 @@ function handleCardSelection(card) {
       state.selectedCardIds = [];
       setCardState(app, firstId, 'matched');
       setCardState(app, secondId, 'matched');
-      updateStats(app, state, chapter.pairs.length);
+      updateStats(app, state, chapter.pairs.length, chapter.errorCost);
       showToast(app, `Relación correcta: ${firstCard.name ?? secondCard.name}.`, 'success');
       if (state.matchedPairIds.length === chapter.pairs.length) {
         completeChapter();
@@ -209,7 +210,7 @@ function handleCardSelection(card) {
 
   state.errors += 1;
   state.energy = remainingEnergy(state.energy, chapter.errorCost);
-  updateStats(app, state, chapter.pairs.length);
+  updateStats(app, state, chapter.pairs.length, chapter.errorCost);
   window.setTimeout(() => {
     setCardState(app, firstId, 'hidden');
     setCardState(app, secondId, 'hidden');

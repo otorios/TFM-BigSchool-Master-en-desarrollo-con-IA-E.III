@@ -28,13 +28,13 @@ export function createHeader(chapter, state, playerName) {
   const energy = element('span', 'stat');
   energy.dataset.stat = 'energy';
   energy.textContent = `Energía: ${state.energy}/12`;
-  const attempts = element('span', 'stat');
-  attempts.dataset.stat = 'attempts';
-  attempts.textContent = `Intentos: ${state.attempts}`;
+  const failures = element('span', 'stat');
+  failures.dataset.stat = 'failures';
+  failures.textContent = `Fallos restantes: ${remainingFailures(state.energy, chapter.errorCost)}`;
   const timer = element('span', 'stat');
   timer.dataset.stat = 'timer';
   timer.textContent = 'Tiempo: 00:00';
-  stats.append(energy, attempts, timer);
+  stats.append(energy, failures, timer);
   header.append(titleGroup, stats);
   return header;
 }
@@ -97,14 +97,18 @@ export function formatTime(seconds) {
   return `${minutes}:${rest}`;
 }
 
-export function updateStats(app, state, pairCount) {
+export function remainingFailures(energy, errorCost) {
+  return Math.ceil(energy / errorCost);
+}
+
+export function updateStats(app, state, pairCount, errorCost) {
   const energy = app.querySelector('[data-stat="energy"]');
-  const attempts = app.querySelector('[data-stat="attempts"]');
+  const failures = app.querySelector('[data-stat="failures"]');
   const timer = app.querySelector('[data-stat="timer"]');
   const progress = app.querySelector('[data-progress]');
   const progressLabel = app.querySelector('[data-progress-label]');
   if (energy) energy.textContent = `Energía: ${state.energy}/12`;
-  if (attempts) attempts.textContent = `Intentos: ${state.attempts}`;
+  if (failures) failures.textContent = `Fallos restantes: ${remainingFailures(state.energy, errorCost)}`;
   if (timer) timer.textContent = `Tiempo: ${formatTime(state.elapsedSeconds)}`;
   if (progress) progress.value = state.matchedPairIds.length;
   if (progressLabel) {
