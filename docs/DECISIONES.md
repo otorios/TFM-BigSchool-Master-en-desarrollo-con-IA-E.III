@@ -180,7 +180,15 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Adaptación:** en pantallas amplias el tablero y la información de misión podrán aparecer en columnas; en móvil los paneles se colocarán uno debajo de otro y el tablero aprovechará el ancho disponible.
 - **Motivo:** esta dirección integra la historia y el juego educativo, mantiene una apariencia atractiva para el público de 10 a 14 años y puede realizarse principalmente con HTML y CSS dentro del tiempo disponible.
 
+## D-022 — Plataforma de despliegue
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Decisión:** publicaré el MVP mediante GitHub Pages desde el mismo repositorio del TFG, utilizando GitHub Actions para construir el proyecto con Vite y desplegar el contenido generado.
+- **Visibilidad:** el repositorio será público, algo compatible con los requisitos de entrega del proyecto y necesario para utilizar GitHub Pages gratuitamente con mi cuenta.
+- **Motivo:** no supone ningún gasto, evita abrir y mantener otro servicio y conserva en GitHub el código, el historial y la versión publicada.
+- **Alternativa valorada:** Notion Sites me permite publicar gratuitamente páginas informativas, pero no sustituye el alojamiento de una aplicación JavaScript construida con Vite. Podría utilizarlo en el futuro como página de presentación que enlazara al juego, pero no es necesario para el MVP.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
-- Plataforma de despliegue.

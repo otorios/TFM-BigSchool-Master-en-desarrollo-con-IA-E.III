@@ -36,6 +36,8 @@ La dirección visual será un panel de control de misión juvenil: fondo espacia
 
 Para el MVP utilizaré principalmente imágenes astronómicas oficiales de la NASA, descargadas dentro del proyecto y con su procedencia, enlace, crédito y condiciones de uso registrados. Por falta de tiempo no crearé ahora todo el apartado artístico: como evolución futura quiero incorporar ilustraciones propias y de artistas reconocidos, recuperando el enfoque educativo de mi juego de parejas anterior.
 
+Publicaré el juego gratuitamente mediante GitHub Pages desde el repositorio público del TFG. Una acción de GitHub construirá el proyecto con Vite y desplegará la versión generada, manteniendo código, historial y publicación en el mismo servicio.
+
 ## Concepto aprobado
 
 Memory Quest será un videojuego web educativo dirigido principalmente a preadolescentes de 10 a 14 años. El jugador avanzará por una aventura fija de astronomía dividida en tres capítulos, con tableros de 4, 6 y 8 parejas semánticas.
@@ -98,7 +100,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es concretar la **plataforma de despliegue** del MVP.
+El próximo paso es concretar las **relaciones semánticas del primer tablero y su recompensa narrativa**.
 
 La propuesta pendiente de revisar es:
 
@@ -127,7 +129,7 @@ Después del stack deberán concretarse las relaciones semánticas del primer ta
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance funcional, el stack, la arquitectura mínima, la seguridad, la dirección visual y la procedencia de las imágenes del MVP ya están cerrados; el siguiente paso es concretar la plataforma de despliegue. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance funcional, el stack, la arquitectura mínima, la seguridad, la dirección visual, la procedencia de las imágenes y el despliegue del MVP ya están cerrados; el siguiente paso es concretar las relaciones semánticas del primer tablero y su recompensa narrativa. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo
