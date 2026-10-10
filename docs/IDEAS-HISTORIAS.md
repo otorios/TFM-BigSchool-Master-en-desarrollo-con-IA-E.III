@@ -91,6 +91,9 @@ Añadir aquí nuevas posibilidades sin incorporarlas directamente al alcance del
 - [ ] Finales alternativos.
 - [ ] Historias asociadas a otros temas educativos.
 - [ ] Aventura o colección de partidas inspirada en la mitología vasca.
+- [ ] Generación dinámica de títulos, historias, transiciones y explicaciones mediante un proveedor de IA, manteniendo validado el contenido educativo.
+- [ ] Catálogo ampliable de temáticas para que el jugador elija una aventura distinta de astronomía.
+- [ ] Cuentas de usuario y sincronización del progreso entre navegadores o dispositivos.
 
 ## Plantilla para registrar una idea
 
