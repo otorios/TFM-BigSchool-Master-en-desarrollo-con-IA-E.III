@@ -83,7 +83,9 @@ Después de la tormenta, los sensores reciben una señal débil de origen descon
 
 - Restablecer la energía del laboratorio.
 - Proteger la Cápsula LURRA.
-- Contenido narrativo y jugable todavía pendiente de concretar.
+- Relacionar atmósfera, magnetosfera, zona habitable, exoplaneta, cometa y asteroide con sus definiciones.
+- Completar las seis parejas entrega el módulo de protección de LURRA y recupera la energía necesaria para conservar las semillas.
+- El avance narrativo al terminar todavía está pendiente de concretar.
 
 ### Capítulo 3 — El camino a casa
 
@@ -110,7 +112,7 @@ La señal pertenecía a una antigua expedición científica. Sus datos permiten 
 
 ## Punto exacto para retomar
 
-El próximo paso es concretar el **segundo capítulo: parejas, reparación y avance narrativo**.
+El próximo paso es concretar el **avance narrativo al completar el segundo capítulo**.
 
 El primer tablero aprobado es:
 
@@ -142,7 +144,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el primer tablero y el sistema de energía y puntuación ya están cerrados; el siguiente paso es concretar el segundo capítulo: parejas, reparación y avance narrativo. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
+Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance técnico, la dirección visual, el despliegue, la mecánica, el sistema de energía y los dos primeros tableros ya están cerrados; el siguiente paso es concretar el avance narrativo al completar el segundo capítulo. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

@@ -260,6 +260,17 @@ En este documento conservaré mis decisiones importantes y sus motivos para evit
 - **Regreso:** con 30–36 puntos ATLAS regresará rápidamente y con reserva; con 18–29 realizará un regreso normal y seguro; con 6–17 viajará más despacio para ahorrar energía. En los tres casos la misión se completará.
 - **Validación:** ajustaré la energía o las penalizaciones si las pruebas muestran que un capítulo resulta demasiado fácil o demasiado exigente.
 
+## D-029 — Segundo tablero y reparación
+
+- **Estado:** aceptada.
+- **Fecha:** 10/10/2026.
+- **Capítulo:** `Las semillas de la Tierra`.
+- **Parejas:** `Atmósfera` ↔ `Soy la capa de gases que rodea un planeta`; `Magnetosfera` ↔ `Soy la región dominada por el campo magnético de un planeta y ayudo a protegerlo de partículas procedentes del espacio`; `Zona habitable` ↔ `Soy la región alrededor de una estrella donde podría existir agua líquida en la superficie de un planeta`; `Exoplaneta` ↔ `Soy un planeta que orbita una estrella distinta del Sol`; `Cometa` ↔ `Estoy formado por hielo, roca y polvo; al acercarme al Sol puedo desarrollar una cola`; `Asteroide` ↔ `Soy un cuerpo rocoso o metálico, más pequeño que un planeta, que orbita el Sol`.
+- **Recompensa:** cada acierto hará avanzar la barra de reparación. Al completar las seis parejas obtendré el módulo de protección de LURRA y el laboratorio recuperará la energía necesaria para conservar las semillas.
+- **Motivo:** aumento la dificultad con conceptos relacionados con la protección planetaria, los cuerpos menores y la búsqueda de lugares adecuados para la vida, manteniendo definiciones breves y diferenciables.
+- **Validación educativa:** utilizaré como referencias las páginas de NASA Science sobre exoplanetas y zona habitable, magnetosferas, cometas y asteroides.
+
 ## Decisiones pendientes
 
 - Nombre definitivo.
+- Avance narrativo al completar el segundo capítulo.
