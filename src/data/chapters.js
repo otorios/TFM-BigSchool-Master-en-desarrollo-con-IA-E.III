@@ -5,7 +5,7 @@ export const chapters = [
     objective: 'Restablecer las comunicaciones de ATLAS.',
     module: 'Módulo de comunicaciones',
     observationSeconds: 14,
-    errorCost: 1,
+    errorCost: 2,
     intro:
       'La tormenta ha dejado a ATLAS sin comunicaciones. COSMO necesita tu ayuda para reconstruir el transmisor y descubrir el origen de una señal imposible.',
     success:

@@ -49,6 +49,10 @@ test('muestra los fallos restantes según la penalización', () => {
   assert.equal(remainingFailures(0, 2), 0);
 });
 
+test('ofrece seis fallos en los tres capítulos', () => {
+  assert.equal(chapters.every((item) => remainingFailures(12, item.errorCost) === 6), true);
+});
+
 test('mantiene las pistas breves y legibles', () => {
   const clues = chapters.flatMap((item) => item.pairs.map((pair) => pair.clue));
   assert.equal(clues.every((clue) => clue.length <= 70), true);
