@@ -36,7 +36,7 @@ La estructura inicial separará inicio, motor, estado, persistencia, interfaz, c
 
 Aplicaré controles mínimos de seguridad para evitar XSS en el DOM y errores por datos manipulados: `textContent`, validación de entradas y `localStorage`, ausencia de secretos, dependencias mínimas, recursos locales y una CSP básica.
 
-La dirección visual será un panel de control de misión juvenil: fondo espacial azul oscuro, paneles redondeados, cian para acciones, ámbar para recompensas y energía, rojo para avisos y textos claros. La interfaz mostrará el tablero junto a la puntuación, los intentos, los mensajes de COSMO y el progreso de reparación, y se adaptará colocando los paneles en vertical en pantallas pequeñas.
+La dirección visual será un panel de control de misión juvenil: fondo espacial azul oscuro, paneles redondeados, cian para acciones, ámbar para recompensas y energía, rojo para avisos y textos claros. La interfaz mostrará el tablero junto a la puntuación, los intentos, los mensajes de COSMO y el progreso de reparación. En ordenador adaptará automáticamente el tamaño de las cartas y los espacios al número de parejas y a la altura disponible para intentar mantener todo el tablero visible, tomando como referencia mínima un portátil de 1366 × 768. En móvil priorizará la legibilidad aunque sea necesario desplazarse.
 
 Para el MVP utilizaré principalmente imágenes astronómicas oficiales de la NASA, descargadas dentro del proyecto y con su procedencia, enlace, crédito y condiciones de uso registrados. Por falta de tiempo no crearé ahora todo el apartado artístico: como evolución futura quiero incorporar ilustraciones propias y de artistas reconocidos, recuperando el enfoque educativo de mi juego de parejas anterior.
 

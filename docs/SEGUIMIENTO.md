@@ -229,6 +229,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Revisado | Tras la primera prueba manual, añadí más separación al formulario, reforcé el estilo visual, corregí el giro 3D de las cartas y unifiqué el tiempo como `mm:ss`; ya pasan ocho pruebas. |
 | 10/10/2026 | Completado | Corregí la política de seguridad que bloqueaba los estilos de Vite, incorporé las 18 imágenes acreditadas y rediseñé el tablero, las cartas y el formulario. |
 | 10/10/2026 | Revisado | Tras probar 8/12/16 y 20/30/40 segundos, fijé la observación inicial en el punto medio de 14/21/28; también eliminé del tablero el texto narrativo ya leído para evitar distracciones. |
+| 10/10/2026 | Revisado | Hice que las cartas y los espacios se compacten según el nivel y la altura del ordenador para mantener el tablero completo visible en portátiles; en móvil priorizo la lectura aunque exista desplazamiento. |
 
 ## 10. Próxima decisión
 
