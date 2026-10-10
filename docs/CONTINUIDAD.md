@@ -2,6 +2,13 @@
 
 Este documento permite retomar Memory Quest aunque no esté disponible el historial de conversación. Debe actualizarse al cerrar cada sesión de trabajo relevante.
 
+## Repositorio correcto
+
+- **Repositorio local:** `C:\Users\Usuario\Documents\TFG-BigSchool-Master-en-desarrollo-con-IA-E.III`.
+- **Repositorio remoto:** `git@github.com:otorios/TFG-BigSchool-Master-en-desarrollo-con-IA-E.III.git`.
+- **Rama de trabajo:** `main`.
+- No confundirlo con `C:\Users\Usuario\Documents\BigSchool`, que contiene los materiales generales del máster y no debe utilizarse para desarrollar el TFG.
+
 ## Estado actualizado el 10/10/2026
 
 El proyecto se encuentra en la fase de definición funcional y técnica. Ya están cerrados el público objetivo, el tema, el tamaño de los tableros, el formato de las parejas, el uso de contenido fijo, el papel de la IA y la persistencia. Todavía no se ha seleccionado el stack ni se ha comenzado la implementación.
@@ -100,6 +107,15 @@ Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 ```text
 Estamos diseñando Memory Quest, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md y docs/IDEAS-HISTORIAS.md. No cambies decisiones ya aceptadas sin indicarlo. Retoma desde el punto exacto marcado en CONTINUIDAD.md. El alcance funcional básico del MVP ya está cerrado y la próxima decisión es elegir el stack tecnológico. Trabaja por decisiones pequeñas y actualiza la documentación aprobada.
 ```
+
+## Normas para documentar el trabajo
+
+- Cada cambio o commit debe tener un nombre descriptivo y una breve descripción de lo modificado.
+- Si cambia una decisión ya registrada, se actualizará su mismo apartado; no se creará otro punto duplicado.
+- Una decisión modificada debe distinguir entre `Idea original`, `Decisión actual` y `Motivo del cambio`.
+- La fecha de actualización solo se añadirá a los puntos realmente modificados. Los demás conservarán su contenido y formato.
+- Cuando se trabaje por decisiones, se explicará una cada vez y no se avanzará a la siguiente hasta que la anterior esté comprendida y confirmada.
+- Al cerrar una sesión relevante se actualizarán este documento, el seguimiento y el registro de decisiones cuando corresponda.
 
 ## Documentos de referencia
 
