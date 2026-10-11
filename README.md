@@ -34,6 +34,7 @@ Las decisiones educativas, narrativas y técnicas se explican con más detalle e
 - Tres desenlaces según la energía total conservada.
 - Guardado del nombre y del progreso entre capítulos mediante `localStorage`.
 - Opción para continuar una partida o comenzar una nueva.
+- Instrucciones breves accesibles desde la pantalla inicial.
 - Interfaz responsive adaptada principalmente a ordenadores y portátiles.
 - Imágenes astronómicas locales con texto alternativo y créditos registrados.
 - Recursos visuales generados con IA específicamente para el MVP: fondo espacial y reverso de las cartas.

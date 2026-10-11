@@ -38,6 +38,35 @@ function stopTimers() {
   observationId = null;
 }
 
+function createInstructionsDialog(trigger) {
+  const dialog = element('dialog', 'instructions-dialog');
+  const title = element('h2', null, 'Cómo jugar');
+  title.id = 'instructions-title';
+  dialog.setAttribute('aria-labelledby', title.id);
+
+  const instructions = element('ul', 'instructions-list');
+  [
+    'El objetivo es reparar los tres módulos de la nave ATLAS.',
+    'Cada pareja relaciona una imagen y un concepto con su definición o pista.',
+    'Las cartas permanecen visibles durante unos segundos antes de ocultarse.',
+    'Cada error consume 2 puntos de energía.',
+    'Si la energía se agota, solo se reinicia el capítulo actual.',
+    'El progreso se guarda al completar cada capítulo.',
+  ].forEach((instruction) => instructions.append(element('li', null, instruction)));
+
+  dialog.append(
+    title,
+    element('p', 'instructions-intro', 'Observa, recuerda y encuentra las relaciones correctas.'),
+    instructions,
+    createButton('Cerrar instrucciones', () => dialog.close(), 'secondary'),
+  );
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+  dialog.addEventListener('close', () => trigger.focus());
+  return dialog;
+}
+
 // Pantalla de inicio
 function renderStart() {
   stopTimers();
@@ -86,6 +115,11 @@ function renderStart() {
     renderChapterIntro(0);
   });
   screen.append(form);
+
+  const instructionsButton = createButton('Cómo jugar', undefined, 'ghost');
+  const instructionsDialog = createInstructionsDialog(instructionsButton);
+  instructionsButton.addEventListener('click', () => instructionsDialog.showModal());
+  screen.append(instructionsButton, instructionsDialog);
 
   if (progress) {
     const continueBox = element('div', 'continue-box');

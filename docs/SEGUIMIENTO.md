@@ -239,6 +239,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 11/10/2026 | Completado | Se revisaron claridad, estructura, comentarios, accesibilidad, validación de `localStorage`, CSP y dependencias; pasan doce pruebas, build y auditoría sin vulnerabilidades conocidas. |
 | 11/10/2026 | Completado | Se sustituyó la paleta inicial por una combinación de azules índigo, dorado y gris azulado, sin degradados. |
 | 11/10/2026 | Completado | Se incorporaron un fondo espacial con cenefa y un reverso ilustrado `MQ · ATLAS`, generados específicamente para el proyecto con apoyo de IA. |
+| 11/10/2026 | Completado | Se añadió a la pantalla inicial un cuadro accesible de instrucciones para facilitar la comprensión autónoma de la demostración. |
 
 ## 10. Próximo bloque
 

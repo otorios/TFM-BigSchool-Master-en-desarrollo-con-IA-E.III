@@ -326,3 +326,11 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Decisión:** se utiliza **Memory Quest** como nombre general y **Señal estelar** como subtítulo de la primera aventura. El título completo del MVP es **Memory Quest: Señal estelar**.
 - **Motivo:** el nombre general es adecuado para un videojuego que podrá incorporar historias distintas, mientras que el subtítulo aporta identidad a esta aventura sin revelar desde el principio que la señal procede de una baliza.
 - **Evolución futura:** se mantendrá `Memory Quest: [subtítulo de la aventura]` como sistema de nombres para nuevas expansiones, temáticas o historias.
+
+## D-034 — Instrucciones desde la pantalla inicial
+
+- **Estado:** aceptada para el MVP.
+- **Fecha:** 11/10/2026.
+- **Decisión:** se incorpora un botón `Cómo jugar` en la pantalla inicial. Al activarlo se abre un cuadro de diálogo con el objetivo, la relación entre las cartas, el periodo de observación, la penalización de energía, el reinicio del capítulo y el guardado del progreso.
+- **Accesibilidad:** el cuadro puede cerrarse mediante su botón, la tecla `Esc` o la selección del área exterior. Al cerrarse, el foco regresa al botón que lo abrió.
+- **Motivo:** las instrucciones permiten comprender la demostración sin explicaciones externas y evitan sobrecargar la portada con todas las reglas visibles de forma permanente.
