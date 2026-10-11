@@ -2,9 +2,9 @@
 
 ## 1. Estado actual
 
-El proyecto cuenta ya con una primera versión jugable de **Memory Quest: Señal estelar**. Están implementados los tres capítulos, el motor compartido, la energía, el cronómetro, el guardado local, el desenlace, el diseño responsive, las 18 imágenes acreditadas y las pruebas básicas. Todavía debo probar la experiencia completa, activar el despliegue y preparar la entrega.
+El proyecto cuenta con una versión jugable de **Memory Quest: Señal estelar**. Están implementados los tres capítulos, el motor compartido, la energía, el cronómetro, el guardado local, el desenlace, el diseño responsive, las 18 imágenes acreditadas, el fondo y el reverso ilustrados y 12 pruebas automáticas. Quedan pendientes la prueba manual completa, el despliegue y los materiales de entrega.
 
-Ya se han cerrado el público objetivo, el alcance básico del MVP, el formato de las parejas, el uso de contenido revisado, la persistencia local y el stack. Todavía están pendientes la arquitectura mínima, la definición visual y la planificación detallada de implementación.
+Se han cerrado el público objetivo, el alcance del MVP, el formato de las parejas, el contenido, la persistencia, el stack, la arquitectura y la dirección visual. La prioridad actual es validar, desplegar y preparar la entrega.
 
 ## 2. Visión del producto
 
@@ -56,7 +56,7 @@ El MVP es la versión más pequeña que funciona de principio a fin y demuestra 
 
 ### 3.3 Biblioteca de imágenes y contenidos
 
-En la primera versión utilizaré una biblioteca propia de recursos revisados previamente. No generaré imágenes ni contenido educativo durante la partida.
+La primera versión utiliza una biblioteca local de recursos revisados previamente. No se generan imágenes ni contenido educativo durante la partida.
 
 Cada recurso podrá almacenar metadatos como:
 
@@ -92,16 +92,16 @@ Los contenidos se almacenarán como datos locales estructurados. El progreso se 
 
 ## 4. Papel de la inteligencia artificial
 
-No integraré un proveedor de IA durante la ejecución de la aplicación. Utilizaré la IA como herramienta de apoyo durante el desarrollo para ideación, documentación, arquitectura, programación, creación inicial de contenidos y pruebas. Revisaré todo resultado antes de incorporarlo al catálogo o al código.
+No se integra un proveedor de IA durante la ejecución de la aplicación. La IA se utiliza como herramienta de apoyo durante el desarrollo para ideación, documentación, arquitectura, programación, creación inicial de contenidos, recursos visuales y pruebas. Todo resultado se revisa antes de incorporarlo al catálogo o al código.
 
-Documentaré este uso en la memoria del TFM mediante decisiones, ejemplos de asistencia y una explicación de las revisiones realizadas. Dejaré una posible generación dinámica de aventuras como ampliación posterior al MVP.
+Este uso deberá documentarse en la memoria del TFM mediante decisiones, ejemplos de asistencia y una explicación de las revisiones realizadas. La generación dinámica de aventuras queda como ampliación posterior al MVP.
 
 ## 5. Fases de trabajo
 
 ### Fase 1 — Definición
 
 - Cerrar nombre y descripción corta.
-- Documentaré el público objetivo y el alcance acordados.
+- Documentar el público objetivo y el alcance acordados.
 - Escribir requisitos y criterios de aceptación.
 - Elegir el stack tecnológico.
 - Diseñar las pantallas y el flujo del jugador.
@@ -152,7 +152,7 @@ Documentaré este uso en la memoria del TFM mediante decisiones, ejemplos de asi
 
 Estas funcionalidades no deben retrasar la entrega principal:
 
-- Selección de dificultad con intentos ilimitados o limitados, tiempo máximo y posibles parejas o condiciones especiales que deban evitarse, recuperando la progresión de mi juego original.
+- Selección de dificultad con intentos ilimitados o limitados, tiempo máximo y posibles parejas o condiciones especiales, recuperando la progresión del juego anterior.
 - Partidas de refuerzo con los conceptos fallados.
 - Más aventuras y escenarios narrativos.
 - Generación opcional de portadas o imágenes de capítulo.
@@ -191,53 +191,55 @@ Estas funcionalidades no deben retrasar la entrega principal:
 
 | Fecha | Estado | Decisión o avance |
 | --- | --- | --- |
-| 07/10/2026 | Completado | Seleccioné la idea de un juego de parejas semánticas con narrativa por capítulos. |
-| 07/10/2026 | Completado | Elegí una nave averiada como primera aventura de referencia. |
-| 07/10/2026 | Completado | Acordé utilizar una biblioteca de imágenes en lugar de generarlas todas durante la partida. |
-| 07/10/2026 | Revisado | Definí inicialmente el público de 10 a 13 años y lo amplié a 10–14 años el 10/10/2026. |
-| 07/10/2026 | Revisado | Definí COSMO, ATLAS, la misión ORIOS y la cápsula de semillas; el 10/10/2026 cambié su nombre de LUR a LURRA. |
-| 07/10/2026 | Completado | Establecí el origen de la emergencia y la premisa narrativa fusionada. |
-| 07/10/2026 | En curso | Inicié el diseño narrativo; me queda concretar las parejas y algunos detalles visuales de los capítulos. |
-| 07/10/2026 | Pendiente | Me quedaba definir reglas, stack, arquitectura, planificación e implementación. |
-| 10/10/2026 | Completado | Ajusté el público objetivo a 10–14 años y limité el MVP al tema de astronomía. |
-| 10/10/2026 | Completado | Acordé tres capítulos con 4, 6 y 8 parejas y el formato imagen y nombre frente a definición o pista. |
-| 10/10/2026 | Completado | Decidí usar un catálogo y una narrativa fijos y revisados, sin proveedor de IA durante la ejecución. |
-| 10/10/2026 | Completado | Decidí guardar el progreso en `localStorage`, sin usuarios ni base de datos. |
-| 10/10/2026 | Completado | Elegí HTML, CSS y JavaScript sin framework con Vite para el MVP; dejo React con Vite como evolución futura. |
-| 10/10/2026 | Completado | Elegí un único `index.html` con varias vistas y un motor de parejas compartido por los tres capítulos. |
-| 10/10/2026 | Completado | Elegí objetos JavaScript en un módulo local para definir capítulos, parejas, pistas, explicaciones y narrativa. |
-| 10/10/2026 | Completado | Decidí centralizar el estado temporal de la partida en un único objeto JavaScript `gameState`. |
-| 10/10/2026 | Completado | Decidí guardar el progreso mediante puntos de control y reiniciar el capítulo si una partida se interrumpe a mitad del tablero. |
-| 10/10/2026 | Completado | Cerré una estructura inicial pequeña con módulos separados para motor, estado, persistencia, interfaz y contenido. |
-| 10/10/2026 | Completado | Definí controles mínimos contra XSS en el DOM, datos manipulados en `localStorage`, exposición de secretos y dependencias innecesarias. |
-| 10/10/2026 | Completado | Elegí una dirección visual de panel de control de misión juvenil, con estética espacial, paneles claros y diseño adaptable. |
-| 10/10/2026 | Completado | Elegí imágenes astronómicas oficiales de la NASA para el MVP por falta de tiempo y dejé las ilustraciones propias y de artistas reconocidos como evolución futura. |
-| 10/10/2026 | Completado | Elegí GitHub Pages para publicar gratuitamente el juego desde el repositorio público mediante una construcción automática con Vite. |
-| 10/10/2026 | Completado | Conservé la observación inicial y el volteo de mi juego anterior, adaptándolos a parejas de imagen y concepto frente a definición o pista. |
-| 10/10/2026 | Completado | Definí el primer tablero con Sol, Tierra, Luna y Vía Láctea; cada acierto recuperará una pieza del transmisor. |
-| 10/10/2026 | Completado | Fijé para las pruebas una observación inicial de 8, 12 y 16 segundos según el capítulo, ampliable si no resulta suficiente. |
-| 10/10/2026 | Revisado | Elegí inicialmente intentos ilimitados, pero después introduje energía y penalizaciones progresivas para que exista un riesgo real de repetir el capítulo. |
-| 10/10/2026 | Completado | Decidí medir y mostrar el tiempo empleado sin establecer un límite ni provocar derrotas en el MVP. |
-| 10/10/2026 | Completado | Definí 12 puntos de energía por capítulo, penalizaciones de 1, 2 y 3 por error y tres resultados de regreso según la puntuación final. |
-| 10/10/2026 | Revisado | Simplifiqué las recompensas: cada tablero entrega un único módulo y cada acierto avanza su barra de reparación. |
-| 10/10/2026 | Completado | Definí las seis parejas del segundo capítulo y el módulo que recupera la protección de LURRA. |
-| 10/10/2026 | Completado | Cerré el segundo capítulo con el protocolo compartido de LURRA, una antigua baliza y un fragmento de mapa hacia la ruta de regreso. |
-| 10/10/2026 | Completado | Definí las ocho parejas del tablero final y el módulo de navegación y propulsión que permite emprender el regreso. |
-| 10/10/2026 | Completado | Resolví el misterio de la señal: la antigua baliza responde a los identificadores enviados por la emergencia de ATLAS y proporciona una ruta segura de regreso. |
-| 10/10/2026 | Completado | Elegí `Memory Quest` como nombre general y `Señal estelar` como subtítulo de la primera aventura y del MVP. |
-| 10/10/2026 | Completado | Implementé una primera versión jugable con Vite, tres capítulos, motor compartido, energía, cronómetro, guardado local, desenlace responsive y siete pruebas automáticas. |
-| 10/10/2026 | Revisado | Tras la primera prueba manual, añadí más separación al formulario, reforcé el estilo visual, corregí el giro 3D de las cartas y unifiqué el tiempo como `mm:ss`; ya pasan ocho pruebas. |
-| 10/10/2026 | Completado | Corregí la política de seguridad que bloqueaba los estilos de Vite, incorporé las 18 imágenes acreditadas y rediseñé el tablero, las cartas y el formulario. |
-| 10/10/2026 | Revisado | Tras probar 8/12/16 y 20/30/40 segundos, fijé la observación inicial en el punto medio de 14/21/28; también eliminé del tablero el texto narrativo ya leído para evitar distracciones. |
+| 07/10/2026 | Completado | Se seleccionó la idea de un juego de parejas semánticas con narrativa por capítulos. |
+| 07/10/2026 | Completado | Se eligió una nave averiada como primera aventura de referencia. |
+| 07/10/2026 | Completado | Se acordó utilizar una biblioteca de imágenes en lugar de generarlas durante la partida. |
+| 07/10/2026 | Revisado | El público inicialmente definido entre 10 y 13 años se amplió a 10–14 años el 10/10/2026. |
+| 07/10/2026 | Revisado | Se definieron COSMO, ATLAS, la misión ORIOS y la cápsula de semillas; el 10/10/2026 su nombre cambió de LUR a LURRA. |
+| 07/10/2026 | Completado | Se establecieron el origen de la emergencia y la premisa narrativa fusionada. |
+| 07/10/2026 | Completado | Se inició y completó el diseño narrativo de los capítulos. |
+| 07/10/2026 | Completado | Se definieron posteriormente las reglas, el stack, la arquitectura, la planificación y la implementación. |
+| 10/10/2026 | Completado | El público objetivo se ajustó a 10–14 años y el MVP se limitó a la astronomía. |
+| 10/10/2026 | Completado | Se acordaron tres capítulos con 4, 6 y 8 parejas y el formato imagen y nombre frente a definición o pista. |
+| 10/10/2026 | Completado | Se decidió usar un catálogo y una narrativa fijos y revisados, sin proveedor de IA durante la ejecución. |
+| 10/10/2026 | Completado | Se decidió guardar el progreso en `localStorage`, sin usuarios ni base de datos. |
+| 10/10/2026 | Completado | Se eligieron HTML, CSS y JavaScript sin framework con Vite para el MVP; React con Vite queda como evolución futura. |
+| 10/10/2026 | Completado | Se eligió un único `index.html` con varias vistas y un motor compartido. |
+| 10/10/2026 | Completado | Se eligieron objetos JavaScript en un módulo local para definir los contenidos. |
+| 10/10/2026 | Completado | Se decidió centralizar el estado temporal de la partida en un único objeto JavaScript `gameState`. |
+| 10/10/2026 | Completado | Se decidió guardar el progreso mediante puntos de control y reiniciar el capítulo si una partida se interrumpe a mitad del tablero. |
+| 10/10/2026 | Completado | Se cerró una estructura con módulos separados para motor, estado, persistencia, interfaz y contenido. |
+| 10/10/2026 | Completado | Se definieron controles contra XSS, datos manipulados en `localStorage`, exposición de secretos y dependencias innecesarias. |
+| 10/10/2026 | Revisado | Se eligió inicialmente una dirección visual de panel de control juvenil; se sustituyó el 11/10/2026 por una estética más ilustrada. |
+| 10/10/2026 | Completado | Se eligieron imágenes astronómicas oficiales de la NASA para las cartas del MVP. |
+| 10/10/2026 | Completado | Se eligió GitHub Pages para publicar gratuitamente el juego mediante una construcción con Vite. |
+| 10/10/2026 | Completado | Se conservaron la observación inicial y el volteo del juego anterior, adaptados a parejas de imagen y concepto frente a definición o pista. |
+| 10/10/2026 | Completado | Se definió el primer tablero con Sol, Tierra, Luna y Vía Láctea. |
+| 10/10/2026 | Revisado | La observación inicial de 8, 12 y 16 segundos se revisó posteriormente. |
+| 10/10/2026 | Revisado | Los intentos ilimitados iniciales se sustituyeron por energía y penalizaciones. |
+| 10/10/2026 | Completado | Se decidió medir y mostrar el tiempo empleado sin establecer un límite ni provocar derrotas en el MVP. |
+| 10/10/2026 | Revisado | Se definieron 12 puntos de energía y penalizaciones inicialmente distintas; después se unificaron. |
+| 10/10/2026 | Revisado | Las recompensas se simplificaron a un módulo por tablero y una barra de reparación. |
+| 10/10/2026 | Completado | Se definieron las seis parejas del segundo capítulo y la protección de LURRA. |
+| 10/10/2026 | Completado | Se cerró el segundo capítulo con el protocolo de LURRA, la baliza y el mapa. |
+| 10/10/2026 | Completado | Se definieron las ocho parejas finales y el módulo de navegación y propulsión. |
+| 10/10/2026 | Completado | Se resolvió el misterio de la señal mediante los identificadores enviados por ATLAS. |
+| 10/10/2026 | Completado | Se eligieron `Memory Quest` como nombre general y `Señal estelar` como subtítulo. |
+| 10/10/2026 | Completado | Se implementó la primera versión jugable con Vite y siete pruebas automáticas. |
+| 10/10/2026 | Revisado | Tras la primera prueba manual, se añadió separación al formulario, se reforzó el estilo visual, se corrigió el giro 3D y se unificó el tiempo como `mm:ss`; pasaron ocho pruebas. |
+| 10/10/2026 | Completado | Se corrigió la política de seguridad, se incorporaron 18 imágenes acreditadas y se rediseñaron el tablero, las cartas y el formulario. |
+| 10/10/2026 | Revisado | Tras probar 8/12/16 y 20/30/40 segundos, la observación inicial se fijó en 14/21/28; también se eliminó del tablero el texto narrativo ya leído. |
 | 10/10/2026 | Revisado | Hice que las cartas y los espacios se compacten según el nivel y la altura del ordenador para mantener el tablero completo visible en portátiles; en móvil priorizo la lectura aunque exista desplazamiento. |
 | 10/10/2026 | Revisado | Reduje de 3 a 2 puntos la penalización por error del tercer capítulo para ampliar el margen de cuatro a seis errores. |
-| 10/10/2026 | Completado | Reorganicé la transición entre capítulos para destacar el módulo recuperado, el progreso de ATLAS y el avance narrativo antes de mostrar las estadísticas. |
-| 10/10/2026 | Revisado | Simplifiqué las 18 pistas a frases breves con una sola idea principal y añadí una prueba que limita su longitud para conservar la legibilidad de las cartas. |
-| 10/10/2026 | Revisado | Sustituí durante la partida el contador ascendente de intentos por una cuenta atrás de fallos restantes; mantengo el total de intentos en el resumen del capítulo. |
-| 10/10/2026 | Revisado | Reduje de doce a seis los fallos disponibles del primer capítulo y unifiqué en −2 la penalización de los tres niveles para evitar reglas innecesariamente distintas. |
-| 10/10/2026 | Revisado | Coloqué la cuenta atrás en el centro de la misma línea superior que las estadísticas y mantengo su espacio como `En juego` para evitar desplazamientos. |
-| 11/10/2026 | Completado | Revisé íntegramente claridad, estructura, comentarios, accesibilidad de imágenes, validación de `localStorage`, CSP y dependencias; pasan doce pruebas, build y auditoría sin vulnerabilidades conocidas. |
+| 10/10/2026 | Completado | Se reorganizó la transición entre capítulos para destacar el módulo, el progreso y la narrativa. |
+| 10/10/2026 | Revisado | Se simplificaron las 18 pistas a frases breves con una sola idea principal y se añadió una prueba que limita su longitud. |
+| 10/10/2026 | Revisado | El contador ascendente de intentos se sustituyó durante la partida por una cuenta atrás de fallos restantes; el total se mantiene en el resumen. |
+| 10/10/2026 | Revisado | Los fallos del primer capítulo se redujeron de doce a seis y la penalización se unificó en −2. |
+| 10/10/2026 | Revisado | La cuenta atrás se colocó en el centro de la línea superior y su espacio se mantiene como `En juego` para evitar desplazamientos. |
+| 11/10/2026 | Completado | Se revisaron claridad, estructura, comentarios, accesibilidad, validación de `localStorage`, CSP y dependencias; pasan doce pruebas, build y auditoría sin vulnerabilidades conocidas. |
+| 11/10/2026 | Completado | Se sustituyó la paleta inicial por una combinación de azules índigo, dorado y gris azulado, sin degradados. |
+| 11/10/2026 | Completado | Se incorporaron un fondo espacial con cenefa y un reverso ilustrado `MQ · ATLAS`, generados específicamente para el proyecto con apoyo de IA. |
 
-## 10. Próxima decisión
+## 10. Próximo bloque
 
-El siguiente bloque es personalizar el diseño con algunos elementos ilustrados para que resulte menos tecnológico y conecte con mi proyecto anterior, empezando por la pantalla inicial y revisando si puedo reutilizar ilustraciones propias. Después realizaré una prueba completa y prepararé el despliegue. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+La personalización visual se considera cerrada en el estado actual. El siguiente bloque consiste en realizar una prueba manual completa, comprobar la instalación desde cero, preparar el despliegue y completar la presentación y el vídeo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.

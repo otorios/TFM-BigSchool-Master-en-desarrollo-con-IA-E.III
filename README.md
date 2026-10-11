@@ -4,7 +4,7 @@
 
 El proyecto corresponde al Trabajo Final del Máster en Desarrollo con Inteligencia Artificial. La IA se utiliza como apoyo documentado durante el proceso de diseño y desarrollo, pero el juego no depende de ningún proveedor de IA durante su ejecución.
 
-> **Estado actual:** el MVP es jugable y contiene los tres capítulos completos, las 18 parejas educativas, imágenes acreditadas, progreso local, diseño responsive y 12 pruebas automáticas. Antes de la entrega quedan pendientes el ajuste visual ilustrado, una prueba manual completa, el despliegue público, las slides y el vídeo.
+> **Estado actual:** el MVP es jugable y contiene los tres capítulos completos, las 18 parejas educativas, imágenes acreditadas, progreso local, diseño responsive, una identidad visual ilustrada y 12 pruebas automáticas. Antes de la entrega quedan pendientes una prueba manual completa, el despliegue público, las slides y el vídeo.
 
 ## Descripción del proyecto
 
@@ -36,6 +36,7 @@ Las decisiones educativas, narrativas y técnicas se explican con más detalle e
 - Opción para continuar una partida o comenzar una nueva.
 - Interfaz responsive adaptada principalmente a ordenadores y portátiles.
 - Imágenes astronómicas locales con texto alternativo y créditos registrados.
+- Fondo espacial y reverso de cartas originales, creados para el proyecto con apoyo de IA generativa.
 - Validación del nombre y del progreso almacenado en el navegador.
 
 ## Cómo jugar
@@ -125,6 +126,7 @@ La última revisión también verificó la sintaxis de JavaScript, la construcci
 │   ├── storage.js             # Validación y persistencia local
 │   ├── ui.js                  # Creación y actualización de la interfaz
 │   ├── styles.css             # Diseño y adaptación responsive
+│   ├── assets/                # Fondo y reverso ilustrados del juego
 │   └── data/chapters.js       # Capítulos, narrativa y parejas
 ├── public/images/             # Imágenes locales y recursos visuales
 ├── tests/                     # Pruebas automáticas
@@ -154,7 +156,7 @@ El proyecto **no incorpora autenticación ni cuentas de usuario**, por lo que no
 | Repositorio de código | Disponible | [Repositorio en GitHub](https://github.com/otorios/TFG-BigSchool-Master-en-desarrollo-con-IA-E.III) |
 | Aplicación desplegada | Pendiente | Se añadirá la URL de GitHub Pages |
 | Slides de presentación | Pendiente | Se añadirá el enlace público o archivo definitivo |
-| Vídeo explicativo | Pendiente | Se añadirá la URL pública |
+| Vídeo explicativo | Pendiente | Se añadirá el enlace de acceso al vídeo de YouTube |
 | Credenciales de prueba | No aplicable | El proyecto no tiene autenticación |
 
 Los requisitos y la lista de comprobación de la entrega están recogidos en [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md).
@@ -174,7 +176,6 @@ Los requisitos y la lista de comprobación de la entrega están recogidos en [Re
 
 ## Estado pendiente antes de la entrega
 
-- Personalizar algunos elementos visuales para lograr un acabado más ilustrado y menos tecnológico.
 - Realizar una prueba manual completa de los tres capítulos.
 - Comprobar la instalación desde cero.
 - Configurar y verificar el despliegue público.

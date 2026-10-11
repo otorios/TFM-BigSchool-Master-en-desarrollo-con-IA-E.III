@@ -2,16 +2,16 @@
 
 ## Revisión del 11/10/2026
 
-He revisado todos los módulos JavaScript, la configuración de Vite, la política CSP, la persistencia, las pruebas y la construcción de producción antes de continuar con el diseño.
+Se revisaron todos los módulos JavaScript, la configuración de Vite, la política CSP, la persistencia, las pruebas y la construcción de producción antes de continuar con el diseño.
 
 ## Criterios aplicados
 
-- Mantengo módulos pequeños y con una sola responsabilidad.
-- Utilizo nombres descriptivos y comentarios únicamente cuando explican una decisión o una regla que no resulta evidente.
-- Creo contenido dinámico con APIs del DOM y `textContent`; no utilizo `innerHTML`, `eval()`, `document.write()` ni ejecución de código construido desde entradas.
-- Trato el contenido de `localStorage` como una entrada no fiable.
-- Mantengo los recursos localmente y reduzco las dependencias al mínimo.
-- Conservo las reglas comprobables en funciones puras y mediante pruebas automáticas.
+- Se mantienen módulos pequeños y con una sola responsabilidad.
+- Se utilizan nombres descriptivos y comentarios únicamente cuando explican una decisión o una regla que no resulta evidente.
+- El contenido dinámico se crea con APIs del DOM y `textContent`; no se utilizan `innerHTML`, `eval()`, `document.write()` ni ejecución de código construido desde entradas.
+- El contenido de `localStorage` se trata como una entrada no fiable.
+- Los recursos se mantienen localmente y las dependencias se reducen al mínimo.
+- Las reglas comprobables se conservan en funciones puras y mediante pruebas automáticas.
 
 ## Mejoras realizadas
 
@@ -20,8 +20,8 @@ He revisado todos los módulos JavaScript, la configuración de Vite, la políti
 - El nombre normaliza espacios y caracteres de control, mantiene un máximo de 30 caracteres y se inserta siempre mediante `textContent`.
 - El texto alternativo específico definido para cada imagen se copia ahora a la carta correspondiente.
 - Los valores máximos de energía y puntuación utilizan constantes compartidas en lugar de cifras repetidas.
-- Eliminé una función de estado que no se utilizaba y un manejador vacío del botón de envío.
-- Añadí comentarios breves sobre la mezcla, el estado temporal, la confianza de `localStorage`, la construcción segura del DOM y los puntos de control.
+- Se eliminó una función de estado que no se utilizaba y un manejador vacío del botón de envío.
+- Se añadieron comentarios breves sobre la mezcla, el estado temporal, la confianza de `localStorage`, la construcción segura del DOM y los puntos de control.
 
 ## Comprobaciones superadas
 
@@ -34,6 +34,6 @@ He revisado todos los módulos JavaScript, la configuración de Vite, la políti
 
 ## Riesgo residual y alcance
 
-La aplicación no utiliza backend, cuentas, base de datos, secretos ni proveedor de IA durante la ejecución. Por ello no existe una superficie de inyección SQL, de comandos o de prompts. La CSP incluida mediante etiqueta `meta` aporta defensa adicional para este sitio estático; cuando configure el despliegue revisaré si GitHub Pages permite complementar las cabeceras de seguridad y documentaré sus limitaciones.
+La aplicación no utiliza backend, cuentas, base de datos, secretos ni proveedor de IA durante la ejecución. Por ello no existe una superficie de inyección SQL, de comandos o de prompts. La CSP incluida mediante etiqueta `meta` aporta defensa adicional para este sitio estático; al configurar el despliegue se revisará si GitHub Pages permite complementar las cabeceras de seguridad y se documentarán sus limitaciones.
 
 El progreso es local y puede borrarse desde el navegador. No contiene información sensible y no se considera un sistema de autenticación ni una fuente de datos autoritativa.

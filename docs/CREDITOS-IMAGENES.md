@@ -2,9 +2,9 @@
 
 ## Uso en el MVP
 
-He seleccionado imágenes y representaciones científicas publicadas en la biblioteca oficial de la NASA. Las copias utilizadas por el juego están guardadas en `public/images/cards/`, por lo que la partida no depende de una conexión a Internet.
+Se han seleccionado imágenes y representaciones científicas publicadas en la biblioteca oficial de la NASA. Las copias utilizadas por el juego se encuentran en `public/images/cards/`, por lo que la partida no depende de una conexión a Internet.
 
-He utilizado las versiones pequeñas facilitadas por la biblioteca para reducir el peso del proyecto. La NASA establece sus condiciones generales en [NASA Images and Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/). Cuando una ficha atribuye la obra a colaboradores, conservo también ese crédito y será necesario revisarlo antes de cualquier uso distinto del académico previsto en este TFG.
+Se han utilizado las versiones pequeñas facilitadas por la biblioteca para reducir el peso del proyecto. La NASA establece sus condiciones generales en [NASA Images and Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/). Cuando una ficha atribuye la obra a colaboradores, también se conserva ese crédito y deberá revisarse antes de cualquier uso distinto del académico previsto en este TFG.
 
 ## Registro de recursos
 
@@ -31,12 +31,12 @@ He utilizado las versiones pequeñas facilitadas por la biblioteca para reducir 
 
 ## Criterios aplicados
 
-- He escogido imágenes que permiten distinguir los conceptos con rapidez durante la fase de observación.
-- He conservado una ficha oficial y el crédito asociado a cada archivo.
-- He añadido un texto alternativo específico en el catálogo del juego.
-- No he utilizado logotipos ni insignias de la NASA como elementos de identidad del proyecto.
+- Se han escogido imágenes que permiten distinguir los conceptos con rapidez durante la fase de observación.
+- Se conserva una ficha oficial y el crédito asociado a cada archivo.
+- Se ha añadido un texto alternativo específico en el catálogo del juego.
+- No se han utilizado logotipos ni insignias de la NASA como elementos de identidad del proyecto.
 
-Como evolución futura, quiero sustituir o complementar estos recursos con ilustraciones propias y obras de artistas reconocidos, documentando siempre su autoría y sus derechos de uso.
+Como evolución futura, se contempla sustituir o complementar estos recursos con ilustraciones propias y obras de artistas reconocidos, documentando siempre su autoría y sus derechos de uso.
 
 ## Referencias visuales para la evolución del diseño
 
@@ -64,5 +64,16 @@ La interfaz combina ambas referencias sin reproducir todos sus colores. Se han s
 - `#DFDBDD`: texto general, controles principales y estrellas del fondo.
 
 Los códigos se verificaron mediante las paletas exportadas con Coolors. El tono `#FAD493` de la primera propuesta se descartó tras probarlo en la interfaz y se sustituyó por `#DFDBDD` para mejorar la coherencia visual del texto.
+
+## Ilustraciones originales incorporadas
+
+El fondo y el reverso de las cartas se generaron específicamente para **Memory Quest: Señal estelar** con asistencia de un modelo de generación de imágenes de OpenAI. Se partió de indicaciones propias sobre composición, temática y paleta, y se revisó el resultado antes de integrarlo en el juego.
+
+| Uso | Archivo | Descripción |
+| --- | --- | --- |
+| Fondo general | `src/assets/fondo-cenefa-estelar.png` | Escena espacial panorámica con una cenefa inferior de símbolos estelares originales. |
+| Reverso de las cartas | `src/assets/reverso-carta-atlas.png` | Composición vertical con estrellas, perseidas y el identificador `MQ · ATLAS`. |
+
+Estas dos imágenes sí se distribuyen dentro del repositorio porque fueron creadas para el proyecto. Las imágenes de Pinterest enumeradas anteriormente se utilizaron únicamente como referencias generales y no se copiaron ni redistribuyeron.
 
 Fecha de consulta: 11 de octubre de 2026.

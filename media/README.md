@@ -8,7 +8,6 @@ Elementos previstos:
 - Diagrama de arquitectura exportado.
 - Imagen de portada.
 - Guion del vídeo.
-- Enlace público al vídeo final.
+- Enlace de acceso al vídeo final de YouTube.
 
 No se almacenarán claves, credenciales reales ni grabaciones con información privada.
-
