@@ -49,6 +49,20 @@ La autoría original no se ha podido identificar porque las publicaciones de Pin
 - [Inspiración para el reverso de las cartas: patrón ilustrado](https://es.pinterest.com/pin/15199717491792096/)
 - [Inspiración para el reverso de las cartas: estética artesanal](https://es.pinterest.com/pin/962222276647586999/)
 - [Inspiración para el reverso de las cartas: cielo estrellado](https://es.pinterest.com/pin/712342866100629018/)
-- [Paleta cromática de referencia](https://es.pinterest.com/pin/703756189610174/)
+- [Paleta cromática espacial principal](https://es.pinterest.com/pin/1087337903814616219/): `#34576B`, `#284B69`, `#192D50`, `#171A3D`, `#E3C06E` y `#FAD493`.
+- [Paleta cromática complementaria](https://es.pinterest.com/pin/9851692935200692/): `#DFDDE0`, `#0F1015`, `#847F83`, `#DFDBDD`, `#45454A` y `#3A4C5E`.
+
+### Colores aplicados al juego
+
+La interfaz combina ambas referencias sin reproducir todos sus colores. Se han seleccionado los siguientes tonos:
+
+- `#171A3D`: fondo espacial principal.
+- `#192D50`: paneles y superficies principales.
+- `#284B69`: paneles y superficies secundarias.
+- `#34576B`: detalles de fondo y elementos atenuados.
+- `#E3C06E`: elementos destacados, indicadores y estados relevantes.
+- `#DFDBDD`: texto general, controles principales y estrellas del fondo.
+
+Los códigos se verificaron mediante las paletas exportadas con Coolors. El tono `#FAD493` de la primera propuesta se descartó tras probarlo en la interfaz y se sustituyó por `#DFDBDD` para mejorar la coherencia visual del texto.
 
 Fecha de consulta: 11 de octubre de 2026.
