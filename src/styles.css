@@ -123,7 +123,7 @@ h2 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
 .button:focus-visible { outline: 3px solid rgb(223 219 221 / 65%); outline-offset: 3px; }
 .button--primary { color: var(--background); background: var(--accent); }
 .button--secondary { color: var(--background); background: var(--highlight); }
-.button--mission { color: var(--highlight); background: var(--muted-accent); }
+.button--mission { color: var(--highlight); background: var(--accent); }
 .button--ghost { color: var(--muted); border-color: rgb(223 219 221 / 28%); background: transparent; }
 .name-form + .button { width: 100%; margin-top: 0.75rem; }
 .continue-box { display: grid; gap: 0.75rem; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgb(223 219 221 / 15%); }
