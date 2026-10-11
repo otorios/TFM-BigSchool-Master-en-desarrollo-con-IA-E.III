@@ -36,7 +36,7 @@ Las decisiones educativas, narrativas y técnicas se explican con más detalle e
 - Opción para continuar una partida o comenzar una nueva.
 - Interfaz responsive adaptada principalmente a ordenadores y portátiles.
 - Imágenes astronómicas locales con texto alternativo y créditos registrados.
-- Fondo espacial y reverso de cartas originales, creados para el proyecto con apoyo de IA generativa.
+- Fondo espacial y reverso de cartas creados con apoyo de IA generativa para representar provisionalmente la identidad visual del MVP.
 - Validación del nombre y del progreso almacenado en el navegador.
 
 ## Cómo jugar
@@ -144,6 +144,8 @@ La última revisión también verificó la sintaxis de JavaScript, la construcci
 - El progreso recuperado del navegador se valida antes de utilizarlo.
 - Los recursos se sirven localmente y la aplicación aplica una política de seguridad de contenidos.
 - Las imágenes utilizadas y su procedencia están registradas en [Créditos de las imágenes](docs/CREDITOS-IMAGENES.md).
+
+Los recursos visuales generados con apoyo de IA forman parte exclusivamente del MVP presentado en el TFM. Una evolución posterior del proyecto contempla sustituirlos por ilustraciones propias o creadas mediante colaboraciones con artistas.
 
 ## Acceso y credenciales
 

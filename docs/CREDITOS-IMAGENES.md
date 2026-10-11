@@ -69,6 +69,8 @@ Los códigos se verificaron mediante las paletas exportadas con Coolors. El tono
 
 El fondo y el reverso de las cartas se generaron específicamente para **Memory Quest: Señal estelar** con asistencia de un modelo de generación de imágenes de OpenAI. Se partió de indicaciones propias sobre composición, temática y paleta, y se revisó el resultado antes de integrarlo en el juego.
 
+Estos recursos forman parte exclusivamente del MVP presentado en el TFM y permiten mostrar provisionalmente la identidad visual propuesta. En una evolución posterior se prevé sustituirlos por ilustraciones propias o creadas mediante colaboraciones con artistas. Las nuevas historias, expansiones y piezas visuales también se desarrollarán de forma original, con su autoría y sus condiciones de uso debidamente documentadas.
+
 | Uso | Archivo | Descripción |
 | --- | --- | --- |
 | Fondo general | `src/assets/fondo-cenefa-estelar.png` | Escena espacial panorámica con una cenefa inferior de símbolos estelares originales. |

@@ -35,9 +35,10 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha:** 07/10/2026.
 - **Fecha de actualización:** 10/10/2026.
 - **Idea original:** se planteó utilizar una biblioteca controlada de imágenes y conceptos y permitir que la IA construyera o adaptara durante la partida las relaciones, explicaciones y partes narrativas. La idea partía también de un juego de parejas anterior que utilizaba obras de ilustradores con finalidad educativa y algunos fondos propios.
-- **Decisión actual:** todas las imágenes, parejas, pistas, explicaciones y textos narrativos del MVP se preparan y revisan previamente. Las cartas utilizan imágenes astronómicas oficiales de la NASA con su procedencia y crédito. El fondo y el reverso se han generado específicamente para el proyecto con apoyo de IA y se distribuyen como recursos propios en `src/assets/`.
+- **Decisión actual:** todas las imágenes, parejas, pistas, explicaciones y textos narrativos del MVP se preparan y revisan previamente. Las cartas utilizan imágenes astronómicas oficiales de la NASA con su procedencia y crédito. Para poder presentar una versión funcional dentro del plazo del TFM, el fondo y el reverso se han generado específicamente para el MVP con apoyo de IA y se incluyen en `src/assets/`.
 - **Motivo del cambio:** se mantiene el control de imágenes y licencias, se prioriza la corrección educativa y se evita contenido ambiguo o inesperado durante la partida.
-- **Evolución futura:** se contempla sustituir o complementar las fotografías con más ilustraciones propias y obras de artistas reconocidos, siempre con la autoría y los derechos documentados.
+- **Carácter provisional:** los recursos visuales generados con IA se utilizan únicamente para completar y demostrar la propuesta del MVP. No representan la dirección definitiva de una futura versión comercial o ampliada.
+- **Evolución futura:** después de la entrega se prevé sustituir progresivamente estos recursos por ilustraciones realizadas por la autora del proyecto o mediante colaboraciones con artistas. Las nuevas historias, expansiones y recursos visuales también se desarrollarán de forma original, documentando siempre su autoría y sus condiciones de uso.
 
 ## D-005 — Público objetivo
 
@@ -181,6 +182,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Motivo del cambio:** la propuesta inicial resultaba demasiado tecnológica. La nueva dirección conserva el ambiente espacial y aporta una identidad más personal y coherente con las referencias visuales seleccionadas.
 - **Aplicación:** se mantiene una tipografía grande y legible. El dorado destaca acciones, energía, fallos, tiempo, progreso y resultados.
 - **Cartas y fondo:** el reverso utiliza la ilustración original `src/assets/reverso-carta-atlas.png` con estrellas, perseidas y `MQ · ATLAS`. El fondo `src/assets/fondo-cenefa-estelar.png` incorpora una cenefa inferior de símbolos estelares.
+- **Carácter provisional:** estas ilustraciones permiten mostrar la identidad visual propuesta en el MVP. En futuras versiones se prevé sustituirlas o ampliarlas con ilustraciones propias y posibles colaboraciones artísticas.
 - **Adaptación:** en pantallas amplias el tablero y la información de misión podrán aparecer en columnas; en móvil los paneles se colocarán uno debajo de otro y el tablero aprovechará el ancho disponible.
 - **Motivo:** esta dirección integra la historia y el juego educativo, mantiene una apariencia atractiva para el público de 10 a 14 años y puede realizarse principalmente con HTML y CSS dentro del tiempo disponible.
 
