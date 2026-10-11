@@ -22,6 +22,8 @@ import {
 } from './ui.js';
 
 const app = document.querySelector('#app');
+
+// Estado general de la partida
 // `progress` se persiste entre capítulos; `state` y `deck` solo pertenecen al tablero actual.
 let progress = loadProgress();
 let state = null;
@@ -36,6 +38,7 @@ function stopTimers() {
   observationId = null;
 }
 
+// Pantalla de inicio
 function renderStart() {
   stopTimers();
   clearApp(app);
@@ -107,6 +110,7 @@ function renderStart() {
   input.focus();
 }
 
+// Presentación y preparación de cada capítulo
 function renderChapterIntro(chapterIndex) {
   stopTimers();
   const chapter = chapters[chapterIndex];
@@ -168,6 +172,7 @@ function startChapter(chapterIndex) {
   }, 1000);
 }
 
+// Temporizador y selección de cartas
 function startTimer() {
   timerId = window.setInterval(() => {
     state.elapsedSeconds = Math.floor((Date.now() - state.startedAt) / 1000);
@@ -225,6 +230,7 @@ function handleCardSelection(card) {
   }, 900);
 }
 
+// Resultados y cierre de la partida
 function completeChapter() {
   stopTimers();
   state.elapsedSeconds = Math.floor((Date.now() - state.startedAt) / 1000);
