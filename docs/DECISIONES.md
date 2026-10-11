@@ -210,7 +210,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha:** 10/10/2026.
 - **Fecha de actualización:** 10/10/2026.
 - **Capítulo:** `Una voz entre las estrellas`.
-- **Idea original de las pistas:** utilizaría definiciones completas redactadas en primera persona, pero ocupaban demasiado espacio en las cartas.
+- **Idea original de las pistas:** se planteó utilizar definiciones completas redactadas en primera persona, pero ocupaban demasiado espacio en las cartas.
 - **Parejas actuales:** `Sol` ↔ `Estrella central del sistema solar`; `Tierra` ↔ `Planeta donde vivimos, con agua líquida en su superficie`; `Luna` ↔ `Satélite natural de la Tierra`; `Vía Láctea` ↔ `Galaxia que contiene el sistema solar`.
 - **Motivo de la simplificación:** se mantiene una sola idea educativa por carta y se facilita su lectura durante la observación.
 - **Idea original de la recompensa:** cada pareja correcta recuperaría una pieza distinta del transmisor y las cuatro piezas repararían las comunicaciones.
@@ -278,7 +278,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha:** 10/10/2026.
 - **Fecha de actualización:** 10/10/2026.
 - **Capítulo:** `Las semillas de la Tierra`.
-- **Idea original de las pistas:** utilizaría definiciones completas redactadas en primera persona, pero algunas quedaban cortadas en las cartas compactas.
+- **Idea original de las pistas:** se planteó utilizar definiciones completas redactadas en primera persona, pero algunas quedaban cortadas en las cartas compactas.
 - **Parejas actuales:** `Atmósfera` ↔ `Capa de gases que rodea un planeta`; `Magnetosfera` ↔ `Campo magnético que protege un planeta`; `Zona habitable` ↔ `Región donde un planeta podría tener agua líquida`; `Exoplaneta` ↔ `Planeta que orbita una estrella distinta del Sol`; `Cometa` ↔ `Cuerpo de hielo, roca y polvo que puede formar una cola`; `Asteroide` ↔ `Cuerpo rocoso o metálico que orbita el Sol`.
 - **Motivo de la simplificación:** se conservan los términos científicos esenciales en frases directas y legibles.
 - **Recompensa:** cada acierto hace avanzar la barra de reparación. Al completar las seis parejas se obtiene el módulo de protección de LURRA y el laboratorio recupera la energía necesaria para conservar las semillas.
@@ -301,7 +301,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha:** 10/10/2026.
 - **Fecha de actualización:** 10/10/2026.
 - **Capítulo:** `El camino a casa`.
-- **Idea original de las pistas:** utilizaría definiciones completas redactadas en primera persona, pero el tablero final necesita textos especialmente compactos.
+- **Idea original de las pistas:** se planteó utilizar definiciones completas redactadas en primera persona, pero el tablero final necesita textos especialmente compactos.
 - **Parejas actuales:** `Órbita` ↔ `Trayectoria de un objeto alrededor de otro`; `Gravedad` ↔ `Fuerza que atrae a los cuerpos con masa`; `Año luz` ↔ `Distancia que recorre la luz en un año`; `Constelación` ↔ `Región del cielo con un patrón reconocible de estrellas`; `Nebulosa` ↔ `Nube de gas y polvo entre las estrellas`; `Supernova` ↔ `Gran explosión al final de la vida de una estrella`; `Púlsar` ↔ `Estrella de neutrones que gira y emite pulsos`; `Agujero negro` ↔ `Objeto cuya gravedad impide escapar incluso a la luz`.
 - **Motivo de la simplificación:** se evitan cortes de texto y se reduce el esfuerzo de lectura sin eliminar los conceptos avanzados.
 - **Recompensa:** cada acierto hace avanzar la barra de reparación. Al completar las ocho parejas se obtiene el módulo de navegación y propulsión, se reconstruye el mapa de la baliza y comienza el regreso.
