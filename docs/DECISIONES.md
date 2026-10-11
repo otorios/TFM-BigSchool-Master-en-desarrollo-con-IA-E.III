@@ -7,7 +7,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Estado:** aceptada.
 - **Fecha:** 07/10/2026.
 - **Fecha de actualización:** 10/10/2026.
-- **Idea original:** quería desarrollar un videojuego web educativo de parejas semánticas, admitiendo relaciones variadas como concepto y definición, personaje y acontecimiento, palabra y traducción o dos imágenes relacionadas.
+- **Idea original:** se planteó desarrollar un videojuego web educativo de parejas semánticas, admitiendo relaciones variadas como concepto y definición, personaje y acontecimiento, palabra y traducción o dos imágenes relacionadas.
 - **Decisión actual:** se mantiene el videojuego de parejas semánticas con una mecánica uniforme: una carta muestra la imagen y el nombre del concepto y su pareja contiene una definición o pista breve.
 - **Motivo del cambio:** se conserva la idea educativa original, se combinan memoria visual y aprendizaje y se simplifican el diseño y la explicación del juego.
 
@@ -16,7 +16,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Estado:** aceptada.
 - **Fecha:** 07/10/2026.
 - **Fecha de actualización:** 10/10/2026.
-- **Idea original:** quería organizar la partida en capítulos y utilizar provisionalmente seis parejas en el primer tablero, sin cerrar todavía la progresión completa.
+- **Idea original:** se planteó organizar la partida en capítulos y utilizar provisionalmente seis parejas en el primer tablero, sin cerrar todavía la progresión completa.
 - **Decisión actual:** se utilizan tres capítulos con tableros progresivos de **4, 6 y 8 parejas**. Completar cada tablero desbloquea una parte de la historia.
 - **Motivo del cambio:** se mantiene la progresión narrativa, se introduce una dificultad gradual y se establece un alcance concreto y asumible.
 
@@ -25,7 +25,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Estado:** aceptada para el MVP.
 - **Fecha:** 07/10/2026.
 - **Fecha de actualización:** 10/10/2026.
-- **Idea original:** quería utilizar una expedición espacial como primera aventura de referencia, permitiendo que el jugador eligiera o escribiera otros temas y que el sistema construyera aventuras relacionadas.
+- **Idea original:** se planteó utilizar una expedición espacial como primera aventura de referencia, permitiendo que el jugador eligiera o escribiera otros temas y que el sistema construyera aventuras relacionadas.
 - **Decisión actual:** el MVP se limita a una única aventura fija de astronomía en la que debe repararse una nave espacial.
 - **Motivo del cambio:** se evita crear y validar múltiples temáticas y se concentra el trabajo en una experiencia completa y coherente.
 
@@ -44,7 +44,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Estado:** aceptada.
 - **Fecha:** 07/10/2026.
 - **Fecha de actualización:** 10/10/2026.
-- **Idea original:** quería orientar el juego a preadolescentes de 10 a 13 años.
+- **Idea original:** se planteó orientar el juego a preadolescentes de 10 a 13 años.
 - **Decisión actual:** la franja de referencia se amplía a **10 a 14 años**.
 - **Motivo del cambio:** se mantiene el enfoque preadolescente y se cubre un rango ligeramente más amplio sin cambiar la naturaleza del juego.
 
@@ -67,7 +67,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Estado:** aceptada.
 - **Fecha:** 07/10/2026.
 - **Decisión:** la nave se llama **ATLAS** y la expedición científica, **misión ORIOS**.
-- **Motivo:** con estos tres nombres creo una identidad narrativa clara: COSMO como compañero, ATLAS como escenario principal y ORIOS como misión que debe completarse.
+- **Motivo:** con estos tres nombres se crea una identidad narrativa clara: COSMO como compañero, ATLAS como escenario principal y ORIOS como misión que debe completarse.
 
 ## D-009 — Carga de la misión ORIOS
 
@@ -76,7 +76,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha de actualización:** 10/10/2026.
 - **Decisión:** ATLAS transporta una cápsula que conserva semillas de numerosas especies, en lugar de una única planta experimental.
 - **Motivo:** se aumenta el valor científico de la misión y se posibilitan futuras aventuras sobre plantas, ecosistemas, biología y sostenibilidad.
-- **Idea original del nombre:** había elegido **Cápsula LUR** por su relación con la tierra en euskera y con el propósito de la misión.
+- **Idea original del nombre:** se había elegido **Cápsula LUR** por su relación con la tierra en euskera y con el propósito de la misión.
 - **Decisión actual del nombre:** se denomina **Cápsula LURRA**.
 - **Motivo del cambio de nombre:** `LURRA` mantiene la referencia a la tierra y resulta un nombre más completo y natural para la cápsula.
 
@@ -100,7 +100,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
-- **Idea original:** quería integrar un proveedor de IA en la aplicación para interpretar el tema elegido y generar durante la partida el título, la ambientación, los capítulos y las explicaciones educativas.
+- **Idea original:** se planteó integrar un proveedor de IA en la aplicación para interpretar el tema elegido y generar durante la partida el título, la ambientación, los capítulos y las explicaciones educativas.
 - **Decisión actual:** no se integra un proveedor de IA durante la ejecución del MVP. La narrativa, las parejas, las pistas y las explicaciones se preparan y revisan previamente. La IA se utiliza únicamente como apoyo documentado durante el desarrollo.
 - **Motivo del cambio:** la integración añadía costes, gestión de secretos, dependencia de red, validación de respuestas y más trabajo de pruebas. Con el tiempo disponible, se prioriza la entrega de un juego completo, estable y educativo.
 
@@ -108,7 +108,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
-- **Idea original:** quería mantener abierta la posibilidad de utilizar una base de datos y perfiles de usuario si el guardado de partidas o la generación de contenido lo requerían.
+- **Idea original:** se planteó mantener abierta la posibilidad de utilizar una base de datos y perfiles de usuario si el guardado de partidas o la generación de contenido lo requerían.
 - **Decisión actual:** no se incorporan usuarios ni base de datos. El progreso se guarda en el navegador mediante `localStorage` y puede reiniciarse desde el juego.
 - **Motivo del cambio:** la partida se conserva en el mismo navegador con una implementación pequeña, sin backend ni datos personales remotos.
 
@@ -280,7 +280,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Parejas actuales:** `Atmósfera` ↔ `Capa de gases que rodea un planeta`; `Magnetosfera` ↔ `Campo magnético que protege un planeta`; `Zona habitable` ↔ `Región donde un planeta podría tener agua líquida`; `Exoplaneta` ↔ `Planeta que orbita una estrella distinta del Sol`; `Cometa` ↔ `Cuerpo de hielo, roca y polvo que puede formar una cola`; `Asteroide` ↔ `Cuerpo rocoso o metálico que orbita el Sol`.
 - **Motivo de la simplificación:** se conservan los términos científicos esenciales en frases directas y legibles.
 - **Recompensa:** cada acierto hace avanzar la barra de reparación. Al completar las seis parejas se obtiene el módulo de protección de LURRA y el laboratorio recupera la energía necesaria para conservar las semillas.
-- **Motivo:** aumento la dificultad con conceptos relacionados con la protección planetaria, los cuerpos menores y la búsqueda de lugares adecuados para la vida, manteniendo definiciones breves y diferenciables.
+- **Motivo:** se aumenta la dificultad con conceptos relacionados con la protección planetaria, los cuerpos menores y la búsqueda de lugares adecuados para la vida, manteniendo definiciones breves y diferenciables.
 - **Validación educativa:** se utilizan como referencias las páginas de NASA Science sobre exoplanetas y zona habitable, magnetosferas, cometas y asteroides.
 
 ## D-030 — Avance narrativo del segundo capítulo
