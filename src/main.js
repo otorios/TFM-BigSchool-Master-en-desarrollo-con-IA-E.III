@@ -117,7 +117,7 @@ function renderChapterIntro(chapterIndex) {
   clearApp(app);
   const screen = element('section', 'chapter-intro panel');
   screen.append(
-    element('p', 'eyebrow', `Capítulo ${chapter.id} de ${chapters.length}`),
+    element('p', 'eyebrow eyebrow--highlight', `Capítulo ${chapter.id} de ${chapters.length}`),
     element('h1', null, chapter.title),
     element('p', 'lead', chapter.intro),
   );
@@ -129,7 +129,7 @@ function renderChapterIntro(chapterIndex) {
     `${MAX_ENERGY} puntos de energía`,
     `−${chapter.errorCost} por cada error`,
   ].forEach((rule) => rules.append(element('li', null, rule)));
-  screen.append(rules, createButton('Iniciar capítulo', () => startChapter(chapterIndex)));
+  screen.append(rules, createButton('Iniciar capítulo', () => startChapter(chapterIndex), 'secondary'));
   app.append(screen);
 }
 
@@ -246,7 +246,7 @@ function completeChapter() {
   const screen = element('section', 'result-screen panel');
   screen.append(
     element('p', 'eyebrow', 'Capítulo completado'),
-    element('h1', null, `¡Buen trabajo, ${progress.playerName}!`),
+    element('h1', 'result-title', `¡Buen trabajo, ${progress.playerName}!`),
   );
 
   const reward = element('section', 'module-reward');
@@ -298,7 +298,7 @@ function renderDefeat() {
       'lead',
       `El capítulo se reiniciará, pero conservarás todos los módulos reparados anteriormente. COSMO ha vuelto a preparar ${chapter.title}.`,
     ),
-    createButton('Reintentar capítulo', () => startChapter(state.chapterIndex)),
+    createButton('Reintentar capítulo', () => startChapter(state.chapterIndex), 'secondary'),
     createButton('Volver al inicio', renderStart, 'ghost'),
   );
   app.append(screen);
@@ -310,7 +310,7 @@ function renderFinal() {
   const outcome = getReturnOutcome(progress.totalScore);
   const screen = element('section', 'final-screen panel');
   screen.append(
-    element('p', 'eyebrow', 'Misión ORIOS completada'),
+    element('p', 'eyebrow eyebrow--highlight', 'Misión ORIOS completada'),
     element('h1', null, outcome.label),
     element(
       'p',
@@ -328,7 +328,7 @@ function renderFinal() {
       clearProgress();
       progress = null;
       renderStart();
-    }),
+    }, 'secondary'),
   );
   app.append(screen);
 }
