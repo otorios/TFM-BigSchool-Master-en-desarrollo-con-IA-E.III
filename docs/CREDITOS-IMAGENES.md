@@ -37,3 +37,18 @@ He utilizado las versiones pequeñas facilitadas por la biblioteca para reducir 
 - No he utilizado logotipos ni insignias de la NASA como elementos de identidad del proyecto.
 
 Como evolución futura, quiero sustituir o complementar estos recursos con ilustraciones propias y obras de artistas reconocidos, documentando siempre su autoría y sus derechos de uso.
+
+## Referencias visuales para la evolución del diseño
+
+Las siguientes publicaciones se han consultado como inspiración para explorar una estética más artesanal e ilustrada: fondos espaciales oscuros, estrellas y perseidas, composiciones de baraja, caligrafía y una nueva paleta cromática. Las imágenes no se incorporan al juego ni se redistribuyen en este repositorio.
+
+La autoría original no se ha podido identificar porque las publicaciones de Pinterest consultadas no muestran una fuente original verificable. Se conservan los enlaces para documentar el proceso creativo con transparencia.
+
+- [Referencia visual 1](https://es.pinterest.com/pin/881650064577234465/)
+- [Referencia visual 2](https://es.pinterest.com/pin/527343437640249801/)
+- [Referencia visual 3](https://es.pinterest.com/pin/15199717491792096/)
+- [Referencia visual 4](https://es.pinterest.com/pin/962222276647586999/)
+- [Referencia visual 5](https://es.pinterest.com/pin/712342866100629018/)
+- [Paleta cromática de referencia](https://es.pinterest.com/pin/703756189610174/)
+
+Fecha de consulta: 11 de octubre de 2026.
