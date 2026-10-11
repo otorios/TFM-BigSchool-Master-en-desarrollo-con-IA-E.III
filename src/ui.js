@@ -69,7 +69,6 @@ export function createCard(card, onSelect) {
 
   const inner = element('span', 'card-inner');
   const back = element('span', 'card-face card-back');
-  back.append(element('span', 'card-emblem', 'MQ'), element('span', null, 'ATLAS'));
 
   const front = element('span', `card-face card-front card-front--${card.type}`);
   if (card.type === 'concept') {
