@@ -235,7 +235,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Estado:** aceptada para el MVP.
 - **Fecha:** 10/10/2026.
 - **Fecha de actualización:** 10/10/2026.
-- **Idea original:** iba a permitir intentos ilimitados; los errores aumentarían el contador, pero no harían perder ni reiniciar el capítulo.
+- **Idea original:** se planteó permitir intentos ilimitados; los errores aumentarían el contador, pero no provocarían la derrota ni el reinicio del capítulo.
 - **Decisión actual:** cada selección de dos cartas contará como un intento. Los errores consumirán la energía del capítulo y, si llega a cero antes de completar el tablero, se perderá y reiniciará solamente ese capítulo. Se conservarán los anteriores.
 - **Motivo del cambio:** se busca un riesgo real y una dificultad progresiva sin obligar a repetir toda la aventura.
 - **Evolución futura:** se contempla permitir la elección de dificultad. Según el modo, podrán existir intentos ilimitados, límites de intentos, tiempo máximo o condiciones especiales. Las reglas exactas se decidirán después del MVP.
