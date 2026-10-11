@@ -1,4 +1,6 @@
-# Continuidad del proyecto
+# Continuidad interna del desarrollo
+
+> **Documento interno y complementario:** este archivo no forma parte de la documentación principal que se presenta como resultado del TFM. Se conserva en el repositorio para proporcionar contexto al agente de IA, facilitar la reanudación del trabajo entre sesiones y aportar trazabilidad sobre el proceso de desarrollo asistido.
 
 Este documento permite retomar **Memory Quest: Señal estelar** sin depender del historial de conversación. Debe actualizarse al cerrar cada sesión de trabajo relevante.
 

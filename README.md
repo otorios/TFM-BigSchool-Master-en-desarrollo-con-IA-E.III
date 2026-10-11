@@ -18,7 +18,7 @@ La aventura contiene tres capítulos:
 2. **Las semillas de la Tierra:** 6 parejas para recuperar la protección de LURRA.
 3. **El camino a casa:** 8 parejas para reconstruir la navegación y reactivar la propulsión.
 
-Las decisiones educativas, narrativas y técnicas se explican con más detalle en [Decisiones del proyecto](docs/DECISIONES.md) y [Continuidad del proyecto](docs/CONTINUIDAD.md).
+Las decisiones educativas, narrativas y técnicas se explican con más detalle en [Decisiones del proyecto](docs/DECISIONES.md).
 
 ## Funcionalidades principales
 
@@ -168,13 +168,16 @@ Los requisitos y la lista de comprobación de la entrega están recogidos en [Re
 - [Arquitectura](docs/ARQUITECTURA.md): stack, módulos, estado, persistencia y seguridad.
 - [Decisiones del proyecto](docs/DECISIONES.md): decisiones funcionales, visuales, narrativas y técnicas.
 - [Seguimiento del proyecto](docs/SEGUIMIENTO.md): planificación y registro cronológico del trabajo.
-- [Continuidad y punto de reanudación](docs/CONTINUIDAD.md): estado vigente y próximos pasos.
 - [Revisión de código y seguridad](docs/REVISION-CODIGO.md): comprobaciones y mejoras aplicadas.
 - [Créditos de las imágenes](docs/CREDITOS-IMAGENES.md): fuentes y atribuciones de los recursos visuales.
 - [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md): entregables y lista de comprobación final.
 - [Banco de ideas para historias](docs/IDEAS-HISTORIAS.md): ideas conservadas para futuras aventuras.
 - [Presentación](presentation/README.md): preparación de las slides.
 - [Material para la demostración](media/README.md): preparación del vídeo y la demostración.
+
+### Documentación interna complementaria
+
+- [Continuidad interna del desarrollo](docs/CONTINUIDAD.md): contexto operativo utilizado para reanudar el trabajo con el agente de IA entre sesiones. Se conserva como evidencia complementaria del proceso y no constituye un entregable principal del TFM.
 
 ## Estado pendiente antes de la entrega
 

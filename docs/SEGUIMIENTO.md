@@ -242,4 +242,4 @@ Estas funcionalidades no deben retrasar la entrega principal:
 
 ## 10. Próximo bloque
 
-La personalización visual se considera cerrada en el estado actual. El siguiente bloque consiste en realizar una prueba manual completa, comprobar la instalación desde cero, preparar el despliegue y completar la presentación y el vídeo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`.
+La personalización visual se considera cerrada en el estado actual. El siguiente bloque consiste en realizar una prueba manual completa, comprobar la instalación desde cero, preparar el despliegue y completar la presentación y el vídeo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`, documento interno utilizado para mantener el contexto entre sesiones de trabajo asistido por IA.
