@@ -1,97 +1,191 @@
 # Memory Quest: Señal estelar
 
-Videojuego web educativo de memoria y asociaciones semánticas, organizado como una aventura narrativa por capítulos y desarrollado con apoyo de inteligencia artificial.
+**Memory Quest: Señal estelar** es un videojuego web educativo de memoria y asociaciones semánticas. La aventura está ambientada en una misión espacial y se divide en tres capítulos con dificultad progresiva.
 
-> Estado actual: primera versión jugable con diseño responsive, imágenes acreditadas y pruebas básicas. Pendientes principales: completar las pruebas de juego, activar el despliegue y preparar la entrega.
+El proyecto corresponde al Trabajo Final del Máster en Desarrollo con Inteligencia Artificial. La IA se utiliza como apoyo documentado durante el proceso de diseño y desarrollo, pero el juego no depende de ningún proveedor de IA durante su ejecución.
 
-## Idea general
+> **Estado actual:** el MVP es jugable y contiene los tres capítulos completos, las 18 parejas educativas, imágenes acreditadas, progreso local, diseño responsive y 12 pruebas automáticas. Antes de la entrega quedan pendientes el ajuste visual ilustrado, una prueba manual completa, el despliegue público, las slides y el vídeo.
 
-El MVP presenta una aventura fija de astronomía, dividida en tres capítulos con tableros de 4, 6 y 8 parejas semánticas.
+## Descripción del proyecto
 
-Las parejas no son dos imágenes idénticas. Cada pareja combina una carta con la imagen y el nombre de un concepto y otra con una definición o pista breve, por ejemplo:
+El jugador asume el papel de un cadete de la misión ORIOS. Después de que una tormenta de partículas dañe la nave ATLAS, deberá ayudar a COSMO a reparar sus sistemas y proteger la Cápsula LURRA.
 
-- `Sol` ↔ `Estrella central del sistema solar`.
-- `Atmósfera` ↔ `Capa de gases que rodea un planeta`.
-- `Año luz` ↔ `Distancia que recorre la luz en un año`.
+Para avanzar debe relacionar conceptos de astronomía con sus definiciones o pistas. Cada tablero completado recupera un módulo de la nave, permite continuar la historia y contribuye a la puntuación final.
 
-Cada pareja correcta hace avanzar una barra de reparación. Completar un tablero entrega un módulo de la nave y desbloquea el siguiente capítulo de la historia.
+La aventura contiene tres capítulos:
 
-## Propuesta de valor
+1. **Una voz entre las estrellas:** 4 parejas para restablecer las comunicaciones.
+2. **Las semillas de la Tierra:** 6 parejas para recuperar la protección de LURRA.
+3. **El camino a casa:** 8 parejas para reconstruir la navegación y reactivar la propulsión.
 
-Memory Quest combina:
+Las decisiones educativas, narrativas y técnicas se explican con más detalle en [Decisiones del proyecto](docs/DECISIONES.md) y [Continuidad del proyecto](docs/CONTINUIDAD.md).
 
-- Un juego de memoria sencillo de comprender.
-- Aprendizaje mediante asociaciones semánticas.
-- Una aventura espacial dividida en tres capítulos.
-- Progresión narrativa y recompensas.
-- Contenido controlado mediante una biblioteca de recursos.
-- Inteligencia artificial como apoyo documentado durante el desarrollo.
+## Funcionalidades principales
 
-Las parejas, pistas, explicaciones y textos narrativos del MVP estarán preparados y revisados previamente. La aplicación no dependerá de un proveedor de IA durante su ejecución.
+- Aventura completa formada por tres capítulos de dificultad progresiva.
+- Tableros de 4, 6 y 8 parejas semánticas.
+- Parejas formadas por una imagen con su concepto y una definición o pista breve.
+- Periodo inicial de observación de 14, 21 y 28 segundos según el capítulo.
+- Mezcla aleatoria de las cartas en cada partida.
+- Energía y cuenta atrás de seis fallos disponibles por capítulo.
+- Cronómetro informativo sin límite de tiempo.
+- Barra de progreso de reparación y estadísticas al terminar cada tablero.
+- Recompensa narrativa y módulo recuperado al completar cada capítulo.
+- Tres desenlaces según la energía total conservada.
+- Guardado del nombre y del progreso entre capítulos mediante `localStorage`.
+- Opción para continuar una partida o comenzar una nueva.
+- Interfaz responsive adaptada principalmente a ordenadores y portátiles.
+- Imágenes astronómicas locales con texto alternativo y créditos registrados.
+- Validación del nombre y del progreso almacenado en el navegador.
 
-## Primera aventura de referencia
+## Cómo jugar
 
-**Tema:** astronomía.  
-**Premisa:** una expedición ha sufrido una avería y ha perdido la comunicación con la Tierra.  
-**Objetivo:** superar los tableros para recuperar energía, reparar las comunicaciones, restaurar la navegación y poner en marcha la propulsión.  
-**Recompensa final:** reparar la nave y regresar a casa.
+1. Introduce el nombre del cadete y comienza la misión.
+2. Lee la introducción y las reglas del capítulo.
+3. Observa las cartas mientras permanecen visibles durante la cuenta atrás.
+4. Selecciona dos cartas para relacionar cada concepto con su pista.
+5. Las parejas correctas permanecen visibles; cada error consume 2 puntos de energía.
+6. Completa el tablero antes de agotar los 12 puntos de energía.
+7. Recupera los tres módulos de ATLAS y descubre el desenlace de la misión.
 
-## Ejecutar el proyecto
+Si se cierra la página, se conserva el último capítulo completado. Los tableros a medias no se guardan y se reinician al continuar.
 
-Requisitos: Node.js 20.19 o posterior.
+## Stack tecnológico
+
+- **HTML5 semántico:** estructura principal y punto de entrada de la aplicación.
+- **CSS:** diseño visual, animaciones, giro de cartas y adaptación responsive.
+- **JavaScript moderno:** lógica organizada mediante módulos ES, sin framework.
+- **Vite:** servidor de desarrollo y construcción de producción.
+- **Node.js Test Runner:** ejecución de las pruebas automáticas.
+- **Web Storage API (`localStorage`):** persistencia local del progreso.
+- **Git y GitHub:** control de versiones y alojamiento del repositorio.
+- **GitHub Pages:** plataforma prevista para el despliegue público.
+
+No existe backend, base de datos ni servicio externo de IA durante la ejecución. La explicación técnica ampliada se encuentra en [Arquitectura](docs/ARQUITECTURA.md).
+
+## Instalación y ejecución
+
+### Requisitos
+
+- Node.js 20.19 o posterior.
+- npm, incluido con Node.js.
+
+### Ejecución local
 
 ```bash
+git clone git@github.com:otorios/TFG-BigSchool-Master-en-desarrollo-con-IA-E.III.git
+cd TFG-BigSchool-Master-en-desarrollo-con-IA-E.III
 npm install
 npm run dev
 ```
 
-Vite mostrará la dirección local de desarrollo. Para verificar la versión de producción y las pruebas:
+Vite mostrará en la terminal la dirección local desde la que se puede abrir el juego.
+
+### Versión de producción
 
 ```bash
-npm test
 npm run build
 npm run preview
 ```
 
-## Estructura principal
+La construcción se genera en la carpeta `dist/`. Esta carpeta es un resultado temporal y no forma parte del código fuente versionado.
 
-- `src/data/chapters.js`: catálogo fijo de capítulos y parejas.
-- `src/game.js`: creación del tablero, emparejamiento, energía y resultado.
-- `src/state.js`: estado temporal del capítulo.
-- `src/storage.js`: validación y persistencia mediante `localStorage`.
-- `src/ui.js`: creación segura de elementos y actualización de la interfaz.
-- `src/main.js`: coordinación de pantallas, partida y narrativa.
-- `tests/`: pruebas del motor, la entrada de nombre y el progreso manipulado.
+## Pruebas
 
-## Documentación del proyecto
+Para ejecutar las pruebas automáticas:
 
-- [Seguimiento del proyecto](docs/SEGUIMIENTO.md)
-- [Continuidad y punto de reanudación](docs/CONTINUIDAD.md)
-- [Banco de ideas para historias](docs/IDEAS-HISTORIAS.md)
-- [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md)
-- [Decisiones del proyecto](docs/DECISIONES.md)
-- [Arquitectura](docs/ARQUITECTURA.md)
-- [Revisión de código y seguridad](docs/REVISION-CODIGO.md)
-- [Créditos y estado de las imágenes](docs/CREDITOS-IMAGENES.md)
-- [Presentación](presentation/README.md)
-- [Material para la demostración](media/README.md)
+```bash
+npm test
+```
 
-## Entregables finales
+Actualmente existen 12 pruebas que comprueban:
 
-Este repositorio deberá contener al finalizar:
+- Creación y emparejamiento de cartas.
+- Cálculo de energía y resultados finales.
+- Formato del cronómetro.
+- Número de fallos disponibles.
+- Longitud de las pistas.
+- Normalización y límite del nombre del jugador.
+- Rechazo de progreso manipulado o incoherente.
+- Aceptación de una estructura de progreso válida.
 
-- Código fuente completo.
-- Documentación de instalación y ejecución.
-- Descripción del stack tecnológico.
-- Funcionalidades y estructura del proyecto.
-- URL pública del despliegue.
-- Slides de presentación o enlace público.
-- URL del vídeo explicativo con captura de pantalla.
-- Credenciales de prueba, únicamente si finalmente se incorpora autenticación.
+La última revisión también verificó la sintaxis de JavaScript, la construcción de Vite y las dependencias. Los resultados y criterios están documentados en [Revisión de código y seguridad](docs/REVISION-CODIGO.md).
+
+## Estructura del proyecto
+
+```text
+.
+├── index.html                  # Punto de entrada
+├── package.json               # Scripts y dependencias
+├── vite.config.js             # Configuración de Vite
+├── src/
+│   ├── main.js                # Flujo de pantallas y partida
+│   ├── game.js                # Reglas puras del juego
+│   ├── state.js               # Estado temporal del capítulo
+│   ├── storage.js             # Validación y persistencia local
+│   ├── ui.js                  # Creación y actualización de la interfaz
+│   ├── styles.css             # Diseño y adaptación responsive
+│   └── data/chapters.js       # Capítulos, narrativa y parejas
+├── public/images/             # Imágenes locales y recursos visuales
+├── tests/                     # Pruebas automáticas
+├── docs/                      # Documentación técnica y de seguimiento
+├── presentation/              # Material de la presentación
+└── media/                     # Material de la demostración y el vídeo
+```
+
+## Datos, privacidad y seguridad
+
+- El juego no requiere registro ni recopila información personal en un servidor.
+- El nombre y el progreso se almacenan únicamente en el navegador del jugador mediante `localStorage`.
+- No se almacenan contraseñas, secretos ni datos sensibles.
+- La interfaz introduce el contenido dinámico mediante APIs seguras del DOM y `textContent`.
+- El progreso recuperado del navegador se valida antes de utilizarlo.
+- Los recursos se sirven localmente y la aplicación aplica una política de seguridad de contenidos.
+- Las imágenes utilizadas y su procedencia están registradas en [Créditos de las imágenes](docs/CREDITOS-IMAGENES.md).
+
+## Acceso y credenciales
+
+El proyecto **no incorpora autenticación ni cuentas de usuario**, por lo que no se necesitan usuario y contraseña de prueba. El nombre introducido al comenzar solo identifica al cadete dentro de la partida y permanece almacenado localmente en el navegador.
+
+## Despliegue y entregables
+
+| Entregable | Estado | Enlace |
+| --- | --- | --- |
+| Repositorio de código | Disponible | [Repositorio en GitHub](https://github.com/otorios/TFG-BigSchool-Master-en-desarrollo-con-IA-E.III) |
+| Aplicación desplegada | Pendiente | Se añadirá la URL de GitHub Pages |
+| Slides de presentación | Pendiente | Se añadirá el enlace público o archivo definitivo |
+| Vídeo explicativo | Pendiente | Se añadirá la URL pública |
+| Credenciales de prueba | No aplicable | El proyecto no tiene autenticación |
+
+Los requisitos y la lista de comprobación de la entrega están recogidos en [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md).
+
+## Documentación
+
+- [Arquitectura](docs/ARQUITECTURA.md): stack, módulos, estado, persistencia y seguridad.
+- [Decisiones del proyecto](docs/DECISIONES.md): decisiones funcionales, visuales, narrativas y técnicas.
+- [Seguimiento del proyecto](docs/SEGUIMIENTO.md): planificación y registro cronológico del trabajo.
+- [Continuidad y punto de reanudación](docs/CONTINUIDAD.md): estado vigente y próximos pasos.
+- [Revisión de código y seguridad](docs/REVISION-CODIGO.md): comprobaciones y mejoras aplicadas.
+- [Créditos de las imágenes](docs/CREDITOS-IMAGENES.md): fuentes y atribuciones de los recursos visuales.
+- [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md): entregables y lista de comprobación final.
+- [Banco de ideas para historias](docs/IDEAS-HISTORIAS.md): ideas conservadas para futuras aventuras.
+- [Presentación](presentation/README.md): preparación de las slides.
+- [Material para la demostración](media/README.md): preparación del vídeo y la demostración.
+
+## Estado pendiente antes de la entrega
+
+- Personalizar algunos elementos visuales para lograr un acabado más ilustrado y menos tecnológico.
+- Realizar una prueba manual completa de los tres capítulos.
+- Comprobar la instalación desde cero.
+- Configurar y verificar el despliegue público.
+- Preparar las slides de presentación.
+- Grabar el vídeo explicativo con captura de pantalla.
+- Incorporar al README las URLs definitivas del despliegue, las slides y el vídeo.
+- Revisar y cumplimentar el formulario de entrega.
 
 ## Fechas
 
 - **Fecha interna objetivo por FUNDAE:** 23/10/2026.
 - **Fecha oficial indicada en la documentación del TFM:** 26/10/2026.
 
-La planificación utilizará el 23 de octubre como fecha real de finalización y reservará los días posteriores como margen de seguridad.
+La planificación utiliza el 23 de octubre como fecha real de finalización y reserva los días posteriores como margen de seguridad.
