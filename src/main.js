@@ -100,7 +100,7 @@ function renderStart() {
   const field = element('div', 'field-group');
   field.append(label, input, validation);
   form.append(field);
-  form.append(createButton('Comenzar misión', undefined, 'primary'));
+  form.append(createButton('Comenzar misión', undefined, 'mission'));
   form.lastElementChild.type = 'submit';
   form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -135,7 +135,7 @@ function renderStart() {
         clearProgress();
         progress = null;
         renderStart();
-      }, 'ghost'),
+      }, 'mission'),
     );
     screen.append(continueBox);
   }
