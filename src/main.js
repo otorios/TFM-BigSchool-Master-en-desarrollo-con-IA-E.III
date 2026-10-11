@@ -116,7 +116,7 @@ function renderStart() {
   });
   screen.append(form);
 
-  const instructionsButton = createButton('Cómo jugar', undefined, 'ghost');
+  const instructionsButton = createButton('Cómo jugar');
   const instructionsDialog = createInstructionsDialog(instructionsButton);
   instructionsButton.addEventListener('click', () => instructionsDialog.showModal());
   screen.append(instructionsButton, instructionsDialog);
