@@ -65,7 +65,7 @@ La interfaz combina ambas referencias sin reproducir todos sus colores. Se han s
 
 Los códigos se verificaron mediante las paletas exportadas con Coolors. El tono `#FAD493` de la primera propuesta se descartó tras probarlo en la interfaz y se sustituyó por `#DFDBDD` para mejorar la coherencia visual del texto.
 
-## Ilustraciones originales incorporadas
+## Recursos visuales generados con IA para el MVP
 
 El fondo y el reverso de las cartas se generaron específicamente para **Memory Quest: Señal estelar** con asistencia de un modelo de generación de imágenes de OpenAI. Se partió de indicaciones propias sobre composición, temática y paleta, y se revisó el resultado antes de integrarlo en el juego.
 
@@ -73,7 +73,7 @@ Estos recursos forman parte exclusivamente del MVP presentado en el TFM y permit
 
 | Uso | Archivo | Descripción |
 | --- | --- | --- |
-| Fondo general | `src/assets/fondo-cenefa-estelar.png` | Escena espacial panorámica con una cenefa inferior de símbolos estelares originales. |
+| Fondo general | `src/assets/fondo-cenefa-estelar.png` | Escena espacial panorámica con una cenefa inferior de símbolos estelares generados para el MVP. |
 | Reverso de las cartas | `src/assets/reverso-carta-atlas.png` | Composición vertical con estrellas, perseidas y el identificador `MQ · ATLAS`. |
 
 Estas dos imágenes sí se distribuyen dentro del repositorio porque fueron creadas para el proyecto. Las imágenes de Pinterest enumeradas anteriormente se utilizaron únicamente como referencias generales y no se copiaron ni redistribuyeron.

@@ -36,7 +36,7 @@ Las decisiones educativas, narrativas y técnicas se explican con más detalle e
 - Opción para continuar una partida o comenzar una nueva.
 - Interfaz responsive adaptada principalmente a ordenadores y portátiles.
 - Imágenes astronómicas locales con texto alternativo y créditos registrados.
-- Fondo espacial y reverso de cartas creados con apoyo de IA generativa para representar provisionalmente la identidad visual del MVP.
+- Recursos visuales generados con IA específicamente para el MVP: fondo espacial y reverso de las cartas.
 - Validación del nombre y del progreso almacenado en el navegador.
 
 ## Cómo jugar

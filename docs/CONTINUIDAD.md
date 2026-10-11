@@ -25,7 +25,7 @@ El MVP se encuentra implementado con HTML, CSS y JavaScript modular, construido 
 - Doce puntos de energía y seis fallos disponibles en cada capítulo.
 - Cronómetro informativo, derrota, reintento y tres resultados finales.
 - Dieciocho imágenes astronómicas locales y acreditadas.
-- Fondo espacial ilustrado con cenefa y reverso propio `MQ · ATLAS`.
+- Fondo espacial con cenefa y reverso `MQ · ATLAS`, generados con IA específicamente para el MVP.
 - Diseño responsive, giro 3D y adaptación del tablero al número de cartas.
 - Doce pruebas automáticas y construcción de producción verificada.
 
