@@ -44,11 +44,11 @@ Las siguientes publicaciones se han consultado como inspiración para explorar u
 
 La autoría original no se ha podido identificar porque las publicaciones de Pinterest consultadas no muestran una fuente original verificable. Se conservan los enlaces para documentar el proceso creativo con transparencia.
 
-- [Referencia visual 1](https://es.pinterest.com/pin/881650064577234465/)
-- [Referencia visual 2](https://es.pinterest.com/pin/527343437640249801/)
-- [Referencia visual 3](https://es.pinterest.com/pin/15199717491792096/)
-- [Referencia visual 4](https://es.pinterest.com/pin/962222276647586999/)
-- [Referencia visual 5](https://es.pinterest.com/pin/712342866100629018/)
+- [Inspiración para el reverso de las cartas: estrellas](https://es.pinterest.com/pin/881650064577234465/)
+- [Inspiración para el reverso de las cartas: composición espacial](https://es.pinterest.com/pin/527343437640249801/)
+- [Inspiración para el reverso de las cartas: patrón ilustrado](https://es.pinterest.com/pin/15199717491792096/)
+- [Inspiración para el reverso de las cartas: estética artesanal](https://es.pinterest.com/pin/962222276647586999/)
+- [Inspiración para el reverso de las cartas: cielo estrellado](https://es.pinterest.com/pin/712342866100629018/)
 - [Paleta cromática de referencia](https://es.pinterest.com/pin/703756189610174/)
 
 Fecha de consulta: 11 de octubre de 2026.
