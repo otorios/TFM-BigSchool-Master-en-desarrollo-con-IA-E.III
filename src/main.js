@@ -129,7 +129,7 @@ function renderStart() {
       createButton(
         progress.completed ? 'Ver resultado final' : 'Continuar aventura',
         () => (progress.completed ? renderFinal() : renderChapterIntro(progress.nextChapter)),
-        'secondary',
+        'resume',
       ),
       createButton('Nueva partida', () => {
         clearProgress();
