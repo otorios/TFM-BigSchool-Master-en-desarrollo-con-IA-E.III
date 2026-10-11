@@ -20,7 +20,7 @@ Este documento permite retomar **Memory Quest: Señal estelar** aunque no esté 
 
 El proyecto cuenta con una primera versión jugable implementada con HTML, CSS y JavaScript sin framework, construida mediante Vite. React con Vite queda como evolución futura.
 
-La aplicación ya incluye inicio y continuación, tres capítulos, observación inicial, parejas semánticas, energía, seis fallos por capítulo, cronómetro, derrota y reintento, guardado validado en `localStorage`, reparación de módulos, transiciones con recompensa, desenlace según la puntuación y diseño responsive. Las pistas se simplificaron para que no se corten; el tablero se compacta según la pantalla; y la cuenta atrás queda centrada en la línea superior sin provocar desplazamientos. Las once pruebas automáticas y la construcción de producción pasan correctamente.
+La aplicación ya incluye inicio y continuación, tres capítulos, observación inicial, parejas semánticas, energía, seis fallos por capítulo, cronómetro, derrota y reintento, guardado validado en `localStorage`, reparación de módulos, transiciones con recompensa, desenlace según la puntuación y diseño responsive. Las pistas se simplificaron para que no se corten; el tablero se compacta según la pantalla; y la cuenta atrás queda centrada en la línea superior sin provocar desplazamientos. Tras la revisión integral del código y la seguridad pasan doce pruebas, la construcción de producción y `npm audit` sin vulnerabilidades conocidas. El detalle está en `docs/REVISION-CODIGO.md`.
 
 Las 18 cartas de concepto utilizan imágenes locales seleccionadas en la biblioteca oficial de la NASA. Su ficha original y sus créditos están registrados en `docs/CREDITOS-IMAGENES.md`. El tablero ya presenta una cuadrícula responsive, separación visual, reversos identificables y giro 3D.
 
@@ -154,7 +154,7 @@ Todavía deberán concretarse la representación visual de la reparación y el f
 Si fuera necesario comenzar en una conversación sin contexto, utilizar:
 
 ```text
-Estamos desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md y docs/CREDITOS-IMAGENES.md. No cambies decisiones ya aceptadas sin indicarlo. La demo funcional, las 18 imágenes acreditadas y once pruebas ya existen. Los últimos ajustes de jugabilidad y distribución están validados. El siguiente bloque es dar al diseño un toque más personal e ilustrado, menos tecnológico, empezando por la pantalla inicial y comprobando si hay ilustraciones propias reutilizables. Trabaja por cambios pequeños y actualiza la documentación aprobada.
+Estamos desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Lee primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md, docs/REVISION-CODIGO.md y docs/CREDITOS-IMAGENES.md. No cambies decisiones ya aceptadas sin indicarlo. La demo funcional, las 18 imágenes acreditadas y doce pruebas ya existen. El código y la seguridad se revisaron íntegramente el 11/10/2026. El siguiente bloque es dar al diseño un toque más personal e ilustrado, menos tecnológico, empezando por la pantalla inicial y comprobando si hay ilustraciones propias reutilizables. Trabaja por cambios pequeños y actualiza la documentación aprobada.
 ```
 
 ## Normas para documentar el trabajo

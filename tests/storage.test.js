@@ -4,11 +4,27 @@ import { normalizePlayerName, validateProgress } from '../src/storage.js';
 
 test('recorta y limita el nombre sin interpretar caracteres especiales', () => {
   assert.equal(normalizePlayerName('  <Cadete & COSMO>  '), '<Cadete & COSMO>');
+  assert.equal(normalizePlayerName('Ada\n\tLovelace'), 'Ada Lovelace');
   assert.equal(normalizePlayerName('a'.repeat(40)).length, 30);
 });
 
 test('rechaza progreso manipulado', () => {
   assert.equal(validateProgress({ version: 1, playerName: 'Ada', nextChapter: 99 }), null);
+});
+
+test('rechaza combinaciones incoherentes de progreso', () => {
+  const baseProgress = {
+    version: 1,
+    playerName: 'Ada',
+    nextChapter: 1,
+    totalScore: 10,
+    repairedModules: ['Módulo de comunicaciones'],
+    completed: false,
+  };
+
+  assert.equal(validateProgress({ ...baseProgress, totalScore: 30 }), null);
+  assert.equal(validateProgress({ ...baseProgress, repairedModules: [] }), null);
+  assert.equal(validateProgress({ ...baseProgress, completed: true }), null);
 });
 
 test('acepta una estructura de progreso válida', () => {

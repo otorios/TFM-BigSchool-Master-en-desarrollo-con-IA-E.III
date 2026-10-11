@@ -1,5 +1,6 @@
 import { MAX_ENERGY } from './data/chapters.js';
 
+// Este estado dura únicamente mientras se juega el capítulo actual.
 export function createGameState(chapterIndex = 0) {
   return {
     chapterIndex,
@@ -12,8 +13,4 @@ export function createGameState(chapterIndex = 0) {
     startedAt: null,
     elapsedSeconds: 0,
   };
-}
-
-export function resetChapterState(state) {
-  return createGameState(state.chapterIndex);
 }

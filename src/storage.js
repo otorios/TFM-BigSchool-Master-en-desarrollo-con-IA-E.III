@@ -1,4 +1,7 @@
+import { chapters, MAX_ENERGY, MAX_TOTAL_SCORE } from './data/chapters.js';
+
 const STORAGE_KEY = 'memoryQuestProgress';
+const CONTROL_CHARACTERS = /[\u0000-\u001F\u007F]/g;
 
 const emptyProgress = () => ({
   version: 1,
@@ -10,28 +13,41 @@ const emptyProgress = () => ({
 });
 
 export function normalizePlayerName(value) {
-  return String(value ?? '').trim().slice(0, 30);
+  return String(value ?? '')
+    .replace(CONTROL_CHARACTERS, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 30);
 }
 
 export function validateProgress(value) {
+  // localStorage pertenece al navegador y debe tratarse siempre como una entrada no fiable.
   if (!value || typeof value !== 'object' || Array.isArray(value)) return null;
 
   const playerName = normalizePlayerName(value.playerName);
   const nextChapter = Number.isInteger(value.nextChapter) ? value.nextChapter : -1;
   const totalScore = Number.isInteger(value.totalScore) ? value.totalScore : -1;
-  const repairedModules = Array.isArray(value.repairedModules)
-    ? value.repairedModules.filter((item) => typeof item === 'string').slice(0, 3)
-    : null;
+  const repairedModules = value.repairedModules;
+  const expectedModules = chapters.slice(0, nextChapter).map((chapter) => chapter.module);
+  const modulesAreValid =
+    Array.isArray(repairedModules) &&
+    repairedModules.length === expectedModules.length &&
+    repairedModules.every((module, index) => module === expectedModules[index]);
+  const completionIsValid = value.completed === (nextChapter === chapters.length);
+  const scoreIsValid =
+    totalScore >= 0 &&
+    totalScore <= MAX_TOTAL_SCORE &&
+    totalScore <= nextChapter * MAX_ENERGY;
 
+  // Las relaciones entre campos impiden aceptar un progreso alterado pero plausible por separado.
   if (
     value.version !== 1 ||
     !playerName ||
     nextChapter < 0 ||
-    nextChapter > 3 ||
-    totalScore < 0 ||
-    totalScore > 36 ||
-    repairedModules === null ||
-    typeof value.completed !== 'boolean'
+    nextChapter > chapters.length ||
+    !scoreIsValid ||
+    !modulesAreValid ||
+    !completionIsValid
   ) {
     return null;
   }
@@ -41,7 +57,7 @@ export function validateProgress(value) {
     playerName,
     nextChapter,
     totalScore,
-    repairedModules,
+    repairedModules: [...repairedModules],
     completed: value.completed,
   };
 }

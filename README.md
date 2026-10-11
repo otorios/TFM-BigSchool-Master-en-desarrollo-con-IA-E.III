@@ -71,6 +71,7 @@ npm run preview
 - [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md)
 - [Decisiones del proyecto](docs/DECISIONES.md)
 - [Arquitectura](docs/ARQUITECTURA.md)
+- [Revisión de código y seguridad](docs/REVISION-CODIGO.md)
 - [Créditos y estado de las imágenes](docs/CREDITOS-IMAGENES.md)
 - [Presentación](presentation/README.md)
 - [Material para la demostración](media/README.md)

@@ -1,5 +1,4 @@
-import './styles.css';
-import { chapters, MAX_ENERGY } from './data/chapters.js';
+import { chapters, MAX_ENERGY, MAX_TOTAL_SCORE } from './data/chapters.js';
 import { cardsMatch, createDeck, getReturnOutcome, remainingEnergy } from './game.js';
 import { createGameState } from './state.js';
 import {
@@ -23,6 +22,7 @@ import {
 } from './ui.js';
 
 const app = document.querySelector('#app');
+// `progress` se persiste entre capítulos; `state` y `deck` solo pertenecen al tablero actual.
 let progress = loadProgress();
 let state = null;
 let deck = [];
@@ -68,9 +68,7 @@ function renderStart() {
   const field = element('div', 'field-group');
   field.append(label, input, validation);
   form.append(field);
-  form.append(
-    createButton('Comenzar misión', () => {}, 'primary'),
-  );
+  form.append(createButton('Comenzar misión', undefined, 'primary'));
   form.lastElementChild.type = 'submit';
   form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -151,6 +149,7 @@ function startChapter(chapterIndex) {
   app.append(layout);
   updateStats(app, state, chapter.pairs.length, chapter.errorCost);
 
+  // El tablero permanece bloqueado mientras el jugador observa todas las cartas.
   let remaining = chapter.observationSeconds;
   observationId = window.setInterval(() => {
     remaining -= 1;
@@ -192,6 +191,7 @@ function handleCardSelection(card) {
   const secondCard = deck.find((item) => item.id === secondId);
   const chapter = chapters[state.chapterIndex];
 
+  // Solo una relación concepto-pista del mismo identificador se considera pareja.
   if (cardsMatch(firstCard, secondCard)) {
     window.setTimeout(() => {
       state.matchedPairIds.push(firstCard.pairId);
@@ -229,6 +229,7 @@ function completeChapter() {
   stopTimers();
   state.elapsedSeconds = Math.floor((Date.now() - state.startedAt) / 1000);
   const chapter = chapters[state.chapterIndex];
+  // El final de capítulo es el punto de control: no se guardan tableros a medias.
   progress.totalScore += state.energy;
   progress.repairedModules.push(chapter.module);
   progress.nextChapter = state.chapterIndex + 1;
@@ -261,7 +262,7 @@ function completeChapter() {
 
   const summary = element('dl', 'result-summary');
   [
-    ['Energía conservada', `${state.energy}/12`],
+    ['Energía conservada', `${state.energy}/${MAX_ENERGY}`],
     ['Intentos', String(state.attempts)],
     ['Errores', String(state.errors)],
     ['Tiempo', formatTime(state.elapsedSeconds)],
@@ -311,7 +312,7 @@ function renderFinal() {
       'La antigua baliza respondió a la identificación de emergencia de ATLAS. Sus datos completan el mapa, COSMO despierta a la capitana y LURRA está a salvo.',
     ),
     element('p', 'outcome-message', outcome.message),
-    element('p', 'final-score', `${progress.totalScore}/36 puntos de energía`),
+    element('p', 'final-score', `${progress.totalScore}/${MAX_TOTAL_SCORE} puntos de energía`),
   );
   const modules = element('ul', 'module-list');
   progress.repairedModules.forEach((module) => modules.append(element('li', null, module)));

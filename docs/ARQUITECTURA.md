@@ -23,7 +23,7 @@ La primera versión implementa esta arquitectura y mantiene cada responsabilidad
 
 - Defino los capítulos y sus contenidos en `src/data/chapters.js`.
 - Cada capítulo incluirá su identificador, título, textos narrativos, recompensa y lista de parejas.
-- Cada pareja incluye un identificador, nombre, pista, símbolo visual provisional y campo preparado para la ruta de imagen.
+- Cada pareja incluye un identificador, nombre, pista, símbolo de respaldo, ruta de imagen local y texto alternativo.
 - El motor recibe estos datos sin contener textos ni rutas específicos de un capítulo.
 
 ## Estado de la partida
@@ -77,10 +77,10 @@ media/
 - Insertaré los datos introducidos por el jugador con `textContent` y crearé elementos mediante APIs seguras del DOM.
 - No utilizaré entradas del jugador con `innerHTML`, `eval()`, `document.write()` ni atributos de eventos construidos dinámicamente.
 - Normalizaré y limitaré el nombre del jugador a un máximo inicial de 30 caracteres.
-- Validaré la estructura y los tipos de los datos recuperados de `localStorage`; ante datos inválidos aplicaré valores seguros o reiniciaré el progreso.
+- Validaré la estructura, los tipos y la coherencia entre los datos recuperados de `localStorage`; ante datos inválidos reiniciaré el progreso.
 - No almacenaré secretos, credenciales ni información sensible en el código o en `localStorage`.
 - Mantendré las dependencias al mínimo y revisaré sus vulnerabilidades conocidas.
-- Alojaré localmente los recursos siempre que sea razonable y aplicaré una política CSP compatible con la aplicación.
+- Alojaré localmente los recursos siempre que sea razonable y aplicaré una política CSP compatible con la aplicación. La hoja CSS se cargará como recurso propio para no necesitar `'unsafe-inline'` en `style-src`.
 - Añadiré pruebas para entradas con caracteres especiales y progreso manipulado o corrupto.
 
 Al no existir backend, base de datos, comandos del sistema ni proveedor de IA durante la ejecución, el MVP no expone superficies de inyección SQL, de comandos o de prompts.

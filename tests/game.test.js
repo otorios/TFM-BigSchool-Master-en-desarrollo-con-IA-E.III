@@ -6,7 +6,7 @@ import { chapters } from '../src/data/chapters.js';
 
 const chapter = {
   pairs: [
-    { id: 'sun', name: 'Sol', clue: 'Una estrella', symbol: '☀', image: null },
+    { id: 'sun', name: 'Sol', clue: 'Una estrella', symbol: '☀', image: 'sun.jpg', alt: 'El Sol' },
     { id: 'earth', name: 'Tierra', clue: 'Un planeta', symbol: '⊕', image: null },
   ],
 };
@@ -15,6 +15,7 @@ test('crea dos cartas por pareja', () => {
   const deck = createDeck(chapter, () => 0.5);
   assert.equal(deck.length, 4);
   assert.equal(deck.filter((card) => card.pairId === 'sun').length, 2);
+  assert.equal(deck.find((card) => card.id === 'sun-concept').alt, 'El Sol');
 });
 
 test('solo empareja concepto y pista de la misma relación', () => {
@@ -47,6 +48,7 @@ test('muestra los fallos restantes según la penalización', () => {
   assert.equal(remainingFailures(12, 2), 6);
   assert.equal(remainingFailures(10, 2), 5);
   assert.equal(remainingFailures(0, 2), 0);
+  assert.equal(remainingFailures(12, 0), 0);
 });
 
 test('ofrece seis fallos en los tres capítulos', () => {

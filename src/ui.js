@@ -1,3 +1,6 @@
+import { MAX_ENERGY } from './data/chapters.js';
+
+// Centralizar la creación evita interpolar contenido dinámico mediante HTML.
 function element(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -12,7 +15,7 @@ export function clearApp(app) {
 export function createButton(label, onClick, variant = 'primary') {
   const button = element('button', `button button--${variant}`, label);
   button.type = 'button';
-  button.addEventListener('click', onClick);
+  if (onClick) button.addEventListener('click', onClick);
   return button;
 }
 
@@ -27,7 +30,7 @@ export function createHeader(chapter, state, playerName) {
   const stats = element('div', 'stats');
   const energy = element('span', 'stat');
   energy.dataset.stat = 'energy';
-  energy.textContent = `Energía: ${state.energy}/12`;
+  energy.textContent = `Energía: ${state.energy}/${MAX_ENERGY}`;
   const failures = element('span', 'stat');
   failures.dataset.stat = 'failures';
   failures.textContent = `Fallos restantes: ${remainingFailures(state.energy, chapter.errorCost)}`;
@@ -100,6 +103,7 @@ export function formatTime(seconds) {
 }
 
 export function remainingFailures(energy, errorCost) {
+  if (!Number.isFinite(energy) || !Number.isFinite(errorCost) || errorCost <= 0) return 0;
   return Math.ceil(energy / errorCost);
 }
 
@@ -109,7 +113,7 @@ export function updateStats(app, state, pairCount, errorCost) {
   const timer = app.querySelector('[data-stat="timer"]');
   const progress = app.querySelector('[data-progress]');
   const progressLabel = app.querySelector('[data-progress-label]');
-  if (energy) energy.textContent = `Energía: ${state.energy}/12`;
+  if (energy) energy.textContent = `Energía: ${state.energy}/${MAX_ENERGY}`;
   if (failures) failures.textContent = `Fallos restantes: ${remainingFailures(state.energy, errorCost)}`;
   if (timer) timer.textContent = `Tiempo: ${formatTime(state.elapsedSeconds)}`;
   if (progress) progress.value = state.matchedPairIds.length;
