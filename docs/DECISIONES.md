@@ -9,7 +9,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha de actualización:** 10/10/2026.
 - **Idea original:** quería desarrollar un videojuego web educativo de parejas semánticas, admitiendo relaciones variadas como concepto y definición, personaje y acontecimiento, palabra y traducción o dos imágenes relacionadas.
 - **Decisión actual:** se mantiene el videojuego de parejas semánticas con una mecánica uniforme: una carta muestra la imagen y el nombre del concepto y su pareja contiene una definición o pista breve.
-- **Motivo del cambio:** conservo la idea educativa original, combino memoria visual y aprendizaje y simplifico el diseño y la explicación del juego.
+- **Motivo del cambio:** se conserva la idea educativa original, se combinan memoria visual y aprendizaje y se simplifican el diseño y la explicación del juego.
 
 ## D-002 — Progresión narrativa
 
@@ -86,7 +86,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha:** 07/10/2026.
 - **Decisión:** no se menciona la edad exacta del protagonista. La franja del público objetivo se utiliza para diseñar el lenguaje, la dificultad y la experiencia, no como edad explícita del cadete.
 - **Situación inicial:** ATLAS viajaba en modo automático bajo el control de COSMO. El cadete realizaba una práctica de observación supervisada y no era responsable de vigilar o pilotar la nave en solitario.
-- **Motivo:** evito que resulte poco creíble que un menor tenga la responsabilidad de la nave y facilito que jugadores de distintas edades se identifiquen con el personaje.
+- **Motivo:** se evita que resulte poco creíble que un menor tenga la responsabilidad de la nave y se facilita que jugadores de distintas edades se identifiquen con el personaje.
 
 ## D-011 — Origen de la emergencia
 
@@ -102,7 +102,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha:** 10/10/2026.
 - **Idea original:** quería integrar un proveedor de IA en la aplicación para interpretar el tema elegido y generar durante la partida el título, la ambientación, los capítulos y las explicaciones educativas.
 - **Decisión actual:** no se integra un proveedor de IA durante la ejecución del MVP. La narrativa, las parejas, las pistas y las explicaciones se preparan y revisan previamente. La IA se utiliza únicamente como apoyo documentado durante el desarrollo.
-- **Motivo del cambio:** la integración añadía costes, gestión de secretos, dependencia de red, validación de respuestas y más trabajo de pruebas. Con el tiempo disponible, priorizo entregar un juego completo, estable y educativo.
+- **Motivo del cambio:** la integración añadía costes, gestión de secretos, dependencia de red, validación de respuestas y más trabajo de pruebas. Con el tiempo disponible, se prioriza la entrega de un juego completo, estable y educativo.
 
 ## D-013 — Persistencia del progreso
 
@@ -161,7 +161,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha:** 10/10/2026.
 - **Decisión:** se utiliza una estructura pequeña basada en `index.html`, módulos JavaScript y recursos propios dentro de `src/`, imágenes astronómicas en `public/images/` y pruebas en `tests/`.
 - **Módulos principales:** `main.js`, `game.js`, `state.js`, `storage.js` y `ui.js`.
-- **Motivo:** separo las responsabilidades del juego sin crear una arquitectura excesiva para el tamaño y el plazo del MVP.
+- **Motivo:** se separan las responsabilidades del juego sin crear una arquitectura excesiva para el tamaño y el plazo del MVP.
 
 ## D-020 — Controles mínimos de seguridad
 
@@ -170,7 +170,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Decisión:** se aplican controles de seguridad proporcionados a una aplicación web estática sin backend, base de datos ni API.
 - **Controles:** las entradas se muestran con `textContent`, el nombre se limita, se evitan `innerHTML`, `eval()` y `document.write()`, se validan los datos de `localStorage`, no se incluyen secretos, se reducen dependencias, se usan recursos locales y se aplica una CSP básica.
 - **Comprobaciones:** se prueban nombres con caracteres especiales y datos manipulados o dañados en `localStorage`.
-- **Motivo:** prevengo XSS en el navegador, errores por datos alterados y exposición accidental de información sin introducir una infraestructura innecesaria.
+- **Motivo:** se previenen XSS en el navegador, errores por datos alterados y la exposición accidental de información sin introducir una infraestructura innecesaria.
 
 ## D-021 — Dirección visual del MVP
 
@@ -244,7 +244,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Fecha:** 10/10/2026.
 - **Decisión:** no se impone un límite de tiempo ni se provoca una derrota por tardar. Se muestra un cronómetro informativo desde que se ocultan las cartas hasta la última pareja.
 - **Resultado:** el tiempo empleado se muestra al finalizar el capítulo para aportar información y facilitar las pruebas.
-- **Motivo:** obtengo una medida útil sin añadir presión ni impedir que el jugador complete la actividad educativa.
+- **Motivo:** se obtiene una medida útil sin añadir presión ni impedir que el jugador complete la actividad educativa.
 - **Evolución futura:** el cronómetro permitirá añadir más adelante modos de dificultad con tiempo máximo.
 
 ## D-028 — Energía, puntuación y resultado
@@ -252,7 +252,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Estado:** aceptada para pruebas.
 - **Fecha:** 10/10/2026.
 - **Fecha de actualización:** 10/10/2026.
-- **Idea original:** cada capítulo comenzaría con 12 puntos de energía y los errores restarían 1, 2 y 3 puntos respectivamente. Después reduje el tercer capítulo a 2 puntos por error, pero el primero todavía permitía 12 fallos.
+- **Idea original:** cada capítulo comenzaría con 12 puntos de energía y los errores restarían 1, 2 y 3 puntos respectivamente. Después se redujo el tercer capítulo a 2 puntos por error, pero el primero todavía permitía 12 fallos.
 - **Decisión actual:** cada capítulo comenzará con 12 puntos de energía y cada error restará 2 puntos. Los tres tableros permitirán seis fallos y los aciertos avanzarán la reparación sin consumir energía.
 - **Motivo del cambio:** 12 fallos resultaban excesivos para un tablero de cuatro parejas. La regla se unifica y la dificultad aumenta mediante el número de parejas y la complejidad de los conceptos.
 
@@ -278,7 +278,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Capítulo:** `Las semillas de la Tierra`.
 - **Idea original de las pistas:** utilizaría definiciones completas redactadas en primera persona, pero algunas quedaban cortadas en las cartas compactas.
 - **Parejas actuales:** `Atmósfera` ↔ `Capa de gases que rodea un planeta`; `Magnetosfera` ↔ `Campo magnético que protege un planeta`; `Zona habitable` ↔ `Región donde un planeta podría tener agua líquida`; `Exoplaneta` ↔ `Planeta que orbita una estrella distinta del Sol`; `Cometa` ↔ `Cuerpo de hielo, roca y polvo que puede formar una cola`; `Asteroide` ↔ `Cuerpo rocoso o metálico que orbita el Sol`.
-- **Motivo de la simplificación:** conservo los términos científicos esenciales en frases directas y legibles.
+- **Motivo de la simplificación:** se conservan los términos científicos esenciales en frases directas y legibles.
 - **Recompensa:** cada acierto hace avanzar la barra de reparación. Al completar las seis parejas se obtiene el módulo de protección de LURRA y el laboratorio recupera la energía necesaria para conservar las semillas.
 - **Motivo:** aumento la dificultad con conceptos relacionados con la protección planetaria, los cuerpos menores y la búsqueda de lugares adecuados para la vida, manteniendo definiciones breves y diferenciables.
 - **Validación educativa:** se utilizan como referencias las páginas de NASA Science sobre exoplanetas y zona habitable, magnetosferas, cometas y asteroides.
@@ -291,7 +291,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Descubrimiento:** la señal contendrá un protocolo de conservación biológica casi idéntico al de LURRA y un fragmento de mapa con las coordenadas de una antigua baliza situada en la ruta de regreso.
 - **Misterio:** los registros relacionarán la baliza con una expedición científica anterior a ORIOS. Esto explicará parte de la conexión tecnológica, pero todavía no cómo conoce los datos actuales de la misión.
 - **Transición:** COSMO indicará que deberán reconstruir el mapa de navegación para descubrir quién envió la señal y encontrar el camino a casa.
-- **Motivo:** conecto la protección de las semillas con el misterio principal y preparo de forma directa la reparación de navegación y propulsión del último capítulo.
+- **Motivo:** se conecta la protección de las semillas con el misterio principal y se prepara de forma directa la reparación de navegación y propulsión del último capítulo.
 
 ## D-031 — Tercer tablero y reparación final
 
@@ -301,7 +301,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 - **Capítulo:** `El camino a casa`.
 - **Idea original de las pistas:** utilizaría definiciones completas redactadas en primera persona, pero el tablero final necesita textos especialmente compactos.
 - **Parejas actuales:** `Órbita` ↔ `Trayectoria de un objeto alrededor de otro`; `Gravedad` ↔ `Fuerza que atrae a los cuerpos con masa`; `Año luz` ↔ `Distancia que recorre la luz en un año`; `Constelación` ↔ `Región del cielo con un patrón reconocible de estrellas`; `Nebulosa` ↔ `Nube de gas y polvo entre las estrellas`; `Supernova` ↔ `Gran explosión al final de la vida de una estrella`; `Púlsar` ↔ `Estrella de neutrones que gira y emite pulsos`; `Agujero negro` ↔ `Objeto cuya gravedad impide escapar incluso a la luz`.
-- **Motivo de la simplificación:** evito cortes de texto y reduzco el esfuerzo de lectura sin eliminar los conceptos avanzados.
+- **Motivo de la simplificación:** se evitan cortes de texto y se reduce el esfuerzo de lectura sin eliminar los conceptos avanzados.
 - **Recompensa:** cada acierto hace avanzar la barra de reparación. Al completar las ocho parejas se obtiene el módulo de navegación y propulsión, se reconstruye el mapa de la baliza y comienza el regreso.
 - **Motivo:** la progresión se cierra con conceptos más avanzados sobre distancias, movimiento, orientación y objetos del universo, manteniendo definiciones breves y diferenciables.
 - **Validación educativa:** se utiliza como referencia principal el glosario de NASA Science sobre el universo.

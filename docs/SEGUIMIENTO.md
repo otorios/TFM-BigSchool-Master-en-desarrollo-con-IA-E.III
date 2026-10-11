@@ -229,8 +229,8 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Revisado | Tras la primera prueba manual, se añadió separación al formulario, se reforzó el estilo visual, se corrigió el giro 3D y se unificó el tiempo como `mm:ss`; pasaron ocho pruebas. |
 | 10/10/2026 | Completado | Se corrigió la política de seguridad, se incorporaron 18 imágenes acreditadas y se rediseñaron el tablero, las cartas y el formulario. |
 | 10/10/2026 | Revisado | Tras probar 8/12/16 y 20/30/40 segundos, la observación inicial se fijó en 14/21/28; también se eliminó del tablero el texto narrativo ya leído. |
-| 10/10/2026 | Revisado | Hice que las cartas y los espacios se compacten según el nivel y la altura del ordenador para mantener el tablero completo visible en portátiles; en móvil priorizo la lectura aunque exista desplazamiento. |
-| 10/10/2026 | Revisado | Reduje de 3 a 2 puntos la penalización por error del tercer capítulo para ampliar el margen de cuatro a seis errores. |
+| 10/10/2026 | Revisado | Las cartas y los espacios se compactaron según el nivel y la altura del ordenador para mantener el tablero completo visible en portátiles; en móvil se priorizó la lectura aunque existiera desplazamiento. |
+| 10/10/2026 | Revisado | La penalización por error del tercer capítulo se redujo de 3 a 2 puntos para ampliar el margen de cuatro a seis errores. |
 | 10/10/2026 | Completado | Se reorganizó la transición entre capítulos para destacar el módulo, el progreso y la narrativa. |
 | 10/10/2026 | Revisado | Se simplificaron las 18 pistas a frases breves con una sola idea principal y se añadió una prueba que limita su longitud. |
 | 10/10/2026 | Revisado | El contador ascendente de intentos se sustituyó durante la partida por una cuenta atrás de fallos restantes; el total se mantiene en el resumen. |

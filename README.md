@@ -41,13 +41,13 @@ Las decisiones educativas, narrativas y técnicas se explican con más detalle e
 
 ## Cómo jugar
 
-1. Introduce el nombre del cadete y comienza la misión.
-2. Lee la introducción y las reglas del capítulo.
-3. Observa las cartas mientras permanecen visibles durante la cuenta atrás.
-4. Selecciona dos cartas para relacionar cada concepto con su pista.
+1. Se introduce el nombre del cadete y se comienza la misión.
+2. Se consultan la introducción y las reglas del capítulo.
+3. Se observan las cartas mientras permanecen visibles durante la cuenta atrás.
+4. Se seleccionan dos cartas para relacionar cada concepto con su pista.
 5. Las parejas correctas permanecen visibles; cada error consume 2 puntos de energía.
-6. Completa el tablero antes de agotar los 12 puntos de energía.
-7. Recupera los tres módulos de ATLAS y descubre el desenlace de la misión.
+6. El tablero debe completarse antes de agotar los 12 puntos de energía.
+7. La recuperación de los tres módulos de ATLAS permite descubrir el desenlace de la misión.
 
 Si se cierra la página, se conserva el último capítulo completado. Los tableros a medias no se guardan y se reinician al continuar.
 
