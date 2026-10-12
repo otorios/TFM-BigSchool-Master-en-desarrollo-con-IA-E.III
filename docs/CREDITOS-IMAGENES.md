@@ -4,7 +4,7 @@
 
 Se han seleccionado imágenes y representaciones científicas publicadas en la biblioteca oficial de la NASA. Las copias utilizadas por el juego se encuentran en `public/images/cards/`, por lo que la partida no depende de una conexión a Internet.
 
-Se han utilizado las versiones pequeñas facilitadas por la biblioteca para reducir el peso del proyecto. La NASA establece sus condiciones generales en [NASA Images and Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/). Cuando una ficha atribuye la obra a colaboradores, también se conserva ese crédito y deberá revisarse antes de cualquier uso distinto del académico previsto en este TFG.
+Se han utilizado las versiones pequeñas facilitadas por la biblioteca para reducir el peso del proyecto. La NASA establece sus condiciones generales en [NASA Images and Media Usage Guidelines](https://www.nasa.gov/nasa-brand-center/images-and-media/). Cuando una ficha atribuye la obra a colaboradores, también se conserva ese crédito y deberá revisarse antes de cualquier uso distinto del académico previsto en este TFM.
 
 ## Registro de recursos
 
