@@ -94,7 +94,7 @@ Los contenidos se almacenarán como datos locales estructurados. El progreso se 
 
 No se integra un proveedor de IA durante la ejecución de la aplicación. La IA se utiliza como herramienta de apoyo durante el desarrollo para ideación, documentación, arquitectura, programación, creación inicial de contenidos, recursos visuales y pruebas. Todo resultado se revisa antes de incorporarlo al catálogo o al código.
 
-Este uso deberá documentarse en la memoria del TFM mediante decisiones, ejemplos de asistencia y una explicación de las revisiones realizadas. La generación dinámica de aventuras queda como ampliación posterior al MVP.
+Este uso se documenta en la memoria del TFM mediante decisiones, ejemplos de asistencia y una explicación de las revisiones realizadas. La generación dinámica de aventuras queda como ampliación posterior al MVP.
 
 ## 5. Fases de trabajo
 
