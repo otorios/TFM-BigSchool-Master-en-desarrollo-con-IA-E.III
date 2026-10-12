@@ -88,18 +88,6 @@ media/
 
 Al no existir backend, base de datos, comandos del sistema ni proveedor de IA durante la ejecución, el MVP no expone superficies de inyección SQL, de comandos o de prompts.
 
-La documentación técnica incluye o deberá incluir:
-
-- Diagrama de contexto.
-- Componentes del frontend.
-- Motor y estado del juego.
-- Necesidad o ausencia de backend y contratos de API.
-- Modelo de datos.
-- Biblioteca de contenidos e imágenes.
-- Persistencia local mediante `localStorage`.
-- Estrategia de pruebas.
-- Despliegue y observabilidad.
-
 ## Principio inicial
 
 Se ha decidido que el MVP no dependa de servicios externos de IA. Las reglas, el contenido educativo y la narrativa se definen localmente, y el progreso se conserva en el navegador sin cuentas ni base de datos.
