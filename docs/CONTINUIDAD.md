@@ -93,10 +93,11 @@ ATLAS regresa siempre con LURRA a salvo. La energía acumulada determina si el v
 1. Realizar una prueba manual completa de los tres capítulos.
 2. Comprobar la instalación desde cero.
 3. Configurar y verificar el despliegue público en GitHub Pages.
-4. Preparar la presentación en PowerPoint o formato similar.
-5. Grabar y publicar un vídeo privado o accesible mediante enlace en YouTube.
-6. Añadir al README las URLs definitivas del despliegue, la presentación y el vídeo.
-7. Revisar y cumplimentar el formulario de entrega.
+4. Al completar el despliegue, actualizar `docs/SEGUIMIENTO.md` con el resultado real de la publicación y condensar la tabla de registro del progreso, agrupando hitos relacionados y eliminando detalle repetitivo sin perder la trazabilidad principal.
+5. Preparar la presentación en PowerPoint o formato similar.
+6. Grabar y publicar un vídeo privado o accesible mediante enlace en YouTube.
+7. Añadir al README las URLs definitivas del despliegue, la presentación y el vídeo.
+8. Revisar y cumplimentar el formulario de entrega.
 
 ## Prompt de reanudación
 
