@@ -92,17 +92,15 @@ ATLAS regresa siempre con LURRA a salvo. La energía acumulada determina si el v
 
 1. Realizar una prueba manual completa de los tres capítulos.
 2. Comprobar la instalación desde cero.
-3. Configurar y verificar el despliegue público en GitHub Pages.
-4. Al completar el despliegue, actualizar `docs/SEGUIMIENTO.md` con el resultado real de la publicación y condensar la tabla de registro del progreso, agrupando hitos relacionados y eliminando detalle repetitivo sin perder la trazabilidad principal.
-5. Preparar la presentación en PowerPoint o formato similar.
-6. Grabar y publicar un vídeo privado o accesible mediante enlace en YouTube.
-7. Añadir al README las URLs definitivas del despliegue, la presentación y el vídeo.
-8. Revisar y cumplimentar el formulario de entrega.
+3. Preparar la presentación en PowerPoint o formato similar.
+4. Grabar y publicar un vídeo accesible mediante enlace en YouTube.
+5. Añadir al README las URLs definitivas de la presentación y el vídeo.
+6. Revisar y cumplimentar el formulario de entrega.
 
 ## Prompt de reanudación
 
 ```text
-Se está desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Deben revisarse primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md, docs/REVISION-CODIGO.md y docs/CREDITOS-IMAGENES.md. No deben modificarse decisiones aceptadas sin registrar el cambio. El MVP funcional, las 18 imágenes acreditadas, el fondo y el reverso ilustrados y las doce pruebas ya existen. El siguiente bloque consiste en realizar una prueba manual completa y preparar el despliegue, la presentación y el vídeo. Los cambios deben mantenerse pequeños y la documentación aprobada debe actualizarse.
+Se está desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Deben revisarse primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md, docs/REVISION-CODIGO.md y docs/CREDITOS-IMAGENES.md. No deben modificarse decisiones aceptadas sin registrar el cambio. El MVP funcional, las 18 imágenes acreditadas, el fondo y el reverso ilustrados, las doce pruebas y el despliegue público en GitHub Pages ya existen. El siguiente bloque consiste en realizar una prueba manual completa y preparar la presentación y el vídeo. Los cambios deben mantenerse pequeños y la documentación aprobada debe actualizarse.
 ```
 
 ## Normas para documentar el trabajo

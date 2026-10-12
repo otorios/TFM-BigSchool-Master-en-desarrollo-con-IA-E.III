@@ -190,7 +190,7 @@ Este documento conserva las decisiones importantes y sus motivos para evitar cam
 
 - **Estado:** aceptada.
 - **Fecha:** 10/10/2026.
-- **Decisión:** el MVP se publicará mediante GitHub Pages desde el mismo repositorio del TFG, utilizando GitHub Actions para construir el proyecto con Vite y desplegar el contenido generado.
+- **Decisión:** el MVP se publica mediante GitHub Pages desde el mismo repositorio del TFM, utilizando GitHub Actions para construir el proyecto con Vite y desplegar el contenido generado.
 - **Visibilidad:** el repositorio será público, de acuerdo con los requisitos de entrega y con el uso gratuito previsto de GitHub Pages.
 - **Motivo:** no supone ningún gasto, evita abrir y mantener otro servicio y conserva en GitHub el código, el historial y la versión publicada.
 - **Alternativa valorada:** Notion Sites permite publicar páginas informativas, pero no sustituye el alojamiento de una aplicación JavaScript construida con Vite. Podría utilizarse en el futuro como presentación enlazada, pero no es necesario para el MVP.

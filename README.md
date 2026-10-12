@@ -4,7 +4,7 @@
 
 El proyecto corresponde al Trabajo Final del Máster en Desarrollo con Inteligencia Artificial. La IA se utiliza como apoyo documentado durante el proceso de diseño y desarrollo, pero el juego no depende de ningún proveedor de IA durante su ejecución.
 
-> **Estado actual:** el MVP es jugable y contiene los tres capítulos completos, las 18 parejas educativas, imágenes acreditadas, progreso local, diseño responsive, una identidad visual ilustrada y 12 pruebas automáticas. Antes de la entrega quedan pendientes una prueba manual completa, el despliegue público, las slides y el vídeo.
+> **Estado actual:** el MVP es jugable, está desplegado públicamente y contiene los tres capítulos completos, las 18 parejas educativas, imágenes acreditadas, progreso local, diseño responsive, una identidad visual ilustrada y 12 pruebas automáticas. Antes de la entrega quedan pendientes una prueba manual completa, las slides y el vídeo.
 
 ## Descripción del proyecto
 
@@ -61,7 +61,7 @@ Si se cierra la página, se conserva el último capítulo completado. Los tabler
 - **Node.js Test Runner:** ejecución de las pruebas automáticas.
 - **Web Storage API (`localStorage`):** persistencia local del progreso.
 - **Git y GitHub:** control de versiones y alojamiento del repositorio.
-- **GitHub Pages:** plataforma prevista para el despliegue público.
+- **GitHub Pages:** plataforma utilizada para el despliegue público mediante GitHub Actions.
 
 No existe backend, base de datos ni servicio externo de IA durante la ejecución. La explicación técnica ampliada se encuentra en [Arquitectura](docs/ARQUITECTURA.md).
 
@@ -157,7 +157,7 @@ El proyecto **no incorpora autenticación ni cuentas de usuario**, por lo que no
 | Entregable | Estado | Enlace |
 | --- | --- | --- |
 | Repositorio de código | Disponible | [Repositorio en GitHub](https://github.com/otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III) |
-| Aplicación desplegada | Pendiente | Se añadirá la URL de GitHub Pages |
+| Aplicación desplegada | Disponible | [Abrir Memory Quest: Señal estelar](https://otorios.github.io/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III/) |
 | Slides de presentación | Pendiente | Se añadirá el enlace público o archivo definitivo |
 | Vídeo explicativo | Pendiente | Se añadirá el enlace de acceso al vídeo de YouTube |
 | Credenciales de prueba | No aplicable | El proyecto no tiene autenticación |
@@ -185,10 +185,9 @@ Las condiciones originales pueden consultarse en las [especificaciones oficiales
 
 - Realizar una prueba manual completa de los tres capítulos.
 - Comprobar la instalación desde cero.
-- Configurar y verificar el despliegue público.
 - Preparar las slides de presentación.
 - Grabar el vídeo explicativo con captura de pantalla.
-- Incorporar al README las URLs definitivas del despliegue, las slides y el vídeo.
+- Incorporar al README las URLs definitivas de las slides y el vídeo.
 - Revisar y cumplimentar el formulario de entrega.
 
 ## Fechas

@@ -34,6 +34,6 @@ Se revisaron todos los módulos JavaScript, la configuración de Vite, la polít
 
 ## Riesgo residual y alcance
 
-La aplicación no utiliza backend, cuentas, base de datos, secretos ni proveedor de IA durante la ejecución. Por ello no existe una superficie de inyección SQL, de comandos o de prompts. La CSP incluida mediante etiqueta `meta` aporta defensa adicional para este sitio estático; al configurar el despliegue se revisará si GitHub Pages permite complementar las cabeceras de seguridad y se documentarán sus limitaciones.
+La aplicación no utiliza backend, cuentas, base de datos, secretos ni proveedor de IA durante la ejecución. Por ello no existe una superficie de inyección SQL, de comandos o de prompts. La CSP incluida mediante etiqueta `meta` aporta defensa adicional para este sitio estático. GitHub Pages no permite configurar cabeceras HTTP personalizadas desde el repositorio, por lo que la política se mantiene en el propio documento HTML.
 
 El progreso es local y puede borrarse desde el navegador. No contiene información sensible y no se considera un sistema de autenticación ni una fuente de datos autoritativa.

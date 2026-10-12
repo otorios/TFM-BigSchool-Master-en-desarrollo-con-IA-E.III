@@ -61,13 +61,13 @@ Las casillas reflejan el estado actual y deberán revisarse de nuevo justo antes
 
 ### Requisitos oficiales
 
-- [ ] Repositorio público y accesible.
+- [x] Repositorio público y accesible.
 - [x] Código fuente completo incluido en el repositorio.
 - [x] Documentación incluida en el repositorio.
 - [x] README con descripción, stack, instalación, estructura y funcionalidades.
 - [x] Credenciales indicadas como no aplicables porque el proyecto no tiene login.
-- [ ] Aplicación desplegada.
-- [ ] URL pública del despliegue incluida en el README.
+- [x] Aplicación desplegada.
+- [x] URL pública del despliegue incluida en el README.
 - [ ] Slides terminadas y accesibles.
 - [ ] URL pública de las slides o documento adjunto incluido en el README.
 - [ ] Vídeo explicativo grabado con captura de pantalla.
