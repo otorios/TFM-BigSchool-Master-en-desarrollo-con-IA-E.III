@@ -192,7 +192,7 @@ Estas funcionalidades no deben retrasar la entrega principal:
 | 10/10/2026 | Completado | Se cerraron el público de 10–14 años, el alcance astronómico, los tres tableros y las 18 parejas educativas. |
 | 10/10/2026 | Completado | Se fijaron la narrativa, las reglas de energía y tiempo, las recompensas y el desenlace de ATLAS y LURRA. |
 | 10/10/2026 | Completado | Se definieron el stack con Vite, la arquitectura modular, el catálogo local y la persistencia mediante `localStorage`. |
-| 10/10/2026 | Completado | Se implementó la primera versión jugable y se iteraron la interfaz, las pistas, los tiempos y la adaptación del tablero. |
+| 10/10/2026 | Completado | Se implementó la primera versión jugable y se mejoraron progresivamente la interfaz, las pistas, los tiempos y la adaptación del tablero. |
 | 11/10/2026 | Completado | Se cerraron la revisión técnica y de seguridad, las 12 pruebas automáticas y la integración de los recursos visuales acreditados. |
 | 11/10/2026 | Completado | Se consolidó la identidad visual ilustrada con el fondo espacial, el reverso `MQ · ATLAS` y las instrucciones accesibles. |
 | 12/10/2026 | Completado | Se publicó el repositorio y se desplegó la aplicación mediante GitHub Actions en GitHub Pages. |
