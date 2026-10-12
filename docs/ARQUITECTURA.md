@@ -65,7 +65,6 @@ public/
 tests/
 docs/
 presentation/
-media/
 ```
 
 - `main.js` inicia y coordina la aplicación.

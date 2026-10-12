@@ -132,8 +132,7 @@ La última revisión también verificó la sintaxis de JavaScript, la construcci
 ├── public/images/             # Imágenes locales y recursos visuales
 ├── tests/                     # Pruebas automáticas
 ├── docs/                      # Documentación técnica y de seguimiento
-├── presentation/              # Material de la presentación
-└── media/                     # Material de la demostración y el vídeo
+└── presentation/              # Slides, guion y materiales del vídeo
 ```
 
 ## Datos, privacidad y seguridad
@@ -174,8 +173,7 @@ Las condiciones originales pueden consultarse en las [especificaciones oficiales
 - [Especificaciones oficiales de entrega](docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf): copia local del documento original facilitado para el TFM.
 - [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md): resumen operativo de los entregables y lista de comprobación final.
 - [Banco de ideas para historias](docs/IDEAS-HISTORIAS.md): ideas conservadas para futuras aventuras.
-- [Presentación](presentation/README.md): preparación de las slides.
-- [Material para la demostración](media/README.md): preparación del vídeo y la demostración.
+- [Presentación y vídeo](presentation/README.md): preparación de las slides, el guion y la demostración grabada.
 
 ### Documentación interna complementaria
 
