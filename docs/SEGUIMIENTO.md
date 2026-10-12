@@ -156,15 +156,12 @@ Estas funcionalidades no deben retrasar la entrega principal:
 - Partidas de refuerzo con los conceptos fallados.
 - Más aventuras y escenarios narrativos.
 - Generación opcional de portadas o imágenes de capítulo.
-- Historias ramificadas con decisiones.
-- Importación de PDF o apuntes para crear una aventura educativa.
 - Perfiles de usuario y progreso persistente.
-- Aventuras compartibles mediante un enlace.
-- Narración y efectos de voz.
+- Narración y efectos de sonido o voz.
 - Elección de características de la IA acompañante, como personalidad, tono o forma de comunicarse.
 - Logros y rankings.
-- Panel para gestionar imágenes, conceptos y relaciones.
 - Generación completa de imágenes bajo demanda.
+- Selección de historia o expansión.
 
 ## 7. Conexión con el temario del máster
 
