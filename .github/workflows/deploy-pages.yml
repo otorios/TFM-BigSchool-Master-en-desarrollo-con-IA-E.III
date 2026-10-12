@@ -43,8 +43,6 @@ jobs:
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Preparar archivos para el despliegue
         uses: actions/upload-pages-artifact@v4
