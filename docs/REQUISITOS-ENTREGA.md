@@ -4,10 +4,10 @@ Resumen operativo basado en las [especificaciones oficiales de entrega](ESPECIFI
 
 ## Repositorio
 
-- Repositorio público en GitHub como opción preferente.
+- Repositorio público en GitHub.
 - Código fuente completo.
 - Documentación incluida en el repositorio.
-- Si el repositorio fuese privado, deberá justificarse y concederse acceso al evaluador indicado por la organización.
+- Un repositorio privado solo se admite de forma excepcional, si está debidamente justificado y se concede acceso a la dirección indicada en el documento oficial.
 
 ## README final
 
@@ -57,14 +57,26 @@ El README deberá incluir:
 
 ## Lista de comprobación
 
+Las casillas reflejan el estado actual y deberán revisarse de nuevo justo antes de enviar el formulario.
+
+### Requisitos oficiales
+
 - [ ] Repositorio público y accesible.
-- [ ] README completo.
-- [ ] Instalación comprobada desde cero.
+- [x] Código fuente completo incluido en el repositorio.
+- [x] Documentación incluida en el repositorio.
+- [x] README con descripción, stack, instalación, estructura y funcionalidades.
+- [x] Credenciales indicadas como no aplicables porque el proyecto no tiene login.
 - [ ] Aplicación desplegada.
-- [ ] URL del despliegue verificada.
+- [ ] URL pública del despliegue incluida en el README.
 - [ ] Slides terminadas y accesibles.
-- [ ] Vídeo grabado con captura de pantalla.
-- [ ] URL del vídeo verificada.
-- [ ] Credenciales de prueba verificadas, si aplican.
-- [ ] Formulario cumplimentado.
+- [ ] URL pública de las slides o documento adjunto incluido en el README.
+- [ ] Vídeo explicativo grabado con captura de pantalla.
+- [ ] URL de acceso público al vídeo incluida en el README.
+- [ ] Formulario de entrega cumplimentado con todos los enlaces.
+
+### Controles internos antes de entregar
+
+- [ ] Instalación comprobada desde cero.
+- [ ] Prueba manual completa de los tres capítulos.
+- [ ] URLs del despliegue, las slides y el vídeo verificadas sin depender de una sesión privada.
 - [ ] Copia de seguridad de todos los entregables.
