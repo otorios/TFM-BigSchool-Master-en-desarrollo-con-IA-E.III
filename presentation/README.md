@@ -1,14 +1,6 @@
 # Presentación
 
-Esta carpeta contendrá las slides finales o el enlace público a la presentación.
+Esta carpeta reúne los materiales utilizados para preparar las slides finales del TFM.
 
-Guion inicial previsto:
-
-1. Problema y oportunidad.
-2. Propuesta de Memory Quest: Señal estelar.
-3. Experiencia del jugador.
-4. Demostración de una aventura.
-5. Arquitectura y uso de IA.
-6. Calidad, seguridad y despliegue.
-7. Dificultades y aprendizajes.
-8. Próximos pasos.
+- [Contenido propuesto para las slides](CONTENIDO-SLIDES.md): textos editables, recursos visuales y notas de apoyo.
+- El archivo definitivo de PowerPoint o su enlace público se añadirá cuando termine la revisión del contenido.
