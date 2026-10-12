@@ -6,8 +6,8 @@ Este documento permite retomar **Memory Quest: Señal estelar** sin depender del
 
 ## Repositorio correcto
 
-- **Repositorio local:** `C:\Users\Usuario\Documents\TFG-BigSchool-Master-en-desarrollo-con-IA-E.III`.
-- **Repositorio remoto:** `git@github.com:otorios/TFG-BigSchool-Master-en-desarrollo-con-IA-E.III.git`.
+- **Repositorio local:** `C:\Users\Usuario\Documents\TFM-BigSchool-Master-en-desarrollo-con-IA-E.III`.
+- **Repositorio remoto:** `git@github.com:otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III.git`.
 - **Rama de trabajo:** `main`.
 - El repositorio no debe confundirse con `C:\Users\Usuario\Documents\BigSchool`, que contiene los materiales generales del máster.
 

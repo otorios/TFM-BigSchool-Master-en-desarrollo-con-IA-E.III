@@ -75,8 +75,8 @@ No existe backend, base de datos ni servicio externo de IA durante la ejecución
 ### Ejecución local
 
 ```bash
-git clone git@github.com:otorios/TFG-BigSchool-Master-en-desarrollo-con-IA-E.III.git
-cd TFG-BigSchool-Master-en-desarrollo-con-IA-E.III
+git clone git@github.com:otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III.git
+cd TFM-BigSchool-Master-en-desarrollo-con-IA-E.III
 npm install
 npm run dev
 ```
@@ -156,7 +156,7 @@ El proyecto **no incorpora autenticación ni cuentas de usuario**, por lo que no
 
 | Entregable | Estado | Enlace |
 | --- | --- | --- |
-| Repositorio de código | Disponible | [Repositorio en GitHub](https://github.com/otorios/TFG-BigSchool-Master-en-desarrollo-con-IA-E.III) |
+| Repositorio de código | Disponible | [Repositorio en GitHub](https://github.com/otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III) |
 | Aplicación desplegada | Pendiente | Se añadirá la URL de GitHub Pages |
 | Slides de presentación | Pendiente | Se añadirá el enlace público o archivo definitivo |
 | Vídeo explicativo | Pendiente | Se añadirá el enlace de acceso al vídeo de YouTube |
