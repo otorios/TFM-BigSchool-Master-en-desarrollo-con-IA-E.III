@@ -162,7 +162,7 @@ El proyecto **no incorpora autenticación ni cuentas de usuario**, por lo que no
 | Vídeo explicativo | Pendiente | Se añadirá el enlace de acceso al vídeo de YouTube |
 | Credenciales de prueba | No aplicable | El proyecto no tiene autenticación |
 
-Los requisitos y la lista de comprobación de la entrega están recogidos en [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md).
+Las condiciones originales pueden consultarse en las [especificaciones oficiales de entrega](docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf). El [resumen de requisitos y lista de comprobación](docs/REQUISITOS-ENTREGA.md) facilita su seguimiento dentro del proyecto.
 
 ## Documentación
 
@@ -171,7 +171,8 @@ Los requisitos y la lista de comprobación de la entrega están recogidos en [Re
 - [Seguimiento del proyecto](docs/SEGUIMIENTO.md): planificación y registro cronológico del trabajo.
 - [Revisión de código y seguridad](docs/REVISION-CODIGO.md): comprobaciones y mejoras aplicadas.
 - [Créditos de las imágenes](docs/CREDITOS-IMAGENES.md): fuentes y atribuciones de los recursos visuales.
-- [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md): entregables y lista de comprobación final.
+- [Especificaciones oficiales de entrega](docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf): copia local del documento original facilitado para el TFM.
+- [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md): resumen operativo de los entregables y lista de comprobación final.
 - [Banco de ideas para historias](docs/IDEAS-HISTORIAS.md): ideas conservadas para futuras aventuras.
 - [Presentación](presentation/README.md): preparación de las slides.
 - [Material para la demostración](media/README.md): preparación del vídeo y la demostración.

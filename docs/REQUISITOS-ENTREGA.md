@@ -1,6 +1,6 @@
 # Requisitos de entrega del TFM
 
-Resumen operativo basado en la documentación facilitada para el proyecto final.
+Resumen operativo basado en las [especificaciones oficiales de entrega](ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf), cuya copia se conserva en este mismo repositorio para centralizar la documentación del TFM.
 
 ## Repositorio
 
@@ -68,4 +68,3 @@ El README deberá incluir:
 - [ ] Credenciales de prueba verificadas, si aplican.
 - [ ] Formulario cumplimentado.
 - [ ] Copia de seguridad de todos los entregables.
-

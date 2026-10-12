@@ -119,6 +119,7 @@ Se está desarrollando Memory Quest: Señal estelar, el TFM documentado en este 
 - `docs/SEGUIMIENTO.md`: alcance, fases y progreso.
 - `docs/DECISIONES.md`: decisiones aceptadas y motivos.
 - `docs/IDEAS-HISTORIAS.md`: banco de ideas narrativas.
+- `docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf`: copia local del documento oficial de entrega.
 - `docs/REQUISITOS-ENTREGA.md`: requisitos administrativos.
 - `docs/ARQUITECTURA.md`: documentación técnica.
 - `docs/REVISION-CODIGO.md`: revisión de calidad y seguridad.
