@@ -63,7 +63,7 @@ public/
   images/
     README.md
 tests/
-docs/
+documentacion/
 presentacion/
 ```
 

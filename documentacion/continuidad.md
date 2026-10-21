@@ -31,7 +31,7 @@ El MVP se encuentra implementado con HTML, CSS y JavaScript modular, construido 
 - Diseño responsive, giro 3D y adaptación del tablero al número de cartas.
 - Doce pruebas automáticas y construcción de producción verificada.
 
-La revisión técnica y de seguridad se documenta en `docs/REVISION-CODIGO.md`. La procedencia de los recursos visuales se recoge en `docs/CREDITOS-IMAGENES.md`.
+La revisión técnica y de seguridad se documenta en `documentacion/revision-codigo.md`. La procedencia de los recursos visuales se recoge en `documentacion/creditos-imagenes.md`.
 
 ## Dirección visual vigente
 
@@ -100,7 +100,7 @@ ATLAS regresa siempre con LURRA a salvo. La energía acumulada determina si el v
 ## Prompt de reanudación
 
 ```text
-Se está desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Deben revisarse primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md, docs/REVISION-CODIGO.md y docs/CREDITOS-IMAGENES.md. No deben modificarse decisiones aceptadas sin registrar el cambio. El MVP funcional, las 18 imágenes acreditadas, el fondo y el reverso ilustrados, las doce pruebas, el despliegue público y la presentación final en PowerPoint y PDF ya existen. El siguiente bloque consiste en realizar una prueba manual completa, ensayar la presentación y preparar el vídeo. Los cambios deben mantenerse pequeños y la documentación aprobada debe actualizarse.
+Se está desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Deben revisarse primero README.md, documentacion/continuidad.md, documentacion/decisiones.md, documentacion/seguimiento.md, documentacion/arquitectura.md, documentacion/revision-codigo.md y documentacion/creditos-imagenes.md. No deben modificarse decisiones aceptadas sin registrar el cambio. El MVP funcional, las 18 imágenes acreditadas, el fondo y el reverso ilustrados, las doce pruebas, el despliegue público y la presentación final en PowerPoint y PDF ya existen. El siguiente bloque consiste en realizar una prueba manual completa, ensayar la presentación y preparar el vídeo. Los cambios deben mantenerse pequeños y la documentación aprobada debe actualizarse.
 ```
 
 ## Normas para documentar el trabajo
@@ -115,11 +115,11 @@ Se está desarrollando Memory Quest: Señal estelar, el TFM documentado en este 
 ## Documentos de referencia
 
 - `README.md`: presentación general y uso del proyecto.
-- `docs/SEGUIMIENTO.md`: alcance, fases y progreso.
-- `docs/DECISIONES.md`: decisiones aceptadas y motivos.
-- `docs/IDEAS-HISTORIAS.md`: banco de ideas narrativas.
-- `docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf`: copia local del documento oficial de entrega.
-- `docs/REQUISITOS-ENTREGA.md`: requisitos administrativos.
-- `docs/ARQUITECTURA.md`: documentación técnica.
-- `docs/REVISION-CODIGO.md`: revisión de calidad y seguridad.
-- `docs/CREDITOS-IMAGENES.md`: procedencia de los recursos visuales.
+- `documentacion/seguimiento.md`: alcance, fases y progreso.
+- `documentacion/decisiones.md`: decisiones aceptadas y motivos.
+- `documentacion/ideas-historias.md`: banco de ideas narrativas.
+- `documentacion/especificaciones-oficiales-entrega-tfm.pdf`: copia local del documento oficial de entrega.
+- `documentacion/requisitos-entrega.md`: requisitos administrativos.
+- `documentacion/arquitectura.md`: documentación técnica.
+- `documentacion/revision-codigo.md`: revisión de calidad y seguridad.
+- `documentacion/creditos-imagenes.md`: procedencia de los recursos visuales.

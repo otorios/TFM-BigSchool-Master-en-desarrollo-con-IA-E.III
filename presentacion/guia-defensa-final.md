@@ -250,10 +250,10 @@ Se aplicó una estrategia de MVP: congelar ampliaciones, construir primero una a
 - `src/data/chapters.js`: narrativa y las 18 relaciones educativas.
 - `tests/`: pruebas de reglas, contenido y almacenamiento.
 - `.github/workflows/deploy-pages.yml`: pipeline de despliegue.
-- `docs/DECISIONES.md`: 34 decisiones con motivos y cambios.
-- `docs/SEGUIMIENTO.md`: fases, riesgos e hitos.
-- `docs/REVISION-CODIGO.md`: controles y resultados técnicos.
-- `docs/CREDITOS-IMAGENES.md`: fuentes y condiciones de los recursos.
+- `documentacion/decisiones.md`: 34 decisiones con motivos y cambios.
+- `documentacion/seguimiento.md`: fases, riesgos e hitos.
+- `documentacion/revision-codigo.md`: controles y resultados técnicos.
+- `documentacion/creditos-imagenes.md`: fuentes y condiciones de los recursos.
 - Historial de 96 commits: evolución trazable del proyecto.
 
 ### Pruebas realizadas y métricas verificadas
@@ -378,7 +378,7 @@ La presentación definitiva contiene **11 diapositivas**. Su enfoque prioriza la
 | 9:05–10:00 | **10. Resultados** | Presentar 3 capítulos, 18 parejas, 36 cartas, 12/12 tests y 0 vulnerabilidades. Relacionarlo con GitHub Actions y el despliegue. |
 | 10:00–10:35 | **11. Conclusión** | Cerrar con lo validado y señalar como siguiente paso las pruebas con usuarios y las métricas educativas. |
 
-El guion oral detallado de cada diapositiva se mantiene en `presentacion/CONTENIDO-SLIDES.md`.
+El guion oral detallado de cada diapositiva se mantiene en `presentacion/contenido-diapositivas.md`.
 
 ### Guion mínimo de la demostración
 
@@ -437,15 +437,15 @@ Debe existir un plan B con capturas o un vídeo corto por si falla la red. Tambi
 ## Fuentes internas consultadas
 
 - `README.md`.
-- `docs/ARQUITECTURA.md`.
-- `docs/CONTINUIDAD.md`.
-- `docs/DECISIONES.md`.
-- `docs/SEGUIMIENTO.md`.
-- `docs/REVISION-CODIGO.md`.
-- `docs/REQUISITOS-ENTREGA.md`.
-- `docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf`.
-- `docs/CREDITOS-IMAGENES.md`.
-- `presentacion/CONTENIDO-SLIDES.md` y `presentacion/VIDEO.md`.
+- `documentacion/arquitectura.md`.
+- `documentacion/continuidad.md`.
+- `documentacion/decisiones.md`.
+- `documentacion/seguimiento.md`.
+- `documentacion/revision-codigo.md`.
+- `documentacion/requisitos-entrega.md`.
+- `documentacion/especificaciones-oficiales-entrega-tfm.pdf`.
+- `documentacion/creditos-imagenes.md`.
+- `presentacion/contenido-diapositivas.md` y `presentacion/preparacion-video.md`.
 - Código de `src/`, pruebas de `tests/`, configuración de Vite y workflow de GitHub Actions.
 - Historial Git completo disponible en el repositorio.
 

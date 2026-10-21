@@ -18,7 +18,7 @@ La aventura contiene tres capítulos:
 2. **Las semillas de la Tierra:** 6 parejas para recuperar la protección de LURRA.
 3. **El camino a casa:** 8 parejas para reconstruir la navegación y reactivar la propulsión.
 
-Las decisiones educativas, narrativas y técnicas se explican con más detalle en [Decisiones del proyecto](docs/DECISIONES.md).
+Las decisiones educativas, narrativas y técnicas se explican con más detalle en [Decisiones del proyecto](documentacion/decisiones.md).
 
 ## Funcionalidades principales
 
@@ -63,7 +63,7 @@ Si se cierra la página, se conserva el último capítulo completado. Los tabler
 - **Git y GitHub:** control de versiones y alojamiento del repositorio.
 - **GitHub Pages:** plataforma utilizada para el despliegue público mediante GitHub Actions.
 
-No existe backend, base de datos ni servicio externo de IA durante la ejecución. La explicación técnica ampliada se encuentra en [Arquitectura](docs/ARQUITECTURA.md).
+No existe backend, base de datos ni servicio externo de IA durante la ejecución. La explicación técnica ampliada se encuentra en [Arquitectura](documentacion/arquitectura.md).
 
 ## Instalación y ejecución
 
@@ -111,7 +111,7 @@ Actualmente existen 12 pruebas que comprueban:
 - Rechazo de progreso manipulado o incoherente.
 - Aceptación de una estructura de progreso válida.
 
-La última revisión también verificó la sintaxis de JavaScript, la construcción de Vite y las dependencias. Los resultados y criterios están documentados en [Revisión de código y seguridad](docs/REVISION-CODIGO.md).
+La última revisión también verificó la sintaxis de JavaScript, la construcción de Vite y las dependencias. Los resultados y criterios están documentados en [Revisión de código y seguridad](documentacion/revision-codigo.md).
 
 ## Estructura del proyecto
 
@@ -131,7 +131,7 @@ La última revisión también verificó la sintaxis de JavaScript, la construcci
 │   └── data/chapters.js       # Capítulos, narrativa y parejas
 ├── public/images/             # Imágenes locales y recursos visuales
 ├── tests/                     # Pruebas automáticas
-├── docs/                      # Documentación técnica y de seguimiento
+├── documentacion/                      # Documentación técnica y de seguimiento
 └── presentacion/              # Presentación, guion, capturas y materiales del vídeo
 ```
 
@@ -143,7 +143,7 @@ La última revisión también verificó la sintaxis de JavaScript, la construcci
 - La interfaz introduce el contenido dinámico mediante APIs seguras del DOM y `textContent`.
 - El progreso recuperado del navegador se valida antes de utilizarlo.
 - Los recursos se sirven localmente y la aplicación aplica una política de seguridad de contenidos.
-- Las imágenes utilizadas y su procedencia están registradas en [Créditos de las imágenes](docs/CREDITOS-IMAGENES.md).
+- Las imágenes utilizadas y su procedencia están registradas en [Créditos de las imágenes](documentacion/creditos-imagenes.md).
 
 Los recursos visuales generados con apoyo de IA forman parte exclusivamente del MVP presentado en el TFM. Una evolución posterior del proyecto contempla sustituirlos por ilustraciones propias o creadas mediante colaboraciones con artistas.
 
@@ -157,27 +157,27 @@ El proyecto **no incorpora autenticación ni cuentas de usuario**, por lo que no
 | --- | --- | --- |
 | Repositorio de código | Disponible | [Repositorio en GitHub](https://github.com/otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III) |
 | Aplicación desplegada | Disponible | [Abrir Memory Quest: Señal estelar](https://otorios.github.io/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III/) |
-| Slides de presentación | Disponible | [PowerPoint](presentacion/Memory_Quest_Defensa_TFM_Olalla_Sanchez.pptx) · [PDF](presentacion/Memory_Quest_Defensa_TFM_Olalla_Sanchez.pdf) |
+| Slides de presentación | Disponible | [PowerPoint](presentacion/memory-quest-defensa-tfm-olalla-sanchez.pptx) · [PDF](presentacion/memory-quest-defensa-tfm-olalla-sanchez.pdf) |
 | Vídeo explicativo | Pendiente | Se añadirá el enlace de acceso al vídeo de YouTube |
 | Credenciales de prueba | No aplicable | El proyecto no tiene autenticación |
 
-Las condiciones originales pueden consultarse en las [especificaciones oficiales de entrega](docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf). El [resumen de requisitos y lista de comprobación](docs/REQUISITOS-ENTREGA.md) facilita su seguimiento dentro del proyecto.
+Las condiciones originales pueden consultarse en las [especificaciones oficiales de entrega](documentacion/especificaciones-oficiales-entrega-tfm.pdf). El [resumen de requisitos y lista de comprobación](documentacion/requisitos-entrega.md) facilita su seguimiento dentro del proyecto.
 
 ## Documentación
 
-- [Arquitectura](docs/ARQUITECTURA.md): stack, módulos, estado, persistencia y seguridad.
-- [Decisiones del proyecto](docs/DECISIONES.md): decisiones funcionales, visuales, narrativas y técnicas.
-- [Seguimiento del proyecto](docs/SEGUIMIENTO.md): planificación y registro cronológico del trabajo.
-- [Revisión de código y seguridad](docs/REVISION-CODIGO.md): comprobaciones y mejoras aplicadas.
-- [Créditos de las imágenes](docs/CREDITOS-IMAGENES.md): fuentes y atribuciones de los recursos visuales.
-- [Especificaciones oficiales de entrega](docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf): copia local del documento original facilitado para el TFM.
-- [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md): resumen operativo de los entregables y lista de comprobación final.
-- [Banco de ideas para historias](docs/IDEAS-HISTORIAS.md): ideas conservadas para futuras aventuras.
+- [Arquitectura](documentacion/arquitectura.md): stack, módulos, estado, persistencia y seguridad.
+- [Decisiones del proyecto](documentacion/decisiones.md): decisiones funcionales, visuales, narrativas y técnicas.
+- [Seguimiento del proyecto](documentacion/seguimiento.md): planificación y registro cronológico del trabajo.
+- [Revisión de código y seguridad](documentacion/revision-codigo.md): comprobaciones y mejoras aplicadas.
+- [Créditos de las imágenes](documentacion/creditos-imagenes.md): fuentes y atribuciones de los recursos visuales.
+- [Especificaciones oficiales de entrega](documentacion/especificaciones-oficiales-entrega-tfm.pdf): copia local del documento original facilitado para el TFM.
+- [Requisitos de entrega](documentacion/requisitos-entrega.md): resumen operativo de los entregables y lista de comprobación final.
+- [Banco de ideas para historias](documentacion/ideas-historias.md): ideas conservadas para futuras aventuras.
 - [Presentación y vídeo](presentacion/README.md): presentación final, guion, capturas y preparación de la demostración grabada.
 
 ### Documentación interna complementaria
 
-- [Continuidad interna del desarrollo](docs/CONTINUIDAD.md): contexto operativo utilizado para reanudar el trabajo con el agente de IA entre sesiones. Se conserva como evidencia complementaria del proceso y no constituye un entregable principal del TFM.
+- [Continuidad interna del desarrollo](documentacion/continuidad.md): contexto operativo utilizado para reanudar el trabajo con el agente de IA entre sesiones. Se conserva como evidencia complementaria del proceso y no constituye un entregable principal del TFM.
 
 ## Estado pendiente antes de la entrega
 

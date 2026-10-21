@@ -2,8 +2,8 @@
 
 Este documento describe la versión final de la presentación incluida en:
 
-- [`Memory_Quest_Defensa_TFM_Olalla_Sanchez.pptx`](Memory_Quest_Defensa_TFM_Olalla_Sanchez.pptx).
-- [`Memory_Quest_Defensa_TFM_Olalla_Sanchez.pdf`](Memory_Quest_Defensa_TFM_Olalla_Sanchez.pdf).
+- [`memory-quest-defensa-tfm-olalla-sanchez.pptx`](memory-quest-defensa-tfm-olalla-sanchez.pptx).
+- [`memory-quest-defensa-tfm-olalla-sanchez.pdf`](memory-quest-defensa-tfm-olalla-sanchez.pdf).
 
 La presentación contiene **11 diapositivas** y está planteada para una exposición de aproximadamente **10–12 minutos**. El PowerPoint no incorpora notas del orador, por lo que este archivo sirve como guion de apoyo.
 

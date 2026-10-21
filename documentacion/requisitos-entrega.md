@@ -1,6 +1,6 @@
 # Requisitos de entrega del TFM
 
-Resumen operativo basado en las [especificaciones oficiales de entrega](ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf), cuya copia se conserva en este mismo repositorio para centralizar la documentación del TFM.
+Resumen operativo basado en las [especificaciones oficiales de entrega](especificaciones-oficiales-entrega-tfm.pdf), cuya copia se conserva en este mismo repositorio para centralizar la documentación del TFM.
 
 ## Repositorio
 
