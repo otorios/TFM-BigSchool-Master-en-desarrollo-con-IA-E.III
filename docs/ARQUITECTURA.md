@@ -64,7 +64,7 @@ public/
     README.md
 tests/
 docs/
-presentation/
+presentacion/
 ```
 
 - `main.js` inicia y coordina la aplicación.

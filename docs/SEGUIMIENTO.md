@@ -2,7 +2,7 @@
 
 ## 1. Estado actual
 
-El proyecto cuenta con una versión jugable y desplegada públicamente de **Memory Quest: Señal estelar**. Están implementados los tres capítulos, el motor compartido, la energía, el cronómetro, el guardado local, el desenlace, el diseño responsive, las 18 imágenes acreditadas, el fondo y el reverso ilustrados y 12 pruebas automáticas. Quedan pendientes la prueba manual completa y los materiales de entrega.
+El proyecto cuenta con una versión jugable y desplegada públicamente de **Memory Quest: Señal estelar**. Están implementados los tres capítulos, el motor compartido, la energía, el cronómetro, el guardado local, el desenlace, el diseño responsive, las 18 imágenes acreditadas, el fondo y el reverso ilustrados y 12 pruebas automáticas. La presentación final está disponible en PowerPoint y PDF. Quedan pendientes la prueba manual completa y el vídeo de entrega.
 
 Se han cerrado el público objetivo, el alcance del MVP, el formato de las parejas, el contenido, la persistencia, el stack, la arquitectura, la dirección visual y el despliegue. La prioridad actual es completar la validación manual y preparar la entrega.
 
@@ -199,4 +199,4 @@ Estas funcionalidades no deben retrasar la entrega principal:
 
 ## 10. Próximo bloque
 
-La personalización visual y el despliegue público se consideran cerrados en el estado actual. El siguiente bloque consiste en realizar una prueba manual completa, comprobar la instalación desde cero y completar la presentación y el vídeo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`, documento interno utilizado para mantener el contexto entre sesiones de trabajo asistido por IA.
+La personalización visual, el despliegue público y la presentación se consideran cerrados en el estado actual. El siguiente bloque consiste en realizar una prueba manual completa, comprobar la instalación desde cero y completar el vídeo. El punto detallado de reanudación se conserva en `docs/CONTINUIDAD.md`, documento interno utilizado para mantener el contexto entre sesiones de trabajo asistido por IA.

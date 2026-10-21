@@ -68,8 +68,8 @@ Las casillas reflejan el estado actual y deberán revisarse de nuevo justo antes
 - [x] Credenciales indicadas como no aplicables porque el proyecto no tiene login.
 - [x] Aplicación desplegada.
 - [x] URL pública del despliegue incluida en el README.
-- [ ] Slides terminadas y accesibles.
-- [ ] URL pública de las slides o documento adjunto incluido en el README.
+- [x] Slides terminadas y accesibles en PowerPoint y PDF.
+- [x] Documentos de la presentación incluidos y enlazados desde el README.
 - [ ] Vídeo explicativo grabado con captura de pantalla.
 - [ ] URL de acceso público al vídeo incluida en el README.
 - [ ] Formulario de entrega cumplimentado con todos los enlaces.

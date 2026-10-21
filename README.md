@@ -4,7 +4,7 @@
 
 El proyecto corresponde al Trabajo Final del Máster en Desarrollo con Inteligencia Artificial. La IA se utiliza como apoyo documentado durante el proceso de diseño y desarrollo, pero el juego no depende de ningún proveedor de IA durante su ejecución.
 
-> **Estado actual:** el MVP es jugable, está desplegado públicamente y contiene los tres capítulos completos, las 18 parejas educativas, imágenes acreditadas, progreso local, diseño responsive, una identidad visual ilustrada y 12 pruebas automáticas. Antes de la entrega quedan pendientes una prueba manual completa, las slides y el vídeo.
+> **Estado actual:** el MVP es jugable, está desplegado públicamente y contiene los tres capítulos completos, las 18 parejas educativas, imágenes acreditadas, progreso local, diseño responsive, una identidad visual ilustrada y 12 pruebas automáticas. La presentación final está disponible en PowerPoint y PDF. Antes de la entrega quedan pendientes una prueba manual completa y el vídeo.
 
 ## Descripción del proyecto
 
@@ -132,7 +132,7 @@ La última revisión también verificó la sintaxis de JavaScript, la construcci
 ├── public/images/             # Imágenes locales y recursos visuales
 ├── tests/                     # Pruebas automáticas
 ├── docs/                      # Documentación técnica y de seguimiento
-└── presentation/              # Slides, guion y materiales del vídeo
+└── presentacion/              # Presentación, guion, capturas y materiales del vídeo
 ```
 
 ## Datos, privacidad y seguridad
@@ -157,7 +157,7 @@ El proyecto **no incorpora autenticación ni cuentas de usuario**, por lo que no
 | --- | --- | --- |
 | Repositorio de código | Disponible | [Repositorio en GitHub](https://github.com/otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III) |
 | Aplicación desplegada | Disponible | [Abrir Memory Quest: Señal estelar](https://otorios.github.io/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III/) |
-| Slides de presentación | Pendiente | Se añadirá el enlace público o archivo definitivo |
+| Slides de presentación | Disponible | [PowerPoint](presentacion/Memory_Quest_Defensa_TFM_Olalla_Sanchez.pptx) · [PDF](presentacion/Memory_Quest_Defensa_TFM_Olalla_Sanchez.pdf) |
 | Vídeo explicativo | Pendiente | Se añadirá el enlace de acceso al vídeo de YouTube |
 | Credenciales de prueba | No aplicable | El proyecto no tiene autenticación |
 
@@ -173,7 +173,7 @@ Las condiciones originales pueden consultarse en las [especificaciones oficiales
 - [Especificaciones oficiales de entrega](docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf): copia local del documento original facilitado para el TFM.
 - [Requisitos de entrega](docs/REQUISITOS-ENTREGA.md): resumen operativo de los entregables y lista de comprobación final.
 - [Banco de ideas para historias](docs/IDEAS-HISTORIAS.md): ideas conservadas para futuras aventuras.
-- [Presentación y vídeo](presentation/README.md): preparación de las slides, el guion y la demostración grabada.
+- [Presentación y vídeo](presentacion/README.md): presentación final, guion, capturas y preparación de la demostración grabada.
 
 ### Documentación interna complementaria
 
@@ -183,9 +183,8 @@ Las condiciones originales pueden consultarse en las [especificaciones oficiales
 
 - Realizar una prueba manual completa de los tres capítulos.
 - Comprobar la instalación desde cero.
-- Preparar las slides de presentación.
 - Grabar el vídeo explicativo con captura de pantalla.
-- Incorporar al README las URLs definitivas de las slides y el vídeo.
+- Incorporar al README la URL definitiva del vídeo.
 - Revisar y cumplimentar el formulario de entrega.
 
 ## Fechas

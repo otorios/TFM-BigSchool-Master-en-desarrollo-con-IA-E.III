@@ -92,15 +92,15 @@ ATLAS regresa siempre con LURRA a salvo. La energía acumulada determina si el v
 
 1. Realizar una prueba manual completa de los tres capítulos.
 2. Comprobar la instalación desde cero.
-3. Preparar la presentación en PowerPoint o formato similar.
+3. Ensayar la presentación final ya disponible en PowerPoint y PDF.
 4. Grabar y publicar un vídeo accesible mediante enlace en YouTube.
-5. Añadir al README las URLs definitivas de la presentación y el vídeo.
+5. Añadir al README la URL definitiva del vídeo.
 6. Revisar y cumplimentar el formulario de entrega.
 
 ## Prompt de reanudación
 
 ```text
-Se está desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Deben revisarse primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md, docs/REVISION-CODIGO.md y docs/CREDITOS-IMAGENES.md. No deben modificarse decisiones aceptadas sin registrar el cambio. El MVP funcional, las 18 imágenes acreditadas, el fondo y el reverso ilustrados, las doce pruebas y el despliegue público en GitHub Pages ya existen. El siguiente bloque consiste en realizar una prueba manual completa y preparar la presentación y el vídeo. Los cambios deben mantenerse pequeños y la documentación aprobada debe actualizarse.
+Se está desarrollando Memory Quest: Señal estelar, el TFM documentado en este repositorio. Deben revisarse primero README.md, docs/CONTINUIDAD.md, docs/DECISIONES.md, docs/SEGUIMIENTO.md, docs/ARQUITECTURA.md, docs/REVISION-CODIGO.md y docs/CREDITOS-IMAGENES.md. No deben modificarse decisiones aceptadas sin registrar el cambio. El MVP funcional, las 18 imágenes acreditadas, el fondo y el reverso ilustrados, las doce pruebas, el despliegue público y la presentación final en PowerPoint y PDF ya existen. El siguiente bloque consiste en realizar una prueba manual completa, ensayar la presentación y preparar el vídeo. Los cambios deben mantenerse pequeños y la documentación aprobada debe actualizarse.
 ```
 
 ## Normas para documentar el trabajo

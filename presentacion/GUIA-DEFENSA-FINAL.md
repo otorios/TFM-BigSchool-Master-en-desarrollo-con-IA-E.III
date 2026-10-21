@@ -297,7 +297,7 @@ La documentación registra además comprobación sintáctica con `node --check`,
 - La CSP se aplica mediante una etiqueta `meta`, ya que GitHub Pages no permite configurar desde el repositorio todas las cabeceras HTTP deseadas.
 - Los dos recursos visuales generados con IA son provisionales para el MVP.
 - El tamaño de esos recursos es elevado: aproximadamente 1,76 MB para el fondo y 2,46 MB para el reverso en el build actual.
-- Las slides, el vídeo y sus enlaces definitivos continúan pendientes en el estado analizado.
+- La presentación final ya está disponible en PowerPoint y PDF; continúan pendientes el vídeo y su enlace definitivo.
 
 ## 10. Trabajo futuro
 
@@ -360,22 +360,25 @@ El documento oficial solo ordena presentar el proyecto en slides y explicarlo pe
 - resultados, limitaciones y trabajo futuro;
 - enlaces al proyecto y al repositorio.
 
-## 12. Propuesta de presentación oral de 10–12 minutos
+## 12. Presentación oral final de 10–12 minutos
 
-Se proponen **10 diapositivas para unos 11 minutos**, incluida una demostración de aproximadamente 2 minutos. La demo debe estar preparada de antemano en una pestaña y no depender de terminar una partida completa en directo.
+La presentación definitiva contiene **11 diapositivas**. Su enfoque prioriza la prueba de concepto, el valor educativo, el criterio de producto y el uso de la IA como copiloto bajo supervisión humana. Se estima una duración de **10 minutos y 35 segundos**, incluida una demostración de aproximadamente 2 minutos.
 
-| Tiempo | Diapositiva | Contenido visible | Explicación oral / demostración |
-| ---: | --- | --- | --- |
-| 0:00–0:40 | **1. Memory Quest: Señal estelar** | Título, subtítulo, nombre de la alumna, máster y captura de portada. | Presentar en una frase: juego web educativo de memoria semántica y astronomía. |
-| 0:40–1:35 | **2. Problema, público y objetivo** | Aprendizaje aislado frente a asociación semántica; público 10–14; objetivo. | Explicar por qué una pareja concepto-definición exige comprensión y no simple reconocimiento. |
-| 1:35–2:25 | **3. La propuesta y su valor educativo** | Concepto + imagen ↔ pista; memoria visual + comprensión + narrativa. | Comparar visualmente una pareja del juego con un memory tradicional. No afirmar eficacia pedagógica no medida. |
-| 2:25–3:20 | **4. Una misión en tres capítulos** | ATLAS, COSMO, ORIOS y LURRA; tabla 4/6/8 parejas y módulos. | Resumir la progresión narrativa y educativa sin contar todos los detalles del desenlace. |
-| 3:20–5:20 | **5. Demostración del juego** | La propia aplicación, no una slide recargada. | Mostrar inicio y «Cómo jugar»; iniciar un capítulo ya preparado; enseñar observación, un acierto, un error, energía y reparación. Cambiar a una partida guardada para mostrar el resultado/desenlace si hace falta. |
-| 5:20–6:25 | **6. Arquitectura sencilla y modular** | Diagrama `main → game/state/ui/data/storage`; navegador y `localStorage`; sin backend. | Explicar comunicación de módulos y por qué un motor sirve para los tres capítulos. |
-| 6:25–7:20 | **7. IA: asistencia, no dependencia** | Ideación, código, documentación, revisión y dos recursos visuales; revisión humana; sin API en ejecución. | Distinguir COSMO de una IA real y justificar la decisión por estabilidad, coste y control educativo. |
-| 7:20–8:30 | **8. Decisiones y retos del desarrollo** | Cuatro pares problema→solución: alcance, textos, dificultad, CSP/responsive. | Mostrar capacidad crítica: explicar un cambio funcional y uno técnico, no una lista de herramientas. |
-| 8:30–9:40 | **9. Resultado, calidad y despliegue** | 3 capítulos, 18 parejas, 12/12 tests, 0 vulnerabilidades, GitHub Actions y URL pública. | Enseñar una captura del pipeline y explicar que cada despliegue prueba y construye antes de publicar. |
-| 9:40–11:00 | **10. Limitaciones, futuro y cierre** | Sin evaluación con usuarios, progreso local, sin IA en runtime; futuras temáticas, refuerzo y pruebas educativas. QR/enlaces. | Cerrar con el logro principal: un MVP completo, público y ampliable. Invitar a preguntas. |
+| Tiempo | Diapositiva | Explicación oral / demostración |
+| ---: | --- | --- |
+| 0:00–0:35 | **1. Memory Quest: Señal estelar** | Presentar la prueba de concepto y anticipar que la IA ayudó en el desarrollo, pero no se utiliza durante la partida. |
+| 0:35–1:25 | **2. El punto de partida** | Explicar el problema de estudiar conceptos aislados, el público de 10–14 años y el objetivo educativo. |
+| 1:25–2:15 | **3. Valor educativo** | Describir las acciones de relacionar, interpretar y construir significado. No afirmar una eficacia pedagógica que todavía no se ha medido. |
+| 2:15–3:05 | **4. La propuesta** | Comparar el emparejamiento idéntico tradicional con la relación semántica. Utilizar el ejemplo de la nebulosa. |
+| 3:05–4:00 | **5. Progresión** | Explicar los tres capítulos, el crecimiento 4/6/8 y la reparación progresiva de ATLAS. |
+| 4:00–6:00 | **6. Experiencia** | Realizar la demo: portada, instrucciones, observación, un acierto, un error y, mediante estado preparado o captura, el resultado final. |
+| 6:00–7:10 | **7. Prueba de concepto** | Explicar los módulos, `localStorage`, GitHub Pages y la ausencia de backend, base de datos remota y API de IA. |
+| 7:10–8:10 | **8. IA como copiloto** | Diferenciar planificación humana, aceleración con IA y supervisión humana. Distinguir al personaje COSMO de una IA real. |
+| 8:10–9:05 | **9. Criterio de producto** | Justificar alcance, dificultad progresiva, pistas breves y motor reutilizable. |
+| 9:05–10:00 | **10. Resultados** | Presentar 3 capítulos, 18 parejas, 36 cartas, 12/12 tests y 0 vulnerabilidades. Relacionarlo con GitHub Actions y el despliegue. |
+| 10:00–10:35 | **11. Conclusión** | Cerrar con lo validado y señalar como siguiente paso las pruebas con usuarios y las métricas educativas. |
+
+El guion oral detallado de cada diapositiva se mantiene en `presentacion/CONTENIDO-SLIDES.md`.
 
 ### Guion mínimo de la demostración
 
@@ -442,7 +445,7 @@ Debe existir un plan B con capturas o un vídeo corto por si falla la red. Tambi
 - `docs/REQUISITOS-ENTREGA.md`.
 - `docs/ESPECIFICACIONES-OFICIALES-ENTREGA-TFM.pdf`.
 - `docs/CREDITOS-IMAGENES.md`.
-- `presentation/CONTENIDO-SLIDES.md` y `presentation/VIDEO.md`.
+- `presentacion/CONTENIDO-SLIDES.md` y `presentacion/VIDEO.md`.
 - Código de `src/`, pruebas de `tests/`, configuración de Vite y workflow de GitHub Actions.
 - Historial Git completo disponible en el repositorio.
 
@@ -454,7 +457,8 @@ Debe existir un plan B con capturas o un vídeo corto por si falla la red. Tambi
 - Pruebas automáticas y build: verificados.
 - Prueba manual completa documentada: pendiente.
 - Instalación desde cero documentada: pendiente.
-- Slides definitivas: pendientes.
+- Slides definitivas en PowerPoint y PDF: completadas.
 - Vídeo con captura de pantalla: pendiente.
-- Enlaces de slides y vídeo en el README y formulario: pendientes.
+- Presentación enlazada desde el README: completada.
+- Enlace del vídeo en el README y formulario: pendiente.
 
