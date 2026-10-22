@@ -158,7 +158,7 @@ El proyecto **no incorpora autenticación ni cuentas de usuario**, por lo que no
 | Repositorio de código | Disponible | [Repositorio en GitHub](https://github.com/otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III) |
 | Aplicación desplegada | Disponible | [Abrir Memory Quest: Señal estelar](https://otorios.github.io/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III/) |
 | Slides de presentación | Disponible | [PowerPoint](presentacion/memory-quest-defensa-tfm-olalla-sanchez.pptx) · [PDF](presentacion/memory-quest-defensa-tfm-olalla-sanchez.pdf) |
-| Vídeo explicativo | Pendiente | Se añadirá el enlace de acceso al vídeo de YouTube |
+| Vídeo explicativo | Disponible | [vídeo en drive](https://github.com/otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III) |
 | Credenciales de prueba | No aplicable | El proyecto no tiene autenticación |
 
 Las condiciones originales pueden consultarse en las [especificaciones oficiales de entrega](documentacion/especificaciones-oficiales-entrega-tfm.pdf). El [resumen de requisitos y lista de comprobación](documentacion/requisitos-entrega.md) facilita su seguimiento dentro del proyecto.
@@ -178,14 +178,7 @@ Las condiciones originales pueden consultarse en las [especificaciones oficiales
 ### Documentación interna complementaria
 
 - [Continuidad interna del desarrollo](documentacion/continuidad.md): contexto operativo utilizado para reanudar el trabajo con el agente de IA entre sesiones. Se conserva como evidencia complementaria del proceso y no constituye un entregable principal del TFM.
-
-## Estado pendiente antes de la entrega
-
-- Realizar una prueba manual completa de los tres capítulos.
-- Comprobar la instalación desde cero.
-- Grabar el vídeo explicativo con captura de pantalla.
-- Incorporar al README la URL definitiva del vídeo.
-- Revisar y cumplimentar el formulario de entrega.
+- 
 
 ## Fechas
 
