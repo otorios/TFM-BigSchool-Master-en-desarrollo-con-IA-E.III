@@ -157,8 +157,8 @@ El proyecto **no incorpora autenticación ni cuentas de usuario**, por lo que no
 | --- | --- | --- |
 | Repositorio de código | Disponible | [Repositorio en GitHub](https://github.com/otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III) |
 | Aplicación desplegada | Disponible | [Abrir Memory Quest: Señal estelar](https://otorios.github.io/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III/) |
-| Slides de presentación | Disponible | [PowerPoint](presentacion/memory-quest-defensa-tfm-olalla-sanchez.pptx) · [PDF](presentacion/memory-quest-defensa-tfm-olalla-sanchez.pdf) |
-| Vídeo explicativo | Disponible | [vídeo en drive](https://github.com/otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III) |
+| Slides de presentación | Disponible | [Drive](https://docs.google.com/presentation/d/1tL8mQ0IG2D-srt9id1zqt4hRhMF1Lf3U/edit?usp=drive_link&ouid=101003981640239433892&rtpof=true&sd=true) · [PowerPoint](presentacion/memory-quest-defensa-tfm-olalla-sanchez.pptx) · [PDF](presentacion/memory-quest-defensa-tfm-olalla-sanchez.pdf) |
+| Vídeo explicativo | Disponible | [vídeo en Drive](https://github.com/otorios/TFM-BigSchool-Master-en-desarrollo-con-IA-E.III) |
 | Credenciales de prueba | No aplicable | El proyecto no tiene autenticación |
 
 Las condiciones originales pueden consultarse en las [especificaciones oficiales de entrega](documentacion/especificaciones-oficiales-entrega-tfm.pdf). El [resumen de requisitos y lista de comprobación](documentacion/requisitos-entrega.md) facilita su seguimiento dentro del proyecto.
